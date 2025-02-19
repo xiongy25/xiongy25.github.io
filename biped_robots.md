@@ -1,0 +1,20 @@
+# 🚶 双足机器人
+
+1. 🏃 [SMPL Olympics：专注于人体运动的项目](https://github.com/SMPLOlympics/SMPLOlympics)
+2. 🤖 [Humanoid-Gym：使用 Zero-Sim2Real 迁移进行人形机器人强化学习](https://github.com/roboterax/humanoid-gym.git)
+3. 🦆 [Open Duck Mini：迪士尼 BDX 机器人的迷你版本](https://github.com/apirrone/Open_Duck_Mini)
+   - 🖥️ [isaacgym仿真](https://github.com/apirrone/AMP_for_hardware/tree/bdx)
+   - 🖥️ [isaaclab仿真](https://github.com/MankaranSingh/IsaacLab/tree/eye-candy)
+4. 🤖 [robocasa：用于训练通用机器人执行日常任务的大规模模拟框架](https://github.com/robocasa/robocasa)
+5. 🦿 [Unitree Go2/G1 数字孪生项目](https://github.com/abizovnuralem/go2_omniverse)
+6. 🧑‍🤝‍🧑 [human2humanoid：实现人类到人形机器人的实时全身远程操控](https://github.com/LeCAR-Lab/human2humanoid)
+7. 🦾 [模块化双足机器人项目](https://github.com/makerforgetech/modular-biped)
+8. 🤖 [Tinker:国内开源的迪士尼 BDX 机器人](https://github.com/Yuexuan9/Tinker)
+9. 🦿 [Legolas:仿cassie的迷你机器人](https://github.com/daviddoo02/Legolas-an-open-source-biped)
+10. 🤖 [Zeroth 机器人:3D打印开源人形机器人平台，适用于模拟到现实和RL](https://github.com/zeroth-robotics/zeroth-bot)
+    - 🖥️ [让Zeroth机器人实时镜像人体姿势](https://github.com/theswerd/basedbot)
+11. 🤖 [stable-humanoid:基于模型预测控制的人形机器人稳定行走基准测试工具](https://github.com/ouazzmoh/stable-humanoid)
+12. 🦾 [Unitree Robots进行强化学习的全套方案](https://github.com/unitreerobotics/unitree_rl_gym)
+13. 🤖 [伯克利人形机器人:基于学习的控制研究平台](https://berkeley-humanoid.com/)
+14. 🦿 [将基于模型的脚步规划与无模型强化学习相结合，实现动态腿部运动](https://github.com/hojae-io/ModelBasedFootstepPlanning-IROS2024) 
+
