@@ -44,3 +44,6 @@
     ![image](https://github.com/user-attachments/assets/9f71a916-c04f-4cee-abe7-b8d53b468673)
 37. 🦿 [BeamDojo：学习在稀疏立足点上进行敏捷的人形运动](https://why618188.github.io/beamdojo/)
     ![image](https://github.com/user-attachments/assets/3f5bc175-d2ee-4e8c-b7a0-55f0d94522e7)
+38.[Embrace Collisions: 可部署的接触无关运动的人形阴影技术](https://project-instinct.github.io/)
+    ![image](https://github.com/user-attachments/assets/139318a7-99fe-44bd-903b-5b30bd1d90bf)
+
