@@ -46,4 +46,6 @@
     ![image](https://github.com/user-attachments/assets/3f5bc175-d2ee-4e8c-b7a0-55f0d94522e7)
 38.[Embrace Collisions: 可部署的接触无关运动的人形阴影技术](https://project-instinct.github.io/)
     ![image](https://github.com/user-attachments/assets/139318a7-99fe-44bd-903b-5b30bd1d90bf)
+39.[OmniH2O:通用灵巧的人机全身远程操作和学习](https://omni.human2humanoid.com/?login=from_csdn)
+    ![image](https://github.com/user-attachments/assets/67e9afce-fc2c-4d7d-b396-372bb5d2dde3)
 
