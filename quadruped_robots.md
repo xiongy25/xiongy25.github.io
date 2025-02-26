@@ -18,3 +18,4 @@
   ![image](https://github.com/user-attachments/assets/53fcc5c5-70d3-401b-ac02-e4c5ea30986e)
 8. 👁️ [VBC :腿部运动的视觉全身控制](https://wholebody-b1.github.io/)
    ![image](https://github.com/user-attachments/assets/52a4c09c-0116-49d2-8e67-d7161f1bb2e9)
+9.[论文复现：AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control](https://github.com/SZU-AdvTech-2023/055-AMP-Adversarial-Motion-Priors-for-Stylized-Physics-Based-Character-Control.git)
