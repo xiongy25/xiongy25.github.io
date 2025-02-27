@@ -19,3 +19,6 @@
 8. 👁️ [VBC :腿部运动的视觉全身控制](https://wholebody-b1.github.io/)
    ![image](https://github.com/user-attachments/assets/52a4c09c-0116-49d2-8e67-d7161f1bb2e9)
 9.[论文复现：AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control](https://github.com/SZU-AdvTech-2023/055-AMP-Adversarial-Motion-Priors-for-Stylized-Physics-Based-Character-Control.git)
+10.[Robo Duet：学习全身腿部操控的合作策略](https://locomanip-duet.github.io/)
+   ![image](https://github.com/user-attachments/assets/826323d4-f79b-40f2-9845-b38940ea8639)
+
