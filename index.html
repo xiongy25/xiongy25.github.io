@@ -5,46 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>xiongy的数字乌托邦</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
-    <!-- 添加 GitHub 风格的 Markdown CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.1.0/github-markdown.min.css">
-    <!-- 添加 marked.js 库 -->
+    <link rel="stylesheet" href="components.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <style>
-        .collapsible {
-            cursor: pointer;
-            position: relative;
-            padding-left: 20px;
-        }
-
-        .collapsible::before {
-            content: '⏵';
-            position: absolute;
-            left: 0;
-            transition: transform 0.3s;
-        }
-
-        .collapsible.active::before {
-            transform: rotate(90deg);
-        }
-
-        .content {
-            display: none;
-            padding-left: 20px;
-        }
-
-        .content.show {
-            display: block;
-        }
-
-        /* 添加 Markdown 内容容器的样式 */
-        .markdown-container {
-            padding: 20px;
-            background: var(--bg-color);
-            border-radius: 8px;
-            margin: 20px 0;
-        }
-    </style>
 </head>
 <body>
     <header>
@@ -61,9 +28,11 @@
                 <li><a href="#" data-page="more">更多</a></li>
             </ul>
             <div class="nav-right">
-                <button class="theme-toggle"><i class="fas fa-sun"></i></button>
-                <input type="search" id="search-input" placeholder="搜索">
-                <button id="search-button"><i class="fas fa-search"></i></button>
+                <button class="theme-toggle"><i class="fas fa-moon"></i></button>
+                <div class="search-container">
+                    <input type="search" id="search-input" placeholder="搜索...">
+                    <button id="search-button"><i class="fas fa-search"></i></button>
+                </div>
             </div>
         </nav>
     </header>
@@ -72,355 +41,168 @@
         <section id="home" class="page active">
             <div class="hero">
                 <div class="hero-content">
-                    <h1>🤖 我的数字乌托邦</h1>
+                    <h1>我的数字乌托邦</h1>
                     <p>👋 我活在世上，无非想要明白些道理，遇见些有趣的事！ 🚀</p>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-github"></i></a>
-                        <a href="#"><i class="fab fa-stack-overflow"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-discord"></i></a>
-                        <a href="#"><i class="fab fa-telegram"></i></a>
-                        <a href="#"><i class="fas fa-envelope"></i></a>
-                        <a href="#"><i class="fas fa-rss"></i></a>
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="Stack Overflow"><i class="fab fa-stack-overflow"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Discord"><i class="fab fa-discord"></i></a>
+                        <a href="#" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                        <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="#" aria-label="RSS"><i class="fas fa-rss"></i></a>
                     </div>
                     <a href="#" class="btn" data-page="about">了解更多</a>
                 </div>
                 <div class="hero-image">
-                    <video src="v.mp4" autoplay loop muted></video>
+                    <video src="v.mp4" autoplay loop muted playsinline></video>
                 </div>
             </div>
         </section>
 
         <section id="blog" class="page">
-            <h2>📰 我的文章</h2>
+            <h2>我的文章</h2>
             <ul id="article-list">
-                <li>📝 <a href="#" class="md-link" data-md="article/article1.md">在 Ubuntu 环境下使用 VSCode 和 PlatformIO 下载程序到 Arduino Uno</a> - 2024年9月1日</li>
-                <li>🔧 <a href="#" class="md-link" data-md="article/article2.md">使用arduino控制42步进电机</a> - 2024年9月10日</li>
-                <li>🦾 <a href="#" class="md-link" data-md="article/article3.md">使用Isaac Sim 实现机械臂的Sim2Real</a> - 2024年9月15日</li>
-                <li>🤖 <a href="#" class="md-link" data-md="article/article4.md">人形机器人步态控制算法详解</a> - 2024年10月15日</li>
-                <li>📊 <a href="#" class="md-link" data-md="article/article5.md">双舵机位置反馈控制系统</a> - 2024年11月10日</li>
-                <li>💻 <a href="#" class="md-link" data-md="article/article6.md">使用ESP32通过I2C接口读取AS5600磁编码器数据</a> - 2024年11月16日</li>
-                <li>🚶 <a href="#" class="md-link" data-md="article/zmp.md">对话苏格拉底：人形机器人与零力矩点（ZMP）理论</a> - 2024年1月26日</li>
-                <li>🧠 <a href="#" class="md-link" data-md="article/rl.md">对话苏格拉底：人形机器人与强化学习</a> - 2024年1月26日</li>
-                <li>💪 <a href="#" class="md-link" data-md="article/wbc.md">对话苏格拉底：人形机器人与全身控制（Whole Body Control）</a> - 2024年1月27日</li>
-                <li>🎯 <a href="#" class="md-link" data-md="article/mpc.md">对话苏格拉底：人形机器人与模型预测控制（MPC）</a> - 2024年1月27日</li>
-                <li>🤖 <a href="#" class="md-link" data-md="article/robot_control_algorithms.md">对话苏格拉底：其他人形机器人运动控制算法</a> - 2024年1月27日</li>
+                <li><a href="#" class="md-link" data-md="article/article1.md">在 Ubuntu 环境下使用 VSCode 和 PlatformIO 下载程序到 Arduino Uno</a> <span class="date">2024年9月1日</span></li>
+                <li><a href="#" class="md-link" data-md="article/article2.md">使用arduino控制42步进电机</a> <span class="date">2024年9月10日</span></li>
+                <li><a href="#" class="md-link" data-md="article/article3.md">使用Isaac Sim 实现机械臂的Sim2Real</a> <span class="date">2024年9月15日</span></li>
+                <li><a href="#" class="md-link" data-md="article/article4.md">人形机器人步态控制算法详解</a> <span class="date">2024年10月15日</span></li>
+                <li><a href="#" class="md-link" data-md="article/article5.md">双舵机位置反馈控制系统</a> <span class="date">2024年11月10日</span></li>
+                <li><a href="#" class="md-link" data-md="article/article6.md">使用ESP32通过I2C接口读取AS5600磁编码器数据</a> <span class="date">2024年11月16日</span></li>
+                <li><a href="#" class="md-link" data-md="article/zmp.md">对话苏格拉底：人形机器人与零力矩点（ZMP）理论</a> <span class="date">2024年1月26日</span></li>
+                <li><a href="#" class="md-link" data-md="article/rl.md">对话苏格拉底：人形机器人与强化学习</a> <span class="date">2024年1月26日</span></li>
+                <li><a href="#" class="md-link" data-md="article/wbc.md">对话苏格拉底：人形机器人与全身控制（Whole Body Control）</a> <span class="date">2024年1月27日</span></li>
+                <li><a href="#" class="md-link" data-md="article/mpc.md">对话苏格拉底：人形机器人与模型预测控制（MPC）</a> <span class="date">2024年1月27日</span></li>
+                <li><a href="#" class="md-link" data-md="article/robot_control_algorithms.md">对话苏格拉底：其他人形机器人运动控制算法</a> <span class="date">2024年1月27日</span></li>
             </ul>
             <div class="markdown-container"></div>
         </section>
 
         <section id="projects" class="page">
-            <h2>🚀 个人项目</h2>
+            <h2>个人项目</h2>
             
-            <h3>🤖 机器人类</h3>
-            <ol>
-                <li>🤖 <a href="https://github.com/xiongy25/arm_isaac_sim2real.git">通过Isaac Sim 实现机械臂的Sim2Real</a></li>
-                <li>🦿 <a href="#">使用强化学习实现轮足机器人的运动控制</a></li>
-                <li>🐕 <a href="#">开源spotmicro机器狗复现及改进</a></li>
-                <li>🦾 <a href="https://github.com/xiongy25/so_arm100_write.git">lerobot机械臂项目</a></li>
-            </ol>
+            <div class="project-category">
+                <h3>机器人类</h3>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <div class="project-icon"><i class="fas fa-robot"></i></div>
+                        <h4><a href="https://github.com/xiongy25/arm_isaac_sim2real.git">通过Isaac Sim 实现机械臂的Sim2Real</a></h4>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-icon"><i class="fas fa-cogs"></i></div>
+                        <h4><a href="#">使用强化学习实现轮足机器人的运动控制</a></h4>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-icon"><i class="fas fa-dog"></i></div>
+                        <h4><a href="#">开源spotmicro机器狗复现及改进</a></h4>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-icon"><i class="fas fa-hand-paper"></i></div>
+                        <h4><a href="https://github.com/xiongy25/so_arm100_write.git">lerobot机械臂项目</a></h4>
+                    </div>
+                </div>
+            </div>
 
-            <h3>🔧 工具类</h3>
-            <ol>
-                <li>📝 <a href="#">使用coze开发的英文文献阅读Bot</a></li>
-                <li>🤖 <a href="#">"第二大脑"桌面助手程序</a></li>
-                <li>📚 <a href="#">"吾知"学习助手程序</a></li>
-                <li>📄 <a href="#">pdf2md工具</a></li>
-            </ol>
+            <div class="project-category">
+                <h3>工具类</h3>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <div class="project-icon"><i class="fas fa-book-reader"></i></div>
+                        <h4><a href="#">使用coze开发的英文文献阅读Bot</a></h4>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-icon"><i class="fas fa-brain"></i></div>
+                        <h4><a href="#">"第二大脑"桌面助手程序</a></h4>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <h4><a href="#">"吾知"学习助手程序</a></h4>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-icon"><i class="fas fa-file-pdf"></i></div>
+                        <h4><a href="#">pdf2md工具</a></h4>
+                    </div>
+                </div>
+            </div>
 
-            <h3>🎯 其他</h3>
-            <ol>
-                <li>📖 <a href="#">storyDiary</a></li>
-            </ol>
+            <div class="project-category">
+                <h3>其他</h3>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <div class="project-icon"><i class="fas fa-book"></i></div>
+                        <h4><a href="#">storyDiary</a></h4>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section id="food-and-travel" class="page">
-            <h2>🌍 逝水流年</h2>
+            <h2>逝水流年</h2>
             
-            <p>人间一趟，四季短促，踏遍青山绿水，尝尽人间烟火。</p>
+            <p class="section-intro">人间一趟，四季短促，踏遍青山绿水，尝尽人间烟火。</p>
 
-            <h3>2023</h3>
-            <p><a href="#" class="md-link" data-md="2023.md">多么懵懂的一年，终究渐行渐远</a></p>
-            <div class="markdown-container"></div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-year">2023</div>
+                    <div class="timeline-content">
+                        <p><a href="#" class="md-link" data-md="2023.md">多么懵懂的一年，终究渐行渐远</a></p>
+                        <div class="markdown-container"></div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-year">2024</div>
+                    <div class="timeline-content">
+                        <p><a href="#" class="md-link" data-md="2024.md">这一年我看到了很多美丽的风景，有很多很有意思的心路历程，回看这些照片，一切仿佛都发生在昨天</a></p>
+                        <div class="markdown-container"></div>
+                    </div>
+                </div>
+            </div>
 
-            <h3>2024</h3>
-            <p><a href="#" class="md-link" data-md="2024.md">这一年我看到了很多美丽的风景，有很多很有意思的心路历程，回看这些照片，一切仿佛都发生在昨天</a></p>
-            <div class="markdown-container"></div>
-
-            <p>不过人间惊鸿客，繁华过眼终成昨！</p>
+            <p class="quote">不过人间惊鸿客，繁华过眼终成昨！</p>
         </section>
 
         <section id="knowledge-base" class="page">
-            <h2>📚 我的知识库</h2>
+            <h2>我的知识库</h2>
             
-            <p>这里是我学习和积累的各种知识点，涵盖了机器人技术、编程、人工智能等领域。</p>
+            <p class="section-intro">这里是我学习和积累的各种知识点，涵盖了机器人技术、编程、人工智能等领域。</p>
             
-            <ul>
-                <li>🤖 <a href="#" class="md-link" data-md="robotics_kinematics.md">机器人运动学基础</a></li>
-                <li>🚀 <a href="#" class="md-link" data-md="ros2_guide.md">ROS2入门指南</a></li>
-                <li>🐍 <a href="#" class="md-link" data-md="python_ml.md">Python在机器学习中的应用</a></li>
-                <li>👁️ <a href="#" class="md-link" data-md="computer_vision.md">机器视觉算法总结</a></li>
-                <li>🖥️ <a href="#" class="md-link" data-md="robot_simulation.md">机器人仿真环境搭建</a></li>
-            </ul>
+            <div class="knowledge-grid">
+                <div class="knowledge-card">
+                    <div class="knowledge-icon"><i class="fas fa-robot"></i></div>
+                    <h4><a href="#" class="md-link" data-md="robotics_kinematics.md">机器人运动学基础</a></h4>
+                </div>
+                <div class="knowledge-card">
+                    <div class="knowledge-icon"><i class="fas fa-rocket"></i></div>
+                    <h4><a href="#" class="md-link" data-md="ros2_guide.md">ROS2入门指南</a></h4>
+                </div>
+                <div class="knowledge-card">
+                    <div class="knowledge-icon"><i class="fab fa-python"></i></div>
+                    <h4><a href="#" class="md-link" data-md="python_ml.md">Python在机器学习中的应用</a></h4>
+                </div>
+                <div class="knowledge-card">
+                    <div class="knowledge-icon"><i class="fas fa-eye"></i></div>
+                    <h4><a href="#" class="md-link" data-md="computer_vision.md">机器视觉算法总结</a></h4>
+                </div>
+                <div class="knowledge-card">
+                    <div class="knowledge-icon"><i class="fas fa-desktop"></i></div>
+                    <h4><a href="#" class="md-link" data-md="robot_simulation.md">机器人仿真环境搭建</a></h4>
+                </div>
+            </div>
             <div class="markdown-container"></div>
         </section>
 
         <section id="more" class="page">
-            <h2>🔬 正在关注的开源项目</h2>
+            <h2>正在关注的开源项目</h2>
             
-            <h3 class="collapsible">🤖 机器人技术</h3>
-            <div class="content">
-                <!-- 机器人技术部分 -->
-                <h4 class="collapsible">🦾 机械臂</h4>
-                <div class="content">
-                    <ol>
-                        <li>🛠️ <a href="#" class="md-link" data-md="open_source_arms.md">开源机械臂汇总</a></li>
-                        <li>🧠 <a href="#" class="md-link" data-md="llm_robotarm.md">大模型与机械臂</a></li>
-                    </ol>
-                    <div class="markdown-container"></div>
-                </div>
-
-                <!-- 双足机器人部分 -->
-                <h4 class="collapsible">🚶 双足机器人</h4>
-                <div class="content">
-                    <ol>
-                        <li>🏃 <a href="#" class="md-link" data-md="biped_robots.md">双足机器人项目汇总</a></li>
-                    </ol>
-                    <div class="markdown-container"></div>
-                </div>
-
-                <!-- 四足机器人部分 -->
-                <h4 class="collapsible">🐕 四足机器人</h4>
-                <div class="content">
-                    <ol>
-                        <li>🐕 <a href="#" class="md-link" data-md="quadruped_robots.md">四足机器人项目汇总</a></li>
-                    </ol>
-                    <div class="markdown-container"></div>
-                </div>
-
-                <!-- isaac仿真部分 -->
-                <h4 class="collapsible">🖥️ isaac仿真</h4>
-                <div class="content">
-                    <ol>
-                        <li>🤖 <a href="#" class="md-link" data-md="isaac_simulation.md">isaac仿真项目汇总</a></li>
-                    </ol>
-                    <div class="markdown-container"></div>
-                </div>
-
-                <!-- 机器人前沿技术部分 -->
-                <h4 class="collapsible">🔬 机器人前沿技术</h4>
-                <div class="content">
-                    <ol>
-                        <li>🤖 <a href="#" class="md-link" data-md="robotics_frontier.md">机器人前沿技术汇总</a></li>
-                    </ol>
-                    <div class="markdown-container"></div>
-                </div>
-
-                <!-- 轮足机器人部分 -->
-                <h4 class="collapsible">🦾 轮足机器人</h4>
-                <div class="content">
-                    <ol>
-                        <li>🦾 <a href="#" class="md-link" data-md="wheel_legged_robots.md">轮足机器人项目汇总</a></li>
-                    </ol>
-                    <div class="markdown-container"></div>
-                </div>
-
-                <!-- mujoco仿真部分 -->
-                <h4 class="collapsible">🏋️ mujoco仿真</h4>
-                <div class="content">
-                    <ol>
-                        <li>🏋️ <a href="#" class="md-link" data-md="mujoco_simulation.md">mujoco仿真项目汇总</a></li>
-                    </ol>
-                    <div class="markdown-container"></div>
-                </div>
-            </div>
-
-            <h3 class="collapsible">🧠 AI实用工具</h3>
-            <div class="content">
-                <!-- 对话与语言模型 -->
-                <h4 class="collapsible">🗨️ 对话与语言模型</h4>
-                <div class="content">
-                    <ol>
-                        <li>🗨️ <a href="#" class="md-link" data-md="chatbots.md">对话与语言模型工具</a></li>
-                    </ol>
-                    <div class="markdown-container"></div>
-                </div>
-
-                <!-- AI辅助写作工具 -->
-                <h4 class="collapsible">✍️ AI辅助写作工具</h4>
-                <div class="content">
-                    <ol>
-                        <li>✍️ <a href="#" class="md-link" data-md="ai_writing_tools.md">AI辅助写作工具</a></li>
-                    </ol>
-                    <div class="markdown-container"></div>
-                </div>
-
-                <!-- 文档识别 -->
-                <h4 class="collapsible">🎨 文档识别</h4>
-                <div class="content">
-                    <ol>
-                        <li>🎨 <a href="#" class="md-link" data-md="doc_recognition.md">文档识别工具</a></li>
-                    </ol>
-                    <div class="markdown-container"></div>
-                </div>
-
-                <!-- AI翻译 -->
-                <h4 class="collapsible">🔊 AI翻译</h4>
-                <div class="content">
-                    <ol>
-                        <li>🗣 <a href="#" class="md-link" data-md="ai_translation.md">AI翻译工具</a></li>
-                    </ol>
-                    <div class="markdown-container"></div>
-                </div>
-
-                <!-- 音频生成 -->
-                <h4 class="collapsible">🎵 音频生成</h4>
-                <div class="content">
-                    <ol>
-                        <li>🎵 <a href="#" class="md-link" data-md="audio_generation.md">音频生成工具</a></li>
-                    </ol>
-                    <div class="markdown-container"></div>
-                </div>
-
-                <!-- 代码阅读 -->
-                <h4 class="collapsible">📹 代码阅读</h4>
-                <div class="content">
-                    <ol>
-                        <li>📹 <a href="#" class="md-link" data-md="code_reading.md">代码阅读工具</a></li>
-                    </ol>
-                    <div class="markdown-container"></div>
-                </div>
-
-                <!-- RAG -->
-                <h4 class="collapsible">💻 RAG</h4>
-                <div class="content">
-                    <ol>
-                        <li>💻 <a href="#" class="md-link" data-md="rag_tools.md">RAG工具</a></li>
-                    </ol>
-                    <div class="markdown-container"></div>
-                </div>
-
-                <!-- 文档处理工具 -->
-                <h4 class="collapsible">📄 文档处理工具</h4>
-                <div class="content">
-                    <ol>
-                        <li>📄 <a href="#" class="md-link" data-md="doc_processing.md">文档处理工具</a></li>
-                    </ol>
-                    <div class="markdown-container"></div>
-                </div>
-
-                <!-- 搜索与研究 -->
-                <h4 class="collapsible">🔍 搜索与研究</h4>
-                <div class="content">
-                    <ol>
-                        <li>🔍 <a href="#" class="md-link" data-md="search_research.md">搜索与研究工具</a></li>
-                    </ol>
-                    <div class="markdown-container"></div>
-                </div>
-
-                <!-- 程序开发 -->
-                <h4 class="collapsible">📹 程序开发</h4>
-                <div class="content">
-                    <ol>
-                        <li>📹 <a href="#" class="md-link" data-md="program_development.md">程序开发工具</a></li>
-                    </ol>
-                    <div class="markdown-container"></div>
-                </div>
-            </div>
-        </section>
-
-        <section id="about" class="page">
-            <h2>👤 关于我</h2>
-            
-            <div class="about-content">
-                <p>👋 嗨，我是xiongy！我是一名充满好奇心的机器人技术爱好者，热衷于探索人工智能和自动化的世界。
-                这里是我的数字乌托邦🌱，我在这里种植关于机器人的想法，培育自动化知识，分享技术成长。</p>
-
-                <h3>❤️ 兴趣领域</h3>
-                <ul>
-                    <li>🧠 人工智能与机器人</li>
-                    <li>📖 阅读与写作</li>
-                    <li>📸 摄影与视觉艺术</li>
-                    <li>✈️ 旅行与文化探索</li>
-                </ul>
-
-                <h3>📖 最近在读</h3>
-                <ol>
-                    <li>📕 《学习究竟是什么》- 万维钢</li>
-                    <li>🤖 《认知觉醒》- 周岭</li>
-                    <li>📷 《这就是ChatGpt》- 斯蒂芬 沃尔弗拉姆</li>
-                </ol>
-
-                <h3>📞 社交账号</h3>
-                <ul>
-                    <li>📧 Email: <a href="mailto:3344898143@qq.com">3344898143@qq.com</a></li>
-                    <li>👨‍💻 GitHub: <a href="https://github.com/xiongy25">xiongy</a></li>
-                    <li>🧠 知乎：<a href="https://www.zhihu.com/people/wo-bei-peng-hao-13">zhihu</a></li>
-                    <li>📺 B站：<a href="https://www.bilibili.com/">Bzhan</a></li>
-                    <li>📝 CSDN：<a href="https://blog.csdn.net/2301_81924597?type=blog">CSDN</a></li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="contact" class="page">
-            <h2>📞 社交账号</h2>
-            <ul>
-                <li>📧 Email: <a href="mailto:3344898143@qq.com">3344898143@qq.com</a></li>
-                <li>👨‍💻 GitHub: <a href="https://github.com/xiongy25">xiongy</a></li>
-                <li>🧠 知乎：<a href="https://www.zhihu.com/people/wo-bei-peng-hao-13">zhihu</a></li>
-                <li>📺 B站：<a href="https://www.bilibili.com/">Bzhan</a></li>
-                <li>📝 CSDN：<a href="https://blog.csdn.net/2301_81924597?type=blog">CSDN</a></li>
-            </ul>
-            <p>© 2024 xiongy | 📡 <a href="#">RSS订阅</a></p>
-        </section>
-    </main>
-
-    <footer>
-        <p> 2024 xiongy | <a href="#"> RSS订阅</a></p>
-    </footer>
-
-    <script src="script.js"></script>
-    <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        // 为所有可折叠标题添加点击事件
-        document.querySelectorAll('.collapsible').forEach(button => {
-            button.addEventListener('click', function(e) {
-                e.stopPropagation(); // 防止事件冒泡
-                this.classList.toggle('active');
-                let content = this.nextElementSibling;
-                if (content && content.classList.contains('content')) {
-                    content.classList.toggle('show');
-                }
-            });
-        });
-    });
-
-    // 添加 Markdown 加载和渲染功能
-    document.addEventListener('DOMContentLoaded', function() {
-        // 处理所有带有 md-link 类的链接
-        document.querySelectorAll('.md-link').forEach(link => {
-            link.addEventListener('click', async function(e) {
-                e.preventDefault();
-                const mdFile = this.getAttribute('data-md');
-                const container = this.closest('.content').querySelector('.markdown-container');
-                
-                try {
-                    const response = await fetch(mdFile);
-                    if (!response.ok) throw new Error('Failed to load markdown file');
-                    const text = await response.text();
-                    
-                    // 使用 marked 库渲染 Markdown
-                    container.innerHTML = marked.parse(text);
-                    
-                    // 显示容器
-                    container.style.display = 'block';
-                } catch (error) {
-                    console.error('Error loading markdown:', error);
-                    container.innerHTML = '<p>Error loading content. Please try again later.</p>';
-                }
-            });
-        });
-    });
-    </script>
-</body>
-</html>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <h3 class="collapsible">机器人技术</h3>
+                    <div class="content">
+                        <div class="accordion">
+                            <div class="accordion-item">
+                                <h4 class="collapsible">机械臂</h4>
+                                <div class="content">
+                                    <ul>
+                                        <li><a href="#" class="md-link" data-md="open_source_arms.md">开源机械臂汇总</a></li>
+                                        <li><a href="#" class="md-link" data-md="llm_robotarm.md">大模型与机械臂</a></li
