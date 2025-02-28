@@ -50,5 +50,4 @@
     ![image](https://github.com/user-attachments/assets/67e9afce-fc2c-4d7d-b396-372bb5d2dde3)
 40.[InterMimic:面向基于物理的人与物体交互的通用全身控制](https://sirui-xu.github.io/InterMimic/)
 ![image](https://github.com/user-attachments/assets/7b579366-6d0a-44be-aa02-0cdceffe0739)
-
-
+41.[Exbody2:高级富有表现力的人形全身控制](https://exbody2.github.io/)
