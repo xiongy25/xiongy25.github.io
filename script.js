@@ -43,12 +43,23 @@ document.addEventListener('DOMContentLoaded', function() {
     const logoLink = document.querySelector('.logo a');
 
     function showPage(pageId) {
+        // 移除所有页面的active类
         pages.forEach(page => {
             page.classList.remove('active');
         });
+        // 移除所有导航链接的active类
+        navLinks.forEach(link => {
+            link.classList.remove('active');
+        });
+        // 激活目标页面
         const targetPage = document.getElementById(pageId);
         if (targetPage) {
             targetPage.classList.add('active');
+            // 激活对应的导航链接
+            const activeNavLink = document.querySelector(`nav a[data-page="${pageId}"]`);
+            if (activeNavLink) {
+                activeNavLink.classList.add('active');
+            }
         }
     }
 
