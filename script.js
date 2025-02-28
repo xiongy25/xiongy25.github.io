@@ -60,25 +60,30 @@ document.addEventListener('DOMContentLoaded', function() {
             if (activeNavLink) {
                 activeNavLink.classList.add('active');
             }
+            // 更新URL hash，但不触发默认的锚点行为
+            history.pushState(null, '', `#${pageId}`);
         }
     }
 
     function handleNavClick(e) {
-        e.preventDefault();
+        e.preventDefault(); // 阻止默认的锚点行为
         const pageId = this.getAttribute('data-page');
-        showPage(pageId);
+        if (pageId) {
+            showPage(pageId);
+        }
     }
 
+    // 为所有导航链接添加点击事件监听器
     navLinks.forEach(link => {
         link.addEventListener('click', handleNavClick);
     });
 
-    // Add click event listener to logo
+    // 为logo添加点击事件监听器
     if (logoLink) {
         logoLink.addEventListener('click', handleNavClick);
     }
 
-    // Handle "了解更多" button
+    // 处理"了解更多"按钮
     const learnMoreBtn = document.querySelector('.btn[data-page="about"]');
     if (learnMoreBtn) {
         learnMoreBtn.addEventListener('click', function(e) {
@@ -86,6 +91,16 @@ document.addEventListener('DOMContentLoaded', function() {
             showPage('about');
         });
     }
+
+    // 初始化页面显示
+    const initialPage = window.location.hash.slice(1) || 'home';
+    showPage(initialPage);
+
+    // 监听浏览器的前进/后退按钮
+    window.addEventListener('popstate', function() {
+        const pageId = window.location.hash.slice(1) || 'home';
+        showPage(pageId);
+    });
 
     // Load Markdown file functionality
     document.addEventListener('click', function(e) {
