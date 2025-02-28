@@ -48,4 +48,7 @@
     ![image](https://github.com/user-attachments/assets/139318a7-99fe-44bd-903b-5b30bd1d90bf)
 39.[OmniH2O:通用灵巧的人机全身远程操作和学习](https://omni.human2humanoid.com/?login=from_csdn)
     ![image](https://github.com/user-attachments/assets/67e9afce-fc2c-4d7d-b396-372bb5d2dde3)
+40.[InterMimic:面向基于物理的人与物体交互的通用全身控制](https://sirui-xu.github.io/InterMimic/)
+![image](https://github.com/user-attachments/assets/7b579366-6d0a-44be-aa02-0cdceffe0739)
+
 
