@@ -1,1 +1,1 @@
-@README.md  以readme.md文件中的内容为准，修改这个文件
+查看README.md的内容，然后将其中的内容同步到index.html文件中

@@ -340,40 +340,132 @@ footer {
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
 /* Collapsible elements */
+.accordion {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.accordion-item {
+    margin-bottom: 1rem;
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    overflow: hidden;
+    background: #fff;
+}
+
+.accordion-item .accordion-item {
+    margin: 0.5rem 0;
+    box-shadow: none;
+    border-left: 2px solid var(--accent-color);
+    border-radius: 0;
+    background: rgba(240, 245, 255, 0.5);
+}
+
 .collapsible {
     cursor: pointer;
     position: relative;
-    padding-left: 25px;
+    padding: 1rem 1.5rem 1rem 3rem;
     transition: var(--transition);
+    font-weight: 600;
+    font-size: 1.1rem;
+    background: #f8f9fa;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.accordion-item .accordion-item .collapsible {
+    padding: 0.75rem 1rem 0.75rem 2.5rem;
+    font-size: 1rem;
+    background: transparent;
 }
 
 .collapsible::before {
     content: '⏵';
     position: absolute;
-    left: 0;
+    left: 1.2rem;
     transition: transform 0.3s;
     color: var(--accent-color);
+}
+
+.accordion-item .accordion-item .collapsible::before {
+    left: 0.8rem;
+}
+
+.collapsible.active {
+    color: var(--primary-color);
+    background-color: rgba(240, 245, 255, 0.8);
 }
 
 .collapsible.active::before {
     transform: rotate(90deg);
 }
 
+.collapsible:hover {
+    background-color: rgba(240, 245, 255, 0.8);
+}
+
 .content {
-    display: none;
-    padding-left: 25px;
-    animation: slideDown 0.3s ease;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    padding: 0 1.5rem;
+    background-color: #ffffff;
+}
+
+.accordion-item .accordion-item .content {
+    padding: 0 1rem 0 2.5rem;
+    background-color: transparent;
 }
 
 .content.show {
     display: block;
 }
 
+.content ul {
+    padding: 1rem 0;
+    margin: 0;
+}
+
+.content ul li {
+    margin-bottom: 0.8rem;
+    list-style-type: none;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.content ul li:before {
+    content: "•";
+    color: var(--accent-color);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.content ul li:last-child {
+    margin-bottom: 0;
+}
+
+.content ul li a {
+    display: inline-block;
+    padding: 0.5rem 0;
+    transition: all 0.2s;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.content ul li a:hover {
+    transform: translateX(5px);
+    color: var(--primary-color);
+}
+
+/* Animation for accordion */
 @keyframes slideDown {
     from { opacity: 0; transform: translateY(-10px); }
     to { opacity: 1; transform: translateY(0); }
@@ -454,4 +546,168 @@ footer {
 .markdown-content code {
     font-family: 'Fira Code', 'Consolas', monospace;
     font-size: 0.9em;
+}
+
+/* Section intro text */
+.section-intro {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: var(--text-secondary-color);
+    line-height: 1.6;
+    max-width: 800px;
+}
+
+/* More page specific styles */
+.more-footer {
+    margin-top: 3rem;
+    padding: 1.5rem;
+    background-color: rgba(240, 245, 255, 0.7);
+    border-radius: var(--border-radius);
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.more-footer a {
+    color: var(--primary-color);
+    font-weight: 600;
+    text-decoration: underline;
+    transition: var(--transition);
+}
+
+.more-footer a:hover {
+    color: var(--accent-color);
+}
+
+/* Improve the general accordion appearance */
+.page#more h2 {
+    margin-bottom: 1rem;
+    position: relative;
+    display: inline-block;
+}
+
+.page#more h2:after {
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 3px;
+    background-color: var(--accent-color);
+    bottom: -8px;
+    left: 0;
+}
+
+/* Make first level accordions more distinct */
+.page#more > .accordion > .accordion-item > .collapsible {
+    background: linear-gradient(135deg, rgba(240, 245, 255, 0.8), rgba(230, 240, 255, 0.9));
+    font-size: 1.2rem;
+    padding: 1.2rem 1.5rem 1.2rem 3.2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.page#more > .accordion > .accordion-item > .collapsible:hover {
+    background: linear-gradient(135deg, rgba(230, 240, 255, 0.9), rgba(220, 235, 255, 1));
+}
+
+.page#more > .accordion > .accordion-item > .collapsible.active {
+    background: linear-gradient(135deg, rgba(220, 235, 255, 1), rgba(210, 230, 255, 1));
+}
+
+/* Project cards */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.project-card {
+    background: #ffffff;
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.12);
+}
+
+.project-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(to bottom, var(--primary-color), var(--accent-color));
+    opacity: 0.8;
+}
+
+.project-icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(59, 130, 246, 0.1);
+    border-radius: 12px;
+    margin-bottom: 1rem;
+}
+
+.project-icon i {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-right: 0;
+}
+
+.project-card h4 {
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+    line-height: 1.4;
+}
+
+.project-card h4 a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.project-card h4 a:hover {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.project-desc {
+    color: var(--text-light);
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-top: auto;
+}
+
+.project-category h3 {
+    position: relative;
+    display: inline-block;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.project-category h3:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(59, 130, 246, 0.3);
+    bottom: -4px;
+    left: 0;
+}
+
+/* Page specific styles for projects and more pages */
+#projects .project-card, #more .project-card {
+    min-height: 200px;
 }
