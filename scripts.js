@@ -76,13 +76,29 @@ document.addEventListener('DOMContentLoaded', function() {
     // 处理主题切换
     const themeToggle = document.querySelector('.theme-toggle');
     if (themeToggle) {
+        // 初始化时检查本地存储的主题设置
+        const savedTheme = localStorage.getItem('theme');
+        const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        
+        // 如果有保存的主题设置，应用它
+        if (savedTheme === 'dark' || (savedTheme === null && prefersDarkScheme)) {
+            document.body.classList.add('dark-theme');
+            const icon = themeToggle.querySelector('i');
+            if (icon.classList.contains('fa-moon')) {
+                icon.classList.replace('fa-moon', 'fa-sun');
+            }
+        }
+        
         themeToggle.addEventListener('click', function() {
             document.body.classList.toggle('dark-theme');
             const icon = this.querySelector('i');
+            
             if (icon.classList.contains('fa-moon')) {
                 icon.classList.replace('fa-moon', 'fa-sun');
+                localStorage.setItem('theme', 'dark');
             } else {
                 icon.classList.replace('fa-sun', 'fa-moon');
+                localStorage.setItem('theme', 'light');
             }
         });
     }

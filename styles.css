@@ -11,6 +11,145 @@
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* 深色模式变量 */
+body.dark-theme {
+    --primary-color: #60a5fa;
+    --secondary-color: #94a3b8;
+    --accent-color: #3b82f6;
+    --text-color: #e2e8f0;
+    --text-light: #94a3b8;
+    --bg-color: #0f172a;
+    --section-bg-color: #1e293b;
+    --shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+/* 深色模式下的导航栏 */
+body.dark-theme header {
+    background-color: rgba(15, 23, 42, 0.98);
+    backdrop-filter: blur(10px);
+}
+
+/* 深色模式下的卡片和项目 */
+body.dark-theme .project-card,
+body.dark-theme .knowledge-card,
+body.dark-theme .accordion-item {
+    background-color: #1e293b;
+}
+
+/* 深色模式下的折叠菜单 */
+body.dark-theme .collapsible {
+    background-color: #1e293b;
+}
+
+body.dark-theme .collapsible:hover {
+    background-color: #263548;
+}
+
+body.dark-theme .collapsible.active {
+    background-color: #2d4055;
+}
+
+/* 深色模式下的内容区域 */
+body.dark-theme .content {
+    background-color: #1e293b;
+}
+
+/* 深色模式下的Markdown容器 */
+body.dark-theme .markdown-container {
+    background-color: #1e293b;
+    border-color: #334155;
+}
+
+/* 深色模式下的搜索框 */
+body.dark-theme input[type="search"] {
+    background-color: #334155;
+    border-color: #475569;
+    color: #e2e8f0;
+}
+
+body.dark-theme input[type="search"]::placeholder {
+    color: #94a3b8;
+}
+
+/* 深色模式下的社交链接 */
+body.dark-theme .social-links a {
+    background-color: #334155;
+    color: #e2e8f0;
+}
+
+/* 深色模式下的搜索结果 */
+body.dark-theme .search-result-section ul li {
+    background-color: #1e293b;
+}
+
+body.dark-theme .search-result-section ul li:hover {
+    background-color: #2d4055;
+}
+
+body.dark-theme .no-results {
+    background-color: #1e293b;
+}
+
+/* 深色模式下的项目卡片 */
+body.dark-theme .project-card {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+body.dark-theme .project-card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+}
+
+body.dark-theme .project-icon {
+    background-color: rgba(59, 130, 246, 0.2);
+}
+
+/* 深色模式下的按钮 */
+body.dark-theme .btn {
+    background-color: #3b82f6;
+}
+
+body.dark-theme .btn:hover {
+    background-color: #60a5fa;
+}
+
+body.dark-theme .back-button {
+    background-color: #3b82f6;
+}
+
+body.dark-theme .back-button:hover {
+    background-color: #60a5fa;
+}
+
+/* 深色模式下的代码块 */
+body.dark-theme .markdown-content pre {
+    background-color: #1a2234;
+}
+
+body.dark-theme .markdown-content code {
+    color: #e2e8f0;
+}
+
+/* 深色模式下的页脚 */
+body.dark-theme footer {
+    background-color: #1e293b;
+    border-top-color: #334155;
+}
+
+/* 深色模式下的时间线 */
+body.dark-theme .timeline-year {
+    background-color: #334155;
+    color: #e2e8f0;
+}
+
+body.dark-theme .timeline-content {
+    border-left-color: #334155;
+}
+
+/* 深色模式下的more-footer */
+body.dark-theme .more-footer {
+    background-color: rgba(37, 59, 94, 0.7);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
