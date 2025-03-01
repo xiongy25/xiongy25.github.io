@@ -86,6 +86,28 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }
+    
+    // 搜索功能
+    const searchInput = document.getElementById('search-input');
+    const searchButton = document.getElementById('search-button');
+    
+    // 搜索按钮点击事件
+    if (searchButton) {
+        searchButton.addEventListener('click', function() {
+            if (searchInput && searchInput.value.trim()) {
+                performSearch(searchInput.value.trim());
+            }
+        });
+    }
+    
+    // 搜索输入框回车键事件
+    if (searchInput) {
+        searchInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter' && this.value.trim()) {
+                performSearch(this.value.trim());
+            }
+        });
+    }
 });
 
 // 显示指定页面，隐藏其他页面
@@ -154,4 +176,150 @@ function expandParentAccordions(element) {
             expandParentAccordions(parent);
         }
     }
+}
+
+// 执行搜索
+function performSearch(query) {
+    // 创建搜索结果页面（如果不存在）
+    let searchResultsPage = document.getElementById('search-results');
+    if (!searchResultsPage) {
+        searchResultsPage = document.createElement('section');
+        searchResultsPage.id = 'search-results';
+        searchResultsPage.className = 'page';
+        document.querySelector('main').appendChild(searchResultsPage);
+    }
+    
+    // 清空之前的搜索结果
+    searchResultsPage.innerHTML = '';
+    
+    // 创建搜索结果页面标题
+    const title = document.createElement('h2');
+    title.textContent = `搜索结果: "${query}"`;
+    searchResultsPage.appendChild(title);
+    
+    // 存储搜索结果
+    const results = [];
+    
+    // 搜索文章标题
+    const articles = document.querySelectorAll('#article-list li a');
+    articles.forEach(article => {
+        if (article.textContent.toLowerCase().includes(query.toLowerCase())) {
+            results.push({
+                title: article.textContent.trim(),
+                link: article.getAttribute('data-md'),
+                type: '文章',
+                element: article.cloneNode(true)
+            });
+        }
+    });
+    
+    // 搜索项目标题
+    const projects = document.querySelectorAll('.project-card h4 a');
+    projects.forEach(project => {
+        if (project.textContent.toLowerCase().includes(query.toLowerCase())) {
+            results.push({
+                title: project.textContent.trim(),
+                link: project.getAttribute('href'),
+                type: '项目',
+                element: project.cloneNode(true)
+            });
+        }
+    });
+    
+    // 搜索知识库标题
+    const knowledgeItems = document.querySelectorAll('.knowledge-card h4 a');
+    knowledgeItems.forEach(item => {
+        if (item.textContent.toLowerCase().includes(query.toLowerCase())) {
+            results.push({
+                title: item.textContent.trim(),
+                link: item.getAttribute('data-md'),
+                type: '知识库',
+                element: item.cloneNode(true)
+            });
+        }
+    });
+    
+    // 搜索更多页面内容
+    const moreItems = document.querySelectorAll('#more .project-card h4 a');
+    moreItems.forEach(item => {
+        if (item.textContent.toLowerCase().includes(query.toLowerCase())) {
+            results.push({
+                title: item.textContent.trim(),
+                link: item.getAttribute('data-md'),
+                type: '更多',
+                element: item.cloneNode(true)
+            });
+        }
+    });
+    
+    // 根据搜索结果创建内容
+    if (results.length > 0) {
+        const resultsList = document.createElement('div');
+        resultsList.className = 'search-results-list';
+        
+        // 按类型分组
+        const groupedResults = {};
+        results.forEach(result => {
+            if (!groupedResults[result.type]) {
+                groupedResults[result.type] = [];
+            }
+            groupedResults[result.type].push(result);
+        });
+        
+        // 创建分组结果
+        for (const type in groupedResults) {
+            const typeSection = document.createElement('div');
+            typeSection.className = 'search-result-section';
+            
+            const typeTitle = document.createElement('h3');
+            typeTitle.textContent = type;
+            typeSection.appendChild(typeTitle);
+            
+            const typeList = document.createElement('ul');
+            groupedResults[type].forEach(result => {
+                const listItem = document.createElement('li');
+                
+                const link = result.element;
+                // 如果是Markdown链接，确保事件处理正确
+                if (link.classList.contains('md-link')) {
+                    link.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        const mdPath = this.getAttribute('data-md');
+                        const container = document.querySelector('#search-results .markdown-container');
+                        if (!container) {
+                            const newContainer = document.createElement('div');
+                            newContainer.className = 'markdown-container';
+                            searchResultsPage.appendChild(newContainer);
+                            loadMarkdown(mdPath, newContainer);
+                        } else {
+                            loadMarkdown(mdPath, container);
+                        }
+                    });
+                }
+                
+                listItem.appendChild(link);
+                typeList.appendChild(listItem);
+            });
+            
+            typeSection.appendChild(typeList);
+            resultsList.appendChild(typeSection);
+        }
+        
+        searchResultsPage.appendChild(resultsList);
+        
+        // 添加Markdown容器来显示结果
+        const markdownContainer = document.createElement('div');
+        markdownContainer.className = 'markdown-container';
+        markdownContainer.style.display = 'none';
+        searchResultsPage.appendChild(markdownContainer);
+    } else {
+        // 没有找到结果
+        const noResults = document.createElement('p');
+        noResults.className = 'no-results';
+        noResults.textContent = '没有找到匹配的内容。';
+        searchResultsPage.appendChild(noResults);
+    }
+    
+    // 显示搜索结果页面
+    showPage('search-results');
 } 

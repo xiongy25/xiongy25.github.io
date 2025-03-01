@@ -548,6 +548,102 @@ footer {
     font-size: 0.9em;
 }
 
+/* 搜索结果样式 */
+.search-results-list {
+    margin-top: 2rem;
+}
+
+.search-result-section {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.search-result-section:last-child {
+    border-bottom: none;
+}
+
+.search-result-section h3 {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid rgba(59, 130, 246, 0.2);
+}
+
+.search-result-section ul {
+    list-style-type: none;
+    padding-left: 0.5rem;
+}
+
+.search-result-section ul li {
+    margin-bottom: 1rem;
+    padding: 0.8rem 1rem;
+    background-color: #f9fafb;
+    border-radius: 8px;
+    transition: var(--transition);
+}
+
+.search-result-section ul li:hover {
+    background-color: #f0f5ff;
+    transform: translateX(5px);
+}
+
+.search-result-section ul li a {
+    display: block;
+    color: var(--text-color);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.search-result-section ul li a:hover {
+    color: var(--primary-color);
+}
+
+.no-results {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--text-light);
+    padding: 2rem;
+    background-color: #f9fafb;
+    border-radius: var(--border-radius);
+}
+
+#search-results .markdown-container {
+    margin-top: 2rem;
+}
+
+/* 增强搜索框的视觉反馈 */
+.search-container {
+    position: relative;
+    transition: var(--transition);
+}
+
+.search-container:focus-within {
+    transform: scale(1.02);
+}
+
+#search-input {
+    padding-right: 2.5rem;
+}
+
+#search-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--text-light);
+    transition: var(--transition);
+}
+
+#search-button:hover {
+    color: var(--primary-color);
+}
+
 /* Section intro text */
 .section-intro {
     font-size: 1.1rem;
