@@ -101,10 +101,16 @@ function showPage(pageId) {
 
 // 加载Markdown内容
 function loadMarkdown(path, container) {
-    console.log('开始加载Markdown文件:', path);
+    console.log('开始加载Markdown文件:', path, '到容器:', container);
+    
+    // 确保路径正确，如果path不以/开头且不是完整URL，就添加./
+    if (!path.startsWith('/') && !path.startsWith('http') && !path.startsWith('./')) {
+        path = './' + path;
+    }
+    
     fetch(path)
         .then(response => {
-            console.log('文件请求状态:', response.status, response.statusText);
+            console.log('文件请求状态:', response.status, response.statusText, '路径:', path);
             if (!response.ok) {
                 throw new Error('网络请求失败: ' + response.status);
             }
@@ -112,46 +118,45 @@ function loadMarkdown(path, container) {
         })
         .then(text => {
             console.log('成功加载文件内容, 长度:', text.length, '字节');
+            
+            // 如果已经有返回按钮，先移除
+            const existingBackButton = container.querySelector('.back-button');
+            if (existingBackButton) {
+                existingBackButton.remove();
+            }
+            
+            // 解析并显示Markdown内容
             container.innerHTML = marked.parse(text);
             container.classList.add('markdown-body');
             
             // 显示Markdown容器
             const parent = container.closest('section');
+            console.log('容器所属区域:', parent.id);
             
-            // 处理"更多"页面的项目卡片
-            if (parent.id === 'more') {
-                const projectGrids = parent.querySelectorAll('.project-grid');
-                projectGrids.forEach(grid => {
-                    grid.style.display = 'none';
-                });
-                parent.querySelector('.more-footer').style.display = 'none';
-                parent.querySelector('.section-intro').style.display = 'none';
-            } else {
-                // 其他页面的列表处理
-                const list = parent.querySelector('ul, .knowledge-grid, .timeline');
-                if (list) {
-                    list.style.display = 'none';
-                }
-            }
+            // 处理"更多"页面的显示逻辑已在bindMdLinks中处理，这里不再重复
             
-            container.style.display = 'block';
-            
-            // 添加返回按钮
+            // 添加返回按钮 - 统一处理返回逻辑
             const backButton = document.createElement('button');
             backButton.textContent = '返回列表';
             backButton.className = 'back-button';
             backButton.addEventListener('click', function() {
+                // 隐藏容器
                 container.style.display = 'none';
                 container.innerHTML = '';
                 
-                // 恢复"更多"页面的项目卡片
+                // 根据不同区域显示原始内容
                 if (parent.id === 'more') {
+                    // 恢复"更多"页面的项目卡片
                     const projectGrids = parent.querySelectorAll('.project-grid');
                     projectGrids.forEach(grid => {
                         grid.style.display = '';
                     });
-                    parent.querySelector('.more-footer').style.display = '';
-                    parent.querySelector('.section-intro').style.display = '';
+                    if (parent.querySelector('.more-footer')) {
+                        parent.querySelector('.more-footer').style.display = '';
+                    }
+                    if (parent.querySelector('.section-intro')) {
+                        parent.querySelector('.section-intro').style.display = '';
+                    }
                 } else {
                     // 恢复其他页面的列表
                     const list = parent.querySelector('ul, .knowledge-grid, .timeline');
@@ -182,7 +187,7 @@ function loadMarkdown(path, container) {
             container.scrollIntoView({ behavior: 'smooth' });
         })
         .catch(error => {
-            console.error('加载Markdown失败:', error);
+            console.error('加载Markdown失败:', error, '路径:', path);
             container.innerHTML = '<p class="error">无法加载内容，请稍后再试。</p><p class="error-details">错误信息: ' + error.message + '</p><p>路径: ' + path + '</p>';
             container.style.display = 'block';
             
@@ -201,8 +206,12 @@ function loadMarkdown(path, container) {
                     projectGrids.forEach(grid => {
                         grid.style.display = '';
                     });
-                    parent.querySelector('.more-footer').style.display = '';
-                    parent.querySelector('.section-intro').style.display = '';
+                    if (parent.querySelector('.more-footer')) {
+                        parent.querySelector('.more-footer').style.display = '';
+                    }
+                    if (parent.querySelector('.section-intro')) {
+                        parent.querySelector('.section-intro').style.display = '';
+                    }
                 } else {
                     // 恢复其他页面的列表
                     const list = parent.querySelector('ul, .knowledge-grid, .timeline');
@@ -384,17 +393,72 @@ function bindMdLinks() {
     mdLinks.forEach(link => {
         if (!link.hasAttribute('data-bound')) {
             const mdPath = link.getAttribute('data-md');
-            console.log('绑定链接:', link.textContent, '-> 文件路径:', mdPath);
+            const section = link.closest('section');
+            console.log('绑定链接:', link.textContent, '-> 文件路径:', mdPath, ', 所在区域:', section.id);
+            
             link.setAttribute('data-bound', 'true');
             link.addEventListener('click', function(e) {
                 e.preventDefault();
                 const mdPath = this.getAttribute('data-md');
-                console.log('点击链接:', this.textContent, '正在加载文件:', mdPath);
+                const section = this.closest('section');
+                console.log('点击链接:', this.textContent, '正在加载文件:', mdPath, ', 所在区域:', section.id);
                 
                 // 如果链接在折叠内容中，确保所有父级折叠都展开
                 expandParentAccordions(this);
                 
-                loadMarkdown(mdPath, this.closest('section').querySelector('.markdown-container'));
+                // 找到当前section的markdown容器
+                const container = section.querySelector('.markdown-container');
+                
+                if (container) {
+                    console.log('找到Markdown容器:', container);
+                    
+                    // 针对"更多"页面的特殊处理
+                    if (section.id === 'more') {
+                        // 先确保容器可见
+                        container.style.display = 'block';
+                        
+                        // 隐藏项目卡片部分
+                        const projectGrids = section.querySelectorAll('.project-grid');
+                        projectGrids.forEach(grid => grid.style.display = 'none');
+                        
+                        // 隐藏页脚和介绍文字
+                        if (section.querySelector('.more-footer')) {
+                            section.querySelector('.more-footer').style.display = 'none';
+                        }
+                        if (section.querySelector('.section-intro')) {
+                            section.querySelector('.section-intro').style.display = 'none';
+                        }
+                        
+                        // 确保返回按钮功能正常
+                        if (!container.querySelector('.back-button')) {
+                            const backButton = document.createElement('button');
+                            backButton.textContent = '返回列表';
+                            backButton.className = 'back-button';
+                            backButton.addEventListener('click', function() {
+                                // 隐藏容器
+                                container.style.display = 'none';
+                                container.innerHTML = '';
+                                
+                                // 显示项目卡片部分
+                                projectGrids.forEach(grid => grid.style.display = '');
+                                
+                                // 显示页脚和介绍文字
+                                if (section.querySelector('.more-footer')) {
+                                    section.querySelector('.more-footer').style.display = '';
+                                }
+                                if (section.querySelector('.section-intro')) {
+                                    section.querySelector('.section-intro').style.display = '';
+                                }
+                            });
+                            container.prepend(backButton);
+                        }
+                    }
+                    
+                    // 加载Markdown内容
+                    loadMarkdown(mdPath, container);
+                } else {
+                    console.error('未找到Markdown容器在section:', section.id);
+                }
             });
         }
     });
