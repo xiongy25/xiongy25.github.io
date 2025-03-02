@@ -28,50 +28,11 @@ document.addEventListener('DOMContentLoaded', function() {
         showPage(hash);
     }
     
-    // 处理Markdown链接点击
-    const mdLinks = document.querySelectorAll('.md-link');
-    mdLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            const mdPath = this.getAttribute('data-md');
-            
-            // 如果链接在折叠内容中，确保所有父级折叠都展开
-            expandParentAccordions(this);
-            
-            loadMarkdown(mdPath, this.closest('section').querySelector('.markdown-container'));
-        });
-    });
+    // 绑定Markdown链接点击事件
+    bindMdLinks();
     
     // 处理手风琴折叠效果
-    const collapsibles = document.querySelectorAll('.collapsible');
-    collapsibles.forEach(item => {
-        item.addEventListener('click', function(e) {
-            e.preventDefault();
-            e.stopPropagation(); // 阻止事件冒泡
-            
-            this.classList.toggle('active');
-            const content = this.nextElementSibling;
-            
-            // 添加show类来显示内容
-            content.classList.toggle('show');
-            
-            // 对于已展开的内容，需要重新计算所有父级的maxHeight
-            if (content.classList.contains('show')) {
-                // 设置当前内容的maxHeight
-                content.style.maxHeight = content.scrollHeight + "px";
-                
-                // 更新所有父级的maxHeight
-                let parent = content.parentElement;
-                while (parent && parent.classList.contains('content')) {
-                    // 更新父级的maxHeight，考虑所有子内容的高度
-                    parent.style.maxHeight = parent.scrollHeight + content.scrollHeight + "px";
-                    parent = parent.parentElement;
-                }
-            } else {
-                content.style.maxHeight = null;
-            }
-        });
-    });
+    bindCollapsibles();
     
     // 处理主题切换
     const themeToggle = document.querySelector('.theme-toggle');
@@ -140,23 +101,39 @@ function showPage(pageId) {
 
 // 加载Markdown内容
 function loadMarkdown(path, container) {
+    console.log('开始加载Markdown文件:', path);
     fetch(path)
         .then(response => {
+            console.log('文件请求状态:', response.status, response.statusText);
             if (!response.ok) {
-                throw new Error('网络请求失败');
+                throw new Error('网络请求失败: ' + response.status);
             }
             return response.text();
         })
         .then(text => {
+            console.log('成功加载文件内容, 长度:', text.length, '字节');
             container.innerHTML = marked.parse(text);
             container.classList.add('markdown-body');
             
             // 显示Markdown容器
             const parent = container.closest('section');
-            const list = parent.querySelector('ul, .knowledge-grid, .timeline');
-            if (list) {
-                list.style.display = 'none';
+            
+            // 处理"更多"页面的项目卡片
+            if (parent.id === 'more') {
+                const projectGrids = parent.querySelectorAll('.project-grid');
+                projectGrids.forEach(grid => {
+                    grid.style.display = 'none';
+                });
+                parent.querySelector('.more-footer').style.display = 'none';
+                parent.querySelector('.section-intro').style.display = 'none';
+            } else {
+                // 其他页面的列表处理
+                const list = parent.querySelector('ul, .knowledge-grid, .timeline');
+                if (list) {
+                    list.style.display = 'none';
+                }
             }
+            
             container.style.display = 'block';
             
             // 添加返回按钮
@@ -166,15 +143,75 @@ function loadMarkdown(path, container) {
             backButton.addEventListener('click', function() {
                 container.style.display = 'none';
                 container.innerHTML = '';
-                if (list) {
-                    list.style.display = '';
+                
+                // 恢复"更多"页面的项目卡片
+                if (parent.id === 'more') {
+                    const projectGrids = parent.querySelectorAll('.project-grid');
+                    projectGrids.forEach(grid => {
+                        grid.style.display = '';
+                    });
+                    parent.querySelector('.more-footer').style.display = '';
+                    parent.querySelector('.section-intro').style.display = '';
+                } else {
+                    // 恢复其他页面的列表
+                    const list = parent.querySelector('ul, .knowledge-grid, .timeline');
+                    if (list) {
+                        list.style.display = '';
+                    }
                 }
             });
             container.prepend(backButton);
+            
+            // 为Markdown中的链接绑定事件
+            const markdownLinks = container.querySelectorAll('a');
+            markdownLinks.forEach(link => {
+                // 为外部链接添加target="_blank"
+                if (link.href && link.href.startsWith('http')) {
+                    link.setAttribute('target', '_blank');
+                    link.setAttribute('rel', 'noopener noreferrer');
+                }
+            });
+            
+            // 查找新的Markdown链接并绑定事件
+            bindMdLinks();
+            
+            // 绑定新的折叠项
+            bindCollapsibles();
+            
+            // 滚动到顶部
+            container.scrollIntoView({ behavior: 'smooth' });
         })
         .catch(error => {
             console.error('加载Markdown失败:', error);
-            container.innerHTML = '<p class="error">无法加载内容，请稍后再试。</p>';
+            container.innerHTML = '<p class="error">无法加载内容，请稍后再试。</p><p class="error-details">错误信息: ' + error.message + '</p><p>路径: ' + path + '</p>';
+            container.style.display = 'block';
+            
+            // 添加返回按钮
+            const backButton = document.createElement('button');
+            backButton.textContent = '返回列表';
+            backButton.className = 'back-button';
+            backButton.addEventListener('click', function() {
+                container.style.display = 'none';
+                container.innerHTML = '';
+                
+                // 恢复"更多"页面的项目卡片
+                const parent = container.closest('section');
+                if (parent.id === 'more') {
+                    const projectGrids = parent.querySelectorAll('.project-grid');
+                    projectGrids.forEach(grid => {
+                        grid.style.display = '';
+                    });
+                    parent.querySelector('.more-footer').style.display = '';
+                    parent.querySelector('.section-intro').style.display = '';
+                } else {
+                    // 恢复其他页面的列表
+                    const list = parent.querySelector('ul, .knowledge-grid, .timeline');
+                    if (list) {
+                        list.style.display = '';
+                    }
+                }
+            });
+            container.prepend(backButton);
         });
 }
 
@@ -338,4 +375,63 @@ function performSearch(query) {
     
     // 显示搜索结果页面
     showPage('search-results');
+}
+
+// 绑定Markdown链接点击事件
+function bindMdLinks() {
+    const mdLinks = document.querySelectorAll('.md-link');
+    console.log('找到', mdLinks.length, '个Markdown链接');
+    mdLinks.forEach(link => {
+        if (!link.hasAttribute('data-bound')) {
+            const mdPath = link.getAttribute('data-md');
+            console.log('绑定链接:', link.textContent, '-> 文件路径:', mdPath);
+            link.setAttribute('data-bound', 'true');
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const mdPath = this.getAttribute('data-md');
+                console.log('点击链接:', this.textContent, '正在加载文件:', mdPath);
+                
+                // 如果链接在折叠内容中，确保所有父级折叠都展开
+                expandParentAccordions(this);
+                
+                loadMarkdown(mdPath, this.closest('section').querySelector('.markdown-container'));
+            });
+        }
+    });
+}
+
+// 绑定手风琴折叠效果
+function bindCollapsibles() {
+    const collapsibles = document.querySelectorAll('.collapsible');
+    collapsibles.forEach(item => {
+        if (!item.hasAttribute('data-bound')) {
+            item.setAttribute('data-bound', 'true');
+            item.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation(); // 阻止事件冒泡
+                
+                this.classList.toggle('active');
+                const content = this.nextElementSibling;
+                
+                // 添加show类来显示内容
+                content.classList.toggle('show');
+                
+                // 对于已展开的内容，需要重新计算所有父级的maxHeight
+                if (content.classList.contains('show')) {
+                    // 设置当前内容的maxHeight
+                    content.style.maxHeight = content.scrollHeight + "px";
+                    
+                    // 更新所有父级的maxHeight
+                    let parent = content.parentElement;
+                    while (parent && parent.classList.contains('content')) {
+                        // 更新父级的maxHeight，考虑所有子内容的高度
+                        parent.style.maxHeight = parent.scrollHeight + content.scrollHeight + "px";
+                        parent = parent.parentElement;
+                    }
+                } else {
+                    content.style.maxHeight = null;
+                }
+            });
+        }
+    });
 } 
