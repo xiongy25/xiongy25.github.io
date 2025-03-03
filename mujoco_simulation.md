@@ -1,11 +1,16 @@
-# 🏋️ mujoco仿真
+# MuJoCo 仿真环境与工具
 
-1. 🏋️ [LearningHumanoidWalking:使用强化学习训练人形机器人进行运动](https://github.com/rohanpsingh/LearningHumanoidWalking)
-2. 🚶 [stable-humanoid:基于模型预测控制（MPC）的人形机器人稳定行走控制器](https://github.com/ouazzmoh/stable-humanoid)
-3. 🤖 [RoboHive:机器人学习的统一框架](https://github.com/vikashplus/robohive)
-4. 💪 [LucidSim：从生成的图像中学习视觉跑酷](https://github.com/lucidsim/lucidsim)
-5. 🦿 [HumanoidBench：用于全身运动和操控的模拟人形基准](https://github.com/carlosferrazza/humanoid-bench)
-   ![image](https://github.com/user-attachments/assets/4e5a1a4f-0866-4a59-a2d1-4f58e1e092fe)
+## 基础仿真平台
 
-7. 🏃 [LocoMuJoCo:模仿学习基准，专注于使用 MuJoCo 执行复杂的运动任务](https://github.com/robfiras/loco-mujoco)
-   ![image](https://github.com/user-attachments/assets/ab7f7897-3be1-4633-be18-6a0182ea1f96)
+- [LearningHumanoidWalking](https://github.com/rohanpsingh/LearningHumanoidWalking) - 使用强化学习训练人形机器人进行运动
+- [stable-humanoid](https://github.com/ouazzmoh/stable-humanoid) - 基于模型预测控制（MPC）的人形机器人稳定行走控制器
+- [RoboHive](https://github.com/vikashplus/robohive) - 机器人学习的统一框架
+- [LucidSim](https://github.com/lucidsim/luc) - 从生成的图像中学习视觉跑酷
+- [MuJoCo Playground](https://playground.mujoco.org/) - 用于 GPU 加速机器人学习和模拟到现实转换的开源库
+- [LocoMuJoCo](https://github.com/robfiras/loco-mujoco) - 模仿学习基准，专注于使用 MuJoCo 执行复杂的运动任务
+
+## 高级仿真工具
+
+- [skrl](https://github.com/Toni-SM/skrl) - 模块化强化学习库
+- [ManiSkill](https://github.com/haosulab/ManiSkill) - 高性能 GPU 并行化机器人模拟器
+- [robosuite](https://github.com/ARISE-Initiative/robosuite) - 机器人学习的模块化模拟框架和基准

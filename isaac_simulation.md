@@ -1,15 +1,18 @@
-# 🖥️ isaac仿真
+# Isaac 仿真环境与工具
 
-1. 🤖 [New BCR Robot:带有差速驱动、深度摄像头、IMU和2D LiDAR的Gazebo-ROS AMR机器人](https://github.com/blackcoffeerobotics/bcr_bot)
-2. 🧪 [Garmentlab：服装仿真的统一模拟和基准](https://github.com/GarmentLab/GarmentLab)
-3. 🦾 [ur5_isaac_simulation](https://github.com/caiobarrosv/ur5_isaac_simulation?tab=readme-ov-file)
-4. 🤖 [使用NVIDIA Isaac Sim同时模拟和控制两个UR臂](https://github.com/MetaToolEU/MT_Isaac_sim)
-5. 🦾 [将 Flexiv 机器人添加到 Isaac Sim](https://github.com/flexivrobotics/isaac_sim_ws.git)
-6. 🖥️ [OmniGibson:基于isaacSim的模拟平台](https://behavior.stanford.edu/omnigibson/index.html)
-7. 🔧 [Isaac Sim的Foxglove 扩展](https://foxglove.dev/blog/technical-dive-into-the-foxglove-isaac-sim-extension)
-8. 🤖 [MQE：释放与多智能体四足动物环境交互的力量](https://ziyanx02.github.io/multiagent-quadruped-environment/)
-9. 🎮 [IsaacGymEnvs](https://github.com/isaac-sim/IsaacGymEnvs)
-10. 🎯 [Eureka：通过编写大型语言模型实现人类级别的奖励设计](https://eureka-research.github.io/)
-     ![image](https://github.com/user-attachments/assets/fabb3c43-bb6a-4d17-9302-3666c36caa86)
-11. 🚶 [HumanUP：仿真到现实的人形机器人起身策略学习！](https://humanoid-getup.github.io/)
-   ![image](https://github.com/user-attachments/assets/9a33a2ef-e95f-4881-8ebc-802669a33565)
+## 基础仿真平台
+
+- [BCR Robot](https://github.com/blackcoffeerobotics/bcr_bot) - 带有差速驱动、深度摄像头、IMU和2D LiDAR的Gazebo-ROS AMR机器人
+- [Garmentlab](https://github.com/GarmentLab/GarmentLab) - 服装仿真的统一模拟和基准
+- [UR5 Isaac 仿真](https://github.com/caiobarrosv/ur5_isaac_simulation) - UR5机器人在Isaac环境中的仿真
+- [双UR臂仿真](https://github.com/MetaToolEU/MT_Isaac_sim) - 使用NVIDIA Isaac Sim同时模拟和控制两个UR臂
+- [Unitree Go2 仿真平台](https://github.com/Zhefan-Xu/isaac-go2-ros2) - 用于测试导航、决策和自主任务的模拟平台
+- [HumanUP](https://humanoid-getup.github.io/) - 仿真到现实的人形机器人起身策略学习
+
+## 高级仿真工具与框架
+
+- [Cosmos](https://github.com/NVIDIA/Cosmos.git) - 世界模型开发平台
+- [SplatSim](https://splatsim.github.io/) - 使用高斯分层进行 RGB 操作策略的零样本 Sim2Real 迁移
+- [Eurekaverse](https://github.com/eureka-research/eurekaverse) - 通过大型语言模型生成环境课程
+- [walk-these-ways](https://github.com/Improbable-AI/walk-these-ways.git) - Unitree Go1 机器人的模拟到现实 RL 训练和部署工具
+- [Simulately](https://github.com/geng-haoran/Simulately) - 一个收集物理模拟器有用信息的网站
