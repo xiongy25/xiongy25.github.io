@@ -26,6 +26,7 @@
 - [InterMimic](https://sirui-xu.github.io/InterMimic/) - 面向基于物理的人与物体交互的通用全身控制
 - [Exbody2](https://exbody2.github.io/) - 高级富有表现力的人形全身控制
 - [recipe](https://toruowo.github.io/recipe/) - 基于视觉的人形机器人灵巧操作的 模拟到现实强化学习
+- [HumanUP](https://humanoid-getup.github.io/) - 学习现实世界人形机器人的起身策略
 
 ## 多智能体系统
 
@@ -52,3 +53,4 @@
 - [PHC](https://github.com/ZhengyiLuo/PHC) - 一种基于物理的人形控制器
 - [SplatSim](https://splatsim.github.io/) - 使用高斯分层进行 RGB 操作策略的零样本 Sim2Real 移
 - [ManiSkill](https://github.com/haosulab/ManiSkill) - 高性能 GPU 并行化机器人模拟器
+- [基于视觉的人形机器人灵巧操作的模拟到现实强化学习](https://toruowo.github.io/recipe/) - 
