@@ -39,7 +39,7 @@
 
 1. 🤖 [通过Isaac Sim 实现机械臂的Sim2Real](https://github.com/xiongy25/arm_isaac_sim2real.git)
 2. 🦿 [使用强化学习实现轮足机器人的运动控制]
-3. 🐕 [开源spotmicro机器狗复现及改进]
+3. 🐕 [机器狗强化学习运动控制](https://github.com/xiongy25/vmware_devq.git)
 4. 🦾 [lerobot机械臂项目](https://github.com/xiongy25/so_arm100_write.git)
 
 ### 🔧 工具类
