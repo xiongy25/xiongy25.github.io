@@ -13,3 +13,5 @@
 - ⚡ [Eko:使用自然语言构建可用于生产的代理工作流程](https://github.com/FellouAI/eko?tab=readme-ov-file)
   ![image](https://github.com/user-attachments/assets/01590087-a6f7-40e1-befa-822eee71e8f0)
 - 👁️ [OmniParser：基于纯视觉的 GUI 代理的屏幕解析工具](https://github.com/microsoft/OmniParser.git)
+- [Mobile-Agent:强大的移动设备操作助手家族](https://github.com/X-PLUG/MobileAgent.git)
+
