@@ -28,6 +28,7 @@
 - [Exbody2](https://exbody2.github.io/) - 高级富有表现力的人形全身控制
 - [recipe](https://toruowo.github.io/recipe/) - 基于视觉的人形机器人灵巧操作的 模拟到现实强化学习
 - [HumanUP](https://humanoid-getup.github.io/) - 学习现实世界人形机器人的起身策略
+- [GRUtopia](https://github.com/OpenRobotLab/GRUtopia.git) - 梦想中的城市通用机器人
 
 ## 多智能体系统
 
