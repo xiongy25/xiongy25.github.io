@@ -10,6 +10,7 @@
 - [RAI](https://github.com/RobotecAI/rai?tab=readme-ov-file#simulation-demos) - 一个用于机器人的多供应商代理框架
 - [ROSA](https://github.com/nasa-jpl/rosa) - ROS1 和 ROS2 系统的 AI 助手
 - [robosuite](https://github.com/ARISE-Initiative/robosuite) - 机器人学习的模块化模拟框架和基准
+- [DEMO](https://adrialopezescoriza.github.io/demo3/) - 具有演示增强奖励、策略和世界模型学习的多阶段操控
 
 ## 动作生成与控制
 
