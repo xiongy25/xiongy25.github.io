@@ -28,3 +28,4 @@
 - [Spot ROS](https://github.com/heuristicus/spot_ros.git) - 用于控制波士顿动力公司 Spot 机器人的 ROS 驱动程序
 - [Spot ROS 2](https://github.com/bdaiinstitute/spot_ros2.git) - 用于与 Boston Dynamics 的 Spot 交互的 ROS 2 软件包，基于ROS 1 等效软件包
 - [离散时间混合自动机学习：腿部运动与滑板运动的结合](https://umich-curly.github.io/DHAL/) - 使用基于策略的强化学习来识别和执行模式切换的框架，无需轨迹分割或事件函数学习
+- [DimOS-Unitree](https://github.com/dimensionalOS/dimos-unitree.git) - 将DimOS与Unitree Go2四足机器人进行集成，使开箱即用的AI代理能够直接调用来自ROS（机器人操作系统）的工具、函数，并读取传感器和状态数据
