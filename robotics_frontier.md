@@ -56,3 +56,7 @@
 - [SplatSim](https://splatsim.github.io/) - 使用高斯分层进行 RGB 操作策略的零样本 Sim2Real 移
 - [ManiSkill](https://github.com/haosulab/ManiSkill) - 高性能 GPU 并行化机器人模拟器
 - [基于视觉的人形机器人灵巧操作的模拟到现实强化学习](https://toruowo.github.io/recipe/) - 
+
+## 开源数据集
+
+- [Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T.git) - NVIDIA Isaac GR00T N1 是世界上第一个用于通用人形机器人推理和技能的开放基础模型

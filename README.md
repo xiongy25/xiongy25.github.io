@@ -85,6 +85,10 @@
 
 - 🦾 [轮足机器人项目汇总](wheel_legged_robots.md)
 
+#### 🏋️ 灵巧手
+
+- [灵巧手项目汇总](dexterous_hands.md)
+
 #### 🏋️ mujoco仿真
 
 - 🏋️ [mujoco仿真项目汇总](mujoco_simulation.md)

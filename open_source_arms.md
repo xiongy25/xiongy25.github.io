@@ -16,6 +16,7 @@
 - [ROS2 SO-ARM100](https://github.com/JafarAbdi/ros2_so_arm100) - 使用moveit进行运动规划
 - [simpleautomation](https://github.com/1g0rrr/simpleautomation) - 使用多个ACT模型来解决复杂的机器人任务
 - [dot_policy](https://github.com/IliaLarchenko/dot_policy?tab=readme-ov-file) - Decoder Only Transformer Policy for Behavior Cloning
+- [bambot](https://github.com/timqian/bambot.git) - 低成本（约 300 美元）人形机器人🌱
 
 ## 教育资源
 
