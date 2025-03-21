@@ -14,4 +14,4 @@
   ![image](https://github.com/user-attachments/assets/01590087-a6f7-40e1-befa-822eee71e8f0)
 - 👁️ [OmniParser：基于纯视觉的 GUI 代理的屏幕解析工具](https://github.com/microsoft/OmniParser.git)
 - [Mobile-Agent:强大的移动设备操作助手家族](https://github.com/X-PLUG/MobileAgent.git)
-
+- [Second-Me](https://github.com/mindverse/Second-Me.git) - 利用你的记忆训练你的 AI，学习你的思考方式、记住你的重要信息、代表你与他人/应用互动，你可以让它代表你回复邮件、参与在线讨论等

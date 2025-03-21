@@ -6,4 +6,4 @@
 - [Magic Component Platform](https://github.com/21st-dev/magic-mcp.git) - 帮助开发人员通过自然语言描述即时创建美观、现代的 UI 组件
 - [robot-mcp-server](https://github.com/showkeyjar/robot-mcp-server.git) - 为大语言模型提供机器人控制能力的MCP服务器
 - [unity-mcp](https://github.com/justinpbarnett/unity-mcp.git) - 允许与 Claude Desktop 等客户端进行通信的 Unity MCP 服务器
-    
+- [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers.git) - A collection of MCP servers
