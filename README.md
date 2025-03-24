@@ -8,11 +8,30 @@
 - 🤖 [人形机器人步态控制算法详解](article/article4.md) - 2024年10月15日
 - 📊 [双舵机位置反馈控制系统](article/article5.md) - 2024年11月10日
 - 💻 [使用ESP32通过I2C接口读取AS5600磁编码器数据](article/article6.md) - 2024年11月16日
-- 🚶 [对话苏格拉底：人形机器人与零力矩点（ZMP）理论](article/zmp.md) - 2024年1月26日
-- 🧠 [对话苏格拉底：人形机器人与强化学习](article/rl.md) - 2024年1月26日
-- 💪 [对话苏格拉底：人形机器人与全身控制（Whole Body Control）](article/wbc.md) - 2024年1月27日
-- 🎯 [对话苏格拉底：人形机器人与模型预测控制（MPC）](article/mpc.md) - 2024年1月27日
-- 🤖 [对话苏格拉底：其他人形机器人运动控制算法](article/robot_control_algorithms.md) - 2024年1月27日
+- 🐍 [Python修仙传：第一章_入门修行](article/python_cultivation_tale/第一章_入门修行.md) - 2024年5月21日
+- 🐍 [Python修仙传：第二章_条件与循环之道](article/python_cultivation_tale/第二章_条件与循环之道.md) - 2024年5月22日
+- 🐍 [Python修仙传：第三章_函数秘术](article/python_cultivation_tale/第三章_函数秘术.md) - 2024年5月23日
+- 🐍 [Python修仙传：第四章_列表与字典修炼](article/python_cultivation_tale/第四章_列表与字典修炼.md) - 2024年5月24日
+- 🐍 [Python修仙传：第五章_文件操作秘法](article/python_cultivation_tale/第五章_文件操作秘法.md) - 2024年5月25日
+- 🐍 [Python修仙传：第六章_异常处理护身术](article/python_cultivation_tale/第六章_异常处理护身术.md) - 2024年5月26日
+- 🐍 [Python修仙传：第七章_模块与包的奥秘](article/python_cultivation_tale/第七章_模块与包的奥秘.md) - 2024年5月27日
+- 🐍 [Python修仙传：第八章_面向对象的修仙之道](article/python_cultivation_tale/第八章_面向对象的修仙之道.md) - 2024年5月28日
+- 🐍 [Python修仙传：第九章_迭代器与生成器心法](article/python_cultivation_tale/第九章_迭代器与生成器心法.md) - 2024年5月29日
+- 🐍 [Python修仙传：第十章_装饰器秘术](article/python_cultivation_tale/第十章_装饰器秘术.md) - 2024年5月30日
+- 🐍 [Python修仙传：第十一章_并发修炼法](article/python_cultivation_tale/第十一章_并发修炼法.md) - 2024年5月31日
+- 🐍 [Python修仙传：第十二章_虚拟环境与项目管理](article/python_cultivation_tale/第十二章_虚拟环境与项目管理.md) - 2024年6月1日
+- 🐍 [Python修仙传：第十三章_测试之道](article/python_cultivation_tale/第十三章_测试之道.md) - 2024年6月2日
+- 🐍 [Python修仙传：第十四章_正则表达式奇术](article/python_cultivation_tale/第十四章_正则表达式奇术.md) - 2024年6月3日
+- 🐍 [Python修仙传：第十五章_高阶函数与函数式编程](article/python_cultivation_tale/第十五章_高阶函数与函数式编程.md) - 2024年6月4日
+- 🐍 [Python修仙传：第十六章_魔法方法与运算符重载](article/python_cultivation_tale/第十六章_魔法方法与运算符重载.md) - 2024年6月5日
+- 🐍 [Python修仙传：第十七章_元编程与描述符](article/python_cultivation_tale/第十七章_元编程与描述符.md) - 2024年6月6日
+- 🐍 [Python修仙传：终章_修仙大会](article/python_cultivation_tale/终章_修仙大会.md) - 2024年6月10日
+- 🚶 [对话苏格拉底：人形机器人与零力矩点（ZMP）理论](article/zmp.md) - 2025年1月26日
+- 🧠 [对话苏格拉底：人形机器人与强化学习](article/rl.md) - 2025年1月26日
+- 💪 [对话苏格拉底：人形机器人与全身控制（Whole Body Control）](article/wbc.md) - 2025年1月27日
+- 🎯 [对话苏格拉底：人形机器人与模型预测控制（MPC）](article/mpc.md) - 2025年1月27日
+- 🤖 [对话苏格拉底：其他人形机器人运动控制算法](article/robot_control_algorithms.md) - 2025年1月27日
+
 
 
 ## 👤 关于我

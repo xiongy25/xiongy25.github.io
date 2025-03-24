@@ -9,3 +9,4 @@
 
 - [MinerU](https://github.com/opendatalab/MinerU/tree/master) - 一站式开源高质量数据提取工具，支持PDF/网页/多格式电子书提取
 - [MarkItDown](https://github.com/microsoft/markitdown) - 用于将各种文件转换为 Markdown 的实用工具 
+- [pdf-craft](https://github.com/oomol-lab/pdf-craft.git) - 可以将 PDF 文件转换为各种其他格式。本项目将专注于处理扫描书籍的 PDF 文件。
