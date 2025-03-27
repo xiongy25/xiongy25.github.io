@@ -14,3 +14,7 @@
 - [skrl](https://github.com/Toni-SM/skrl) - 模块化强化学习库
 - [ManiSkill](https://github.com/haosulab/ManiSkill) - 高性能 GPU 并行化机器人模拟器
 - [robosuite](https://github.com/ARISE-Initiative/robosuite) - 机器人学习的模块化模拟框架和基准
+
+## 模型库
+
+- [mujoco_menagerie](https://github.com/google-deepmind/mujoco_menagerie.git) - 这是一个由谷歌 DeepMind 精心挑选的 MuJoCo 物理引擎高质量模型集合

@@ -7,3 +7,4 @@
 - [robot-mcp-server](https://github.com/showkeyjar/robot-mcp-server.git) - 为大语言模型提供机器人控制能力的MCP服务器
 - [unity-mcp](https://github.com/justinpbarnett/unity-mcp.git) - 允许与 Claude Desktop 等客户端进行通信的 Unity MCP 服务器
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers.git) - A collection of MCP servers
+- [Zapier的MCP服务](https://zapier.com/mcp) - 让你的AI助手一下直接具备了与8000个应用交互，具备30000个现成工作流的能力

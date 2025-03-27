@@ -7,6 +7,7 @@
 - [lerobot机械臂](https://github.com/huggingface/lerobot) - HuggingFace开源机械臂
 - [RoboManipBaselines](https://github.com/isri-aist/RoboManipBaselines) - 集成各种模仿学习方法和基准任务环境的软件，为机器人操作提供基线
 - [UR5 拾取和放置模拟](https://github.com/pietrolechthaler/UR5-Pick-and-Place-Simulation) - Ros/Gazebo 中的 UR5 拾取和放置模拟
+- [双手操作模仿学习算法的比较](https://bimanual-imitation.github.io/) - 论文《双臂操作模仿学习算法的比较》（Drolet 等人，2024 年）的代码
 
 ## lerobot相关工具
 
