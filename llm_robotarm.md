@@ -10,6 +10,7 @@
 - [RAI](https://github.com/RobotecAI/rai) - 一个用于机器人的多供应商代理框架
 - [VLABench](https://github.com/OpenMOSS/VLABench) - 具有长期推理任务的语言条件机器人操作的大规模基准
 - [RoCo](https://github.com/MandiZhao/robot-collab.git) - 具有大型语言模型的辩证多机器人协作
+- [RoboFactory](https://iranqin.github.io/robofactory/) - 探索具有组合约束的具身代理协作
 
 ## 人机交互与操作
 

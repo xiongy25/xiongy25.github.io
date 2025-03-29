@@ -18,6 +18,7 @@
 - [simpleautomation](https://github.com/1g0rrr/simpleautomation) - 使用多个ACT模型来解决复杂的机器人任务
 - [dot_policy](https://github.com/IliaLarchenko/dot_policy?tab=readme-ov-file) - Decoder Only Transformer Policy for Behavior Cloning
 - [bambot](https://github.com/timqian/bambot.git) - 低成本（约 300 美元）人形机器人🌱
+- [LeRobotDepot](https://github.com/maximilienroberti/lerobotdepot.git) - 一个由社区驱动的仓库，列出了与 LeRobot 库兼容的开源硬件、组件和 3D 打印项目
 
 ## 教育资源
 
