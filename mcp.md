@@ -8,3 +8,5 @@
 - [unity-mcp](https://github.com/justinpbarnett/unity-mcp.git) - 允许与 Claude Desktop 等客户端进行通信的 Unity MCP 服务器
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers.git) - A collection of MCP servers
 - [Zapier的MCP服务](https://zapier.com/mcp) - 让你的AI助手一下直接具备了与8000个应用交互，具备30000个现成工作流的能力
+- [MCP-Chinese-Getting-Started-Guide](https://github.com/liaokongVFX/MCP-Chinese-Getting-Started-Guide.git) - Model Context Protocol(MCP) 编程极速入门
+- [ArXiv MCP Server](https://github.com/blazickjp/arxiv-mcp-server.git)- 用于搜索和分析 arXiv 论文的模型上下文协议服务器

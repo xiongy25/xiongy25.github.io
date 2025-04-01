@@ -31,6 +31,7 @@
 - [GRUtopia](https://github.com/OpenRobotLab/GRUtopia.git) - 梦想中的城市通用机器人
 - [Humanoid Policy](https://github.com/RogerQi/human-policy.git) - 使用头戴摄像头捕捉数据然后用于训练机器人
 - [Puffer PHC](https://github.com/kywch/puffer-phc.git) - 简化版 Pufferlib、CARBS 的永久性人形控制
+- [FLAM](https://xianqi-zhang.github.io/FLAM/) - 基于基础模型的人形机器人步态和操作稳定化
 
 ## 多智能体系统
 
