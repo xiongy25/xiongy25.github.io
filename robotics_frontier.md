@@ -32,6 +32,9 @@
 - [Humanoid Policy](https://github.com/RogerQi/human-policy.git) - 使用头戴摄像头捕捉数据然后用于训练机器人
 - [Puffer PHC](https://github.com/kywch/puffer-phc.git) - 简化版 Pufferlib、CARBS 的永久性人形控制
 - [FLAM](https://xianqi-zhang.github.io/FLAM/) - 基于基础模型的人形机器人步态和操作稳定化
+- [TokenHSI](https://github.com/liangpan99/TokenHSI.git) - 通过任务标记化统一合成物理的人景交互
+  ![image](https://github.com/user-attachments/assets/ba2fc3a5-2b0a-4ef3-8a90-54466bffcf43)
+
 
 ## 多智能体系统
 
