@@ -5,3 +5,5 @@
 - [一款地成本的开源灵巧手](https://www.808robots.com/projects/dexhand?page=1)
 - [ManipTrans: 通过残差学习实现高效灵巧双手操作转移](https://github.com/ManipTrans/ManipTrans.git)
 - [基于视觉的人形机器人灵巧操作的模拟到现实强化学习](https://toruowo.github.io/recipe/) - 
+- [Dex Retargeting:各种重定向优化器，将人类手部动作转换为机器人手部动作](https://github.com/dexsuite/dex-retargeting.git)
+- [liberhand:实现了在RVIZ2中展示手部动作](https://github.com/PPML-Group/liberhand.git)
