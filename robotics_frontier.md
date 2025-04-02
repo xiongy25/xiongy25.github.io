@@ -58,7 +58,6 @@
 - [PHC](https://github.com/ZhengyiLuo/PHC) - 一种基于物理的人形控制器
 - [SplatSim](https://splatsim.github.io/) - 使用高斯分层进行 RGB 操作策略的零样本 Sim2Real 移
 - [ManiSkill](https://github.com/haosulab/ManiSkill) - 高性能 GPU 并行化机器人模拟器
-- [基于视觉的人形机器人灵巧操作的模拟到现实强化学习](https://toruowo.github.io/recipe/) - 
 - [机器人周报精选] (https://github.com/msadowski/awesome-weekly-robotics.git) - 
 
 ## 开源数据集
