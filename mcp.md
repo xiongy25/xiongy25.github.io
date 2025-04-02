@@ -10,3 +10,4 @@
 - [Zapier的MCP服务](https://zapier.com/mcp) - 让你的AI助手一下直接具备了与8000个应用交互，具备30000个现成工作流的能力
 - [MCP-Chinese-Getting-Started-Guide](https://github.com/liaokongVFX/MCP-Chinese-Getting-Started-Guide.git) - Model Context Protocol(MCP) 编程极速入门
 - [ArXiv MCP Server](https://github.com/blazickjp/arxiv-mcp-server.git)- 用于搜索和分析 arXiv 论文的模型上下文协议服务器
+- [Tripo3D MCP](https://github.com/VAST-AI-Research/tripo-mcp.git) - 官方的 MCP 服务器 for Tripo
