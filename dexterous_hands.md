@@ -7,3 +7,4 @@
 - [基于视觉的人形机器人灵巧操作的模拟到现实强化学习](https://toruowo.github.io/recipe/) - 
 - [Dex Retargeting:各种重定向优化器，将人类手部动作转换为机器人手部动作](https://github.com/dexsuite/dex-retargeting.git)
 - [liberhand:实现了在RVIZ2中展示手部动作](https://github.com/PPML-Group/liberhand.git)
+- [DexTrack:面向基于人类参考的灵巧操作的通用神经跟踪控制](https://meowuu7.github.io/DexTrack/)
