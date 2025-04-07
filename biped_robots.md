@@ -17,6 +17,7 @@
   - [isaaclab仿真](https://github.com/MankaranSingh/IsaacLab/tree/eye-candy) - Open Duck Mini的IsaacLab仿真环境
 - [Tinker](https://github.com/Yuexuan9/Tinker) - 国内开源的迪士尼 BDX 机器人
 - [Disney BD-X USD Description](https://github.com/louislelay/Disney-BDX-USD-Description.git)
+- [bdx_walk_rl](https://github.com/benoit-robotics/bdx_walk_rl.git)
 
 ## 3. 其他双足机器人项目
 
