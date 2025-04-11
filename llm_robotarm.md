@@ -30,3 +30,4 @@
 - [GVHMR](https://github.com/zju3dv/GVHMR) - 从普通视频中还原出人物真实3D动作
 - [Body Transformer](https://github.com/carlosferrazza/BodyTransformer) - 利用机器人化身进行策略学习
 - [CLoSD](https://github.com/GuyTevet/CLoSD) - 通过结合文本驱动的扩散生成和强化学习实现人物动作的生成和执行
+- [Unified World Models](https://weirdlabuw.github.io/uwm/) - 结合视频和动作扩散在大型机器人数据集上的预训练
