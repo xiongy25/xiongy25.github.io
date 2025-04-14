@@ -12,3 +12,4 @@
 - [ArXiv MCP Server](https://github.com/blazickjp/arxiv-mcp-server.git)- 用于搜索和分析 arXiv 论文的模型上下文协议服务器
 - [Tripo3D MCP](https://github.com/VAST-AI-Research/tripo-mcp.git) - 官方的 MCP 服务器 for Tripo
 - [百度地图 MCP Server](https://github.com/baidu-maps/mcp.git)
+- [mcp-use](https://github.com/mcp-use/mcp-use.git) - 6行代码即可创建你的第一个支持MCP的智能体：mcp-use，LLM与工具链接，让LLM变成可以执行操作的智能体
