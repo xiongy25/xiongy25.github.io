@@ -12,4 +12,5 @@
 4. [多AI聊天室](https://github.com/maojindao55/botgroup.chat.git)
 5. [WeChatFerry:微信机器人，可接入DeepSeek、Gemini、ChatGPT、ChatGLM、讯飞星火、Tigerbot等大模型](https://github.com/lich0821/WeChatFerry.git)
 6. [Coze-on-Wechat](https://github.com/JC0v0/Coze-on-Wechat.git) - 对接 Coze 平台开发的微信智能助手，支持大部分 Coze Bot 功能，文本回复，语音回复，发送链接，图片等等
+7. [🐬DeepChat](https://github.com/ThinkInAIXYZ/deepchat.git) - 连接强大AI与个人世界的智能助手
 
