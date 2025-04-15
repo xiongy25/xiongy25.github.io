@@ -12,6 +12,7 @@
 - [robosuite](https://github.com/ARISE-Initiative/robosuite) - 机器人学习的模块化模拟框架和基准
 - [DEMO](https://adrialopezescoriza.github.io/demo3/) - 具有演示增强奖励、策略和世界模型学习的多阶段操控
 - [RoboVerse](https://github.com/RoboVerseOrg/RoboVerse.git) - 迈向统一的平台、数据集和基准，用于可扩展和通用的机器人学习
+- [RoboManipBaselines](https://github.com/isri-aist/RoboManipBaselines.git) - 集成各种模仿学习方法和基准任务环境的软件，为机器人操作提供基准
 
 ## 动作生成与控制
 
