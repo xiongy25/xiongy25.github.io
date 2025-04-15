@@ -19,6 +19,7 @@
 - [dot_policy](https://github.com/IliaLarchenko/dot_policy?tab=readme-ov-file) - Decoder Only Transformer Policy for Behavior Cloning
 - [bambot](https://github.com/timqian/bambot.git) - 低成本（约 300 美元）人形机器人🌱
 - [LeRobotDepot](https://github.com/maximilienroberti/lerobotdepot.git) - 一个由社区驱动的仓库，列出了与 LeRobot 库兼容的开源硬件、组件和 3D 打印项目
+- [一个基于 Web 的 so-arm100 游乐场。它允许用户通过网站和键盘直接控制真实的和模拟的 so-arm100](https://so-arm100.bambot.org/) - 
 
 ## 教育资源
 
