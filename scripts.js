@@ -135,22 +135,26 @@ function loadMarkdown(path, container) {
             
             // 处理"更多"页面的显示逻辑已在bindMdLinks中处理，这里不再重复
             
-            // 添加返回按钮 - 统一处理返回逻辑
+            // 添加返回按钮
             const backButton = document.createElement('button');
             backButton.textContent = '返回列表';
             backButton.className = 'back-button';
             backButton.addEventListener('click', function() {
-                // 隐藏容器
                 container.style.display = 'none';
                 container.innerHTML = '';
                 
-                // 根据不同区域显示原始内容
+                // 恢复"更多"页面的项目卡片
+                const parent = container.closest('section');
                 if (parent.id === 'more') {
-                    // 恢复"更多"页面的项目卡片
                     const projectGrids = parent.querySelectorAll('.project-grid');
                     projectGrids.forEach(grid => {
                         grid.style.display = '';
                     });
+                    
+                    // 恢复所有标题元素显示
+                    const categoryTitles = parent.querySelectorAll('.project-category h3');
+                    categoryTitles.forEach(title => title.style.display = '');
+                    
                     if (parent.querySelector('.more-footer')) {
                         parent.querySelector('.more-footer').style.display = '';
                     }
@@ -206,6 +210,11 @@ function loadMarkdown(path, container) {
                     projectGrids.forEach(grid => {
                         grid.style.display = '';
                     });
+                    
+                    // 恢复所有标题元素显示
+                    const categoryTitles = parent.querySelectorAll('.project-category h3');
+                    categoryTitles.forEach(title => title.style.display = '');
+                    
                     if (parent.querySelector('.more-footer')) {
                         parent.querySelector('.more-footer').style.display = '';
                     }
@@ -421,6 +430,10 @@ function bindMdLinks() {
                         const projectGrids = section.querySelectorAll('.project-grid');
                         projectGrids.forEach(grid => grid.style.display = 'none');
                         
+                        // 隐藏所有标题元素
+                        const categoryTitles = section.querySelectorAll('.project-category h3');
+                        categoryTitles.forEach(title => title.style.display = 'none');
+                        
                         // 隐藏页脚和介绍文字
                         if (section.querySelector('.more-footer')) {
                             section.querySelector('.more-footer').style.display = 'none';
@@ -441,6 +454,10 @@ function bindMdLinks() {
                                 
                                 // 显示项目卡片部分
                                 projectGrids.forEach(grid => grid.style.display = '');
+                                
+                                // 恢复所有标题元素显示
+                                const categoryTitles = section.querySelectorAll('.project-category h3');
+                                categoryTitles.forEach(title => title.style.display = '');
                                 
                                 // 显示页脚和介绍文字
                                 if (section.querySelector('.more-footer')) {
