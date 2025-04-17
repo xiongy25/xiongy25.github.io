@@ -143,9 +143,9 @@ function loadMarkdown(path, container) {
                 container.style.display = 'none';
                 container.innerHTML = '';
                 
-                // 恢复"更多"页面的项目卡片
-                const parent = container.closest('section');
+                // 根据不同区域显示原始内容
                 if (parent.id === 'more') {
+                    // 恢复"更多"页面的项目卡片
                     const projectGrids = parent.querySelectorAll('.project-grid');
                     projectGrids.forEach(grid => {
                         grid.style.display = '';
@@ -161,7 +161,15 @@ function loadMarkdown(path, container) {
                     if (parent.querySelector('.section-intro')) {
                         parent.querySelector('.section-intro').style.display = '';
                     }
-                } else {
+                } 
+                // 处理博客页面
+                else if (parent.id === 'blog') {
+                    const articleList = parent.querySelector('#article-list');
+                    if (articleList) {
+                        articleList.style.display = '';
+                    }
+                }
+                else {
                     // 恢复其他页面的列表
                     const list = parent.querySelector('ul, .knowledge-grid, .timeline');
                     if (list) {
@@ -203,9 +211,10 @@ function loadMarkdown(path, container) {
                 container.style.display = 'none';
                 container.innerHTML = '';
                 
-                // 恢复"更多"页面的项目卡片
+                // 根据不同区域显示原始内容
                 const parent = container.closest('section');
                 if (parent.id === 'more') {
+                    // 恢复"更多"页面的项目卡片
                     const projectGrids = parent.querySelectorAll('.project-grid');
                     projectGrids.forEach(grid => {
                         grid.style.display = '';
@@ -221,7 +230,15 @@ function loadMarkdown(path, container) {
                     if (parent.querySelector('.section-intro')) {
                         parent.querySelector('.section-intro').style.display = '';
                     }
-                } else {
+                } 
+                // 处理博客页面
+                else if (parent.id === 'blog') {
+                    const articleList = parent.querySelector('#article-list');
+                    if (articleList) {
+                        articleList.style.display = '';
+                    }
+                }
+                else {
                     // 恢复其他页面的列表
                     const list = parent.querySelector('ul, .knowledge-grid, .timeline');
                     if (list) {
@@ -465,6 +482,35 @@ function bindMdLinks() {
                                 }
                                 if (section.querySelector('.section-intro')) {
                                     section.querySelector('.section-intro').style.display = '';
+                                }
+                            });
+                            container.prepend(backButton);
+                        }
+                    }
+                    // 针对"博客"页面的特殊处理
+                    else if (section.id === 'blog') {
+                        // 先确保容器可见
+                        container.style.display = 'block';
+                        
+                        // 隐藏文章列表
+                        const articleList = section.querySelector('#article-list');
+                        if (articleList) {
+                            articleList.style.display = 'none';
+                        }
+                        
+                        // 确保返回按钮功能正常
+                        if (!container.querySelector('.back-button')) {
+                            const backButton = document.createElement('button');
+                            backButton.textContent = '返回文章列表';
+                            backButton.className = 'back-button';
+                            backButton.addEventListener('click', function() {
+                                // 隐藏容器
+                                container.style.display = 'none';
+                                container.innerHTML = '';
+                                
+                                // 显示文章列表
+                                if (articleList) {
+                                    articleList.style.display = '';
                                 }
                             });
                             container.prepend(backButton);
