@@ -27,6 +27,7 @@
 - [Legolas](https://github.com/daviddoo02/Legolas-an-open-source-biped) - 仿cassie的迷你机器人
 - [Unitree Robots强化学习方案](https://github.com/unitreerobotics/unitree_rl_gym) - Unitree机器人进行强化学习的全套方案
 - [动态腿部运动研究](https://github.com/hojae-io/ModelBasedFootstepPlanning-IROS2024) - 将基于模型的脚步规划与无模型强化学习相结合，实现动态腿部运动
+- [rl-deploy-ros-cpp](https://github.com/limxdynamics/rl-deploy-ros-cpp.git) - 在gazebo中使用训练出的RL模型控制机器人
 
 ## 4. 人形机器人控制与动作生成
 
