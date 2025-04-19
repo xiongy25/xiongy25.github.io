@@ -11,6 +11,7 @@
 - [VLABench](https://github.com/OpenMOSS/VLABench) - 具有长期推理任务的语言条件机器人操作的大规模基准
 - [RoCo](https://github.com/MandiZhao/robot-collab.git) - 具有大型语言模型的辩证多机器人协作
 - [RoboFactory](https://iranqin.github.io/robofactory/) - 探索具有组合约束的具身代理协作
+- [Human2Sim2Robot](https://github.com/tylerlum/human2sim2robot.git) - 通过单次人类演示，利用模拟到真实的强化学习跨越人机体现差距
 
 ## 人机交互与操作
 
