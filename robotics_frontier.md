@@ -24,14 +24,23 @@
 - [UH-1](https://usc-gvl.github.io/UH-1/) - 通过大量人体视频进行学习，实现通用人形姿势控制
 - [HOVER](https://hover-versatile-humanoid.github.io/) - 人形机器人的多功能神经全身控制器
 - [BeamDojo](https://why618188.github.io/beamdojo/) - 学习在稀疏立足点上进行敏捷的人形运动
+  ![image](https://github.com/user-attachments/assets/d51fc05b-bed4-4991-b582-087d0650a149)
 - [Embrace Collisions](https://project-instinct.github.io/) - 可部署的接触无关运动的人形阴影技术
+  ![image](https://github.com/user-attachments/assets/6588a8d0-c6f2-4f45-9a89-e0c31f14a2c4)
 - [OmniH2O](https://omni.human2humanoid.com/?login=from_csdn) - 通用灵巧的人机全身远程操作和学习
+  ![image](https://github.com/user-attachments/assets/c37972a8-e7a7-4cc0-9cec-eab0e1df0392)
 - [InterMimic](https://sirui-xu.github.io/InterMimic/) - 面向基于物理的人与物体交互的通用全身控制
+  ![image](https://github.com/user-attachments/assets/6162ae65-70c6-4b9a-993b-cc93de7562a1)
 - [Exbody2](https://exbody2.github.io/) - 高级富有表现力的人形全身控制
+  ![image](https://github.com/user-attachments/assets/8509d9a6-76dd-43f2-b8d5-79c94890dcb7)
 - [recipe](https://toruowo.github.io/recipe/) - 基于视觉的人形机器人灵巧操作的 模拟到现实强化学习
+  ![image](https://github.com/user-attachments/assets/6a94ec36-65f4-4ab1-9320-57638349712c)
 - [HumanUP](https://humanoid-getup.github.io/) - 学习现实世界人形机器人的起身策略
+  ![image](https://github.com/user-attachments/assets/d3afd420-14ca-4a4c-939e-3d0c771b5b50)
 - [GRUtopia](https://github.com/OpenRobotLab/GRUtopia.git) - 梦想中的城市通用机器人
+  ![image](https://github.com/user-attachments/assets/00a6d0fb-e1e8-4454-ab62-2c9f22d900e9)
 - [Humanoid Policy](https://github.com/RogerQi/human-policy.git) - 使用头戴摄像头捕捉数据然后用于训练机器人
+  ![image](https://github.com/user-attachments/assets/e144b627-e5bf-4e3d-9203-d2c5523cfa44)
 - [Puffer PHC](https://github.com/kywch/puffer-phc.git) - 简化版 Pufferlib、CARBS 的永久性人形控制
   ![image](https://github.com/user-attachments/assets/f81664bb-0058-4ef6-acc6-91638c9ec1c4)
 - [FLAM](https://xianqi-zhang.github.io/FLAM/) - 基于基础模型的人形机器人步态和操作稳定化
