@@ -3,6 +3,7 @@
 - [Playwright MCP Server](https://github.com/executeautomation/mcp-playwright.git) - 使 LLM 能够与网页交互、截取屏幕截图并在真实浏览器环境中执行 JavaScript
 - [BlenderMCP](https://github.com/ahujasid/blender-mcp.git) - BlenderMCP 通过模型上下文协议 (MCP) 将 Blender 连接到 Claude AI，使 Claude 能够直接与 Blender 交互并控制 Blender。这种集成可实现快速辅助 3D 建模、场景创建和操作。
 - [Cline Recursive Chain-of-Thought System](https://github.com/RPG-fan/Cline-Recursive-Chain-of-Thought-System-CRCT-.git) - 管理 VS Code 中大型 Cline 项目中的上下文、依赖关系和任务的框架
+- [mcp-blank](https://github.com/LearnPrompt/mcp-blank.git) - 一个MCP创作模板
 - [Magic Component Platform](https://github.com/21st-dev/magic-mcp.git) - 帮助开发人员通过自然语言描述即时创建美观、现代的 UI 组件
 - [robot-mcp-server](https://github.com/showkeyjar/robot-mcp-server.git) - 为大语言模型提供机器人控制能力的MCP服务器
 - [unity-mcp](https://github.com/justinpbarnett/unity-mcp.git) - 允许与 Claude Desktop 等客户端进行通信的 Unity MCP 服务器
