@@ -1,4 +1,4 @@
-# 机器人前沿技术
+![image](https://github.com/user-attachments/assets/2ccc2b65-a756-4b77-9a50-1ad231fe9f21)# 机器人前沿技术
 
 ## 机器人框架与工具
 
@@ -33,10 +33,13 @@
 - [GRUtopia](https://github.com/OpenRobotLab/GRUtopia.git) - 梦想中的城市通用机器人
 - [Humanoid Policy](https://github.com/RogerQi/human-policy.git) - 使用头戴摄像头捕捉数据然后用于训练机器人
 - [Puffer PHC](https://github.com/kywch/puffer-phc.git) - 简化版 Pufferlib、CARBS 的永久性人形控制
+  ![image](https://github.com/user-attachments/assets/f81664bb-0058-4ef6-acc6-91638c9ec1c4)
 - [FLAM](https://xianqi-zhang.github.io/FLAM/) - 基于基础模型的人形机器人步态和操作稳定化
+  ![image](https://github.com/user-attachments/assets/cfdffd2e-b7c8-478c-83b3-bb68e6fc74f8)
 - [TokenHSI](https://github.com/liangpan99/TokenHSI.git) - 通过任务标记化统一合成物理的人景交互
   ![image](https://github.com/user-attachments/assets/ba2fc3a5-2b0a-4ef3-8a90-54466bffcf43)
-
+- [UniPhys](https://wuyan01.github.io/uniphys-project/) - 具有扩散功能的统一规划器和控制器，可实现基于物理的灵活角色控制
+![image](https://github.com/user-attachments/assets/06475aeb-bf0c-4bfb-a43d-a278b4e98644)
 
 ## 多智能体系统
 
