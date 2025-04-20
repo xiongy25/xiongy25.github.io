@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/2ccc2b65-a756-4b77-9a50-1ad231fe9f21)# 机器人前沿技术
 
 ## 机器人框架与工具
 
@@ -48,7 +47,7 @@
 - [TokenHSI](https://github.com/liangpan99/TokenHSI.git) - 通过任务标记化统一合成物理的人景交互
   ![image](https://github.com/user-attachments/assets/ba2fc3a5-2b0a-4ef3-8a90-54466bffcf43)
 - [UniPhys](https://wuyan01.github.io/uniphys-project/) - 具有扩散功能的统一规划器和控制器，可实现基于物理的灵活角色控制
-![image](https://github.com/user-attachments/assets/06475aeb-bf0c-4bfb-a43d-a278b4e98644)
+  ![image](https://github.com/user-attachments/assets/06475aeb-bf0c-4bfb-a43d-a278b4e98644)
 
 ## 多智能体系统
 
