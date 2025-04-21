@@ -48,7 +48,10 @@
   ![image](https://github.com/user-attachments/assets/ba2fc3a5-2b0a-4ef3-8a90-54466bffcf43)
 - [UniPhys](https://wuyan01.github.io/uniphys-project/) - 具有扩散功能的统一规划器和控制器，可实现基于物理的灵活角色控制
   ![image](https://github.com/user-attachments/assets/06475aeb-bf0c-4bfb-a43d-a278b4e98644)
+- [HoST](https://github.com/OpenRobotLab/HoST.git) - 人形站立控制
+  ![image](https://github.com/user-attachments/assets/c0e412a3-4588-4509-a316-cd84c44035ce)
 
+  
 ## 多智能体系统
 
 - [CooHOI](https://github.com/Winston-Gu/CooHOI) - 通过操纵物体动力学学习人与物体的协同交互
