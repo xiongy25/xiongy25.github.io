@@ -16,5 +16,5 @@
 - [Mobile-Agent:强大的移动设备操作助手家族](https://github.com/X-PLUG/MobileAgent.git)
 - [Second-Me](https://github.com/mindverse/Second-Me.git) - 利用你的记忆训练你的 AI，学习你的思考方式、记住你的重要信息、代表你与他人/应用互动，你可以让它代表你回复邮件、参与在线讨论等
 - [metamon](https://metamon.tech/) - 通过可扩展的离线强化学习与变换器实现的人类级别竞争宝可梦
-  ![Uploading image.png…]()
 - [Athena](https://github.com/Athena-AI-Lab/athena-core.git) -  赫拉是一个具有生产力的通用人工智能代理，旨在执行，而不仅仅是思考。它将洞察与执行相结合，帮助你轻松地从想法转化为成果。
+- [HawkinsDB](https://github.com/harishsg993010/HawkinsDB.git) - 受神经科学启发的 LLM 应用记忆层
