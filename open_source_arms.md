@@ -20,7 +20,7 @@
 - [bambot](https://github.com/timqian/bambot.git) - 低成本（约 300 美元）人形机器人🌱
 - [LeRobotDepot](https://github.com/maximilienroberti/lerobotdepot.git) - 一个由社区驱动的仓库，列出了与 LeRobot 库兼容的开源硬件、组件和 3D 打印项目
 - [一个基于 Web 的 so-arm100 游乐场。它允许用户通过网站和键盘直接控制真实的和模拟的 so-arm100](https://so-arm100.bambot.org/) - 
-
+- [IsaacLab-SO_100](https://github.com/MuammerBay/IsaacLab-SO_100.git) - 该项目/仓库可用作基于 Isaac Lab 构建项目或扩展的模板。它允许您在核心 Isaac Lab 仓库之外的独立环境中进行开发。
 ## 教育资源
 
 - [现代机器人课程](https://github.com/madibabaiasl/modern-robotics-course) - 机器人学的现代教育资源
