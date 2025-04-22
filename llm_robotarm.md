@@ -32,3 +32,4 @@
 - [Body Transformer](https://github.com/carlosferrazza/BodyTransformer) - 利用机器人化身进行策略学习
 - [CLoSD](https://github.com/GuyTevet/CLoSD) - 通过结合文本驱动的扩散生成和强化学习实现人物动作的生成和执行
 - [Unified World Models](https://weirdlabuw.github.io/uwm/) - 结合视频和动作扩散在大型机器人数据集上的预训练
+- [Policy Decorator](https://github.com/tongzhoumu/policy_decorator.git) - “策略装饰器：大型策略模型的模型无关在线细化”代码
