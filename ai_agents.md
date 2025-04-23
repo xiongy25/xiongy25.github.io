@@ -18,3 +18,4 @@
 - [metamon](https://metamon.tech/) - 通过可扩展的离线强化学习与变换器实现的人类级别竞争宝可梦
 - [Athena](https://github.com/Athena-AI-Lab/athena-core.git) -  赫拉是一个具有生产力的通用人工智能代理，旨在执行，而不仅仅是思考。它将洞察与执行相结合，帮助你轻松地从想法转化为成果。
 - [HawkinsDB](https://github.com/harishsg993010/HawkinsDB.git) - 受神经科学启发的 LLM 应用记忆层
+- [Suna](https://github.com/kortix-ai/suna.git) -  开源通用人工智能代理
