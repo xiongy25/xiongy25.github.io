@@ -9,6 +9,7 @@
   - [姿势镜像系统](https://github.com/theswerd/basedbot) - 让Zeroth机器人实时镜像人体姿势
 - [stable-humanoid](https://github.com/ouazzmoh/stable-humanoid) - 基于模型预测控制的人形机器人稳定行走基准测试工具
 - [human2humanoid](https://github.com/LeCAR-Lab/human2humanoid) - 实现人类到人形机器人的实时全身远程操控
+- [Berkeley-Humanoid-Lite](https://github.com/HybridRobotics/Berkeley-Humanoid-Lite.git) - 伯克利人形机器人精简版
 
 ## 2. 迪士尼 BDX 相关项目
 
