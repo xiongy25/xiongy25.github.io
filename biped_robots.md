@@ -16,9 +16,10 @@
 - [Open Duck Mini](https://github.com/apirrone/Open_Duck_Mini) - 迪士尼 BDX 机器人的迷你版本
   - [isaacgym仿真](https://github.com/apirrone/AMP_for_hardware/tree/bdx) - Open Duck Mini的Isaac Gym仿真环境
   - [isaaclab仿真](https://github.com/MankaranSingh/IsaacLab/tree/eye-candy) - Open Duck Mini的IsaacLab仿真环境
-- [Tinker](https://github.com/Yuexuan9/Tinker) - 国内开源的迪士尼 BDX 机器人
+- [Tinker](https://github.com/Yuexuan9/Tinker) - 国内开源版的迪士尼 BDX 机器人
 - [Disney BD-X USD Description](https://github.com/louislelay/Disney-BDX-USD-Description.git)
 - [bdx_walk_rl](https://github.com/benoit-robotics/bdx_walk_rl.git)
+- [Adverserial Waddle Dynamics](https://github.com/rimim/AWD.git) - 使用Isaac Gym训练迪士尼BDX机器人
 
 ## 3. 其他双足机器人项目
 
