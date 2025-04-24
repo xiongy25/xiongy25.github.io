@@ -16,3 +16,4 @@
 - [百度地图 MCP Server](https://github.com/baidu-maps/mcp.git)
 - [mcp-use](https://github.com/mcp-use/mcp-use.git) - 6行代码即可创建你的第一个支持MCP的智能体：mcp-use，LLM与工具链接，让LLM变成可以执行操作的智能体
 - [MarkItDown](https://github.com/microsoft/markitdown.git) - 将任何 Office 文件（Powerpoint、Word、Excel）转换为 Markdown 的 MCP 服务器
+- [mcp-server-weread](https://github.com/freestylefly/mcp-server-weread.git) - 微信读书MCP服务器是一个桥接微信读书数据和Claude Desktop的轻量级服务器，使您可以在Claude中无缝访问微信读书的笔记和阅读数据。
