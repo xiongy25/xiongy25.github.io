@@ -21,3 +21,4 @@
 - [Suna](https://github.com/kortix-ai/suna.git) -  开源通用人工智能代理
 - [MAD](https://github.com/Skytliang/Multi-Agents-Debate.git) - 第一部探索使用大型语言模型进行多智能体辩论的项目
 - [AgentMesh](https://github.com/MinimalFuture/AgentMesh.git) - AgentMesh 是一个用于构建 AI 代理的多智能体平台，提供智能体间通信、任务规划和自主决策的框架。快速组建您的智能体团队，并通过智能体协作解决复杂的任务。
+- [OASIS](https://oasis.camel-ai.org/) - 开放代理社交互动模拟，支持百万代理
