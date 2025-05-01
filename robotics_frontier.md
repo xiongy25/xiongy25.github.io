@@ -50,7 +50,7 @@
   ![image](https://github.com/user-attachments/assets/06475aeb-bf0c-4bfb-a43d-a278b4e98644)
 - [HoST](https://github.com/OpenRobotLab/HoST.git) - 人形站立控制
   ![image](https://github.com/user-attachments/assets/c0e412a3-4588-4509-a316-cd84c44035ce)
-
+- [LangWBC](https://langwbc.github.io/) - 通过端到端学习实现语言导向的人形机器人全身控制
   
 ## 多智能体系统
 
