@@ -30,3 +30,4 @@
 - [离散时间混合自动机学习：腿部运动与滑板运动的结合](https://umich-curly.github.io/DHAL/) - 使用基于策略的强化学习来识别和执行模式切换的框架，无需轨迹分割或事件函数学习
 - [DimOS-Unitree](https://github.com/dimensionalOS/dimos-unitree.git) - 将DimOS与Unitree Go2四足机器人进行集成，使开箱即用的AI代理能够直接调用来自ROS（机器人操作系统）的工具、函数，并读取传感器和状态数据
 - [A1-QP-MPC-Controller](https://github.com/ShuoYangRobotics/A1-QP-MPC-Controller.git) - MIT Cheetah 3 控制器的开源实现
+- [Neural Circuit Architectural Priors for Quadruped Locomotion](https://ncap-quadruped.github.io/) - 基于神经电路的四足类动物走动控制的人工神经网络架构（Quadruped NCAP），它通过模拟动物的神经电路来提高学习效率和数据效率，同时减少所需参数量。
