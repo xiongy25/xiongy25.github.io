@@ -51,6 +51,9 @@
 - [HoST](https://github.com/OpenRobotLab/HoST.git) - 人形站立控制
   ![image](https://github.com/user-attachments/assets/c0e412a3-4588-4509-a316-cd84c44035ce)
 - [LangWBC](https://langwbc.github.io/) - 通过端到端学习实现语言导向的人形机器人全身控制
+- [ALMI-Open](https://almi-humanoid.github.io/) - 人形策略学习中的对抗性运动和运动模仿
+  ![image](https://github.com/user-attachments/assets/3ff9a2d3-41b4-47c9-b4fb-24d669ea9fca)
+
   
 ## 多智能体系统
 
