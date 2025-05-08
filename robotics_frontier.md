@@ -56,8 +56,9 @@
 - [TWIST](https://yanjieze.com/TWIST/) - 遥控全身模拟系统
 - [PARC](https://michaelx.io/parc/) - 基于物理的增强学习，用于角色控制器
   ![image](https://github.com/user-attachments/assets/0d7166b8-164d-4177-a5b0-84d47f60cb47)
+- [PyRoki](https://pyroki-toolkit.github.io/) - 一个用于运动优化的模块化、可扩展、跨平台工具包
+  
 
-- 
 ## 多智能体系统
 
 - [CooHOI](https://github.com/Winston-Gu/CooHOI) - 通过操纵物体动力学学习人与物体的协同交互
