@@ -53,8 +53,11 @@
 - [LangWBC](https://langwbc.github.io/) - 通过端到端学习实现语言导向的人形机器人全身控制
 - [ALMI-Open](https://almi-humanoid.github.io/) - 人形策略学习中的对抗性运动和运动模仿
   ![image](https://github.com/user-attachments/assets/3ff9a2d3-41b4-47c9-b4fb-24d669ea9fca)
-- [TWIST:遥控全身模仿系统](https://yanjieze.com/TWIST/)
-  
+- [TWIST](https://yanjieze.com/TWIST/) - 遥控全身模拟系统
+- [PARC](https://michaelx.io/parc/) - 基于物理的增强学习，用于角色控制器
+  ![image](https://github.com/user-attachments/assets/0d7166b8-164d-4177-a5b0-84d47f60cb47)
+
+- 
 ## 多智能体系统
 
 - [CooHOI](https://github.com/Winston-Gu/CooHOI) - 通过操纵物体动力学学习人与物体的协同交互
