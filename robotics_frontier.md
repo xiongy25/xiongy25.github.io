@@ -57,7 +57,7 @@
 - [PARC](https://michaelx.io/parc/) - 基于物理的增强学习，用于角色控制器
   ![image](https://github.com/user-attachments/assets/0d7166b8-164d-4177-a5b0-84d47f60cb47)
 - [PyRoki](https://pyroki-toolkit.github.io/) - 一个用于运动优化的模块化、可扩展、跨平台工具包
-  
+- [VideoMimic](https://www.videomimic.net/) - 一个实现视觉模仿并使人形机器人具有上下文感知控制能力的实验框架
 
 ## 多智能体系统
 
