@@ -21,6 +21,7 @@
 - [LeRobotDepot](https://github.com/maximilienroberti/lerobotdepot.git) - 一个由社区驱动的仓库，列出了与 LeRobot 库兼容的开源硬件、组件和 3D 打印项目
 - [一个基于 Web 的 so-arm100 游乐场。它允许用户通过网站和键盘直接控制真实的和模拟的 so-arm100](https://so-arm100.bambot.org/) - 
 - [IsaacLab-SO_100](https://github.com/MuammerBay/IsaacLab-SO_100.git) - 该项目/仓库可用作基于 Isaac Lab 构建项目或扩展的模板。它允许您在核心 Isaac Lab 仓库之外的独立环境中进行开发。
+- [phosphobot](https://github.com/phospho-app/phosphobot.git) - phosphoticbot是一个社区驱动的平台，使您能够训练和使用 VLA（视觉语言动作模型）来控制真实的机器人。
 ## 教育资源
 
 - [现代机器人课程](https://github.com/madibabaiasl/modern-robotics-course) - 机器人学的现代教育资源
