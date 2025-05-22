@@ -9,3 +9,7 @@
 
 - [PDF2Audio](https://github.com/lamm-mit/PDF2Audio) - PDF生成播客
 - [pdf-to-podcast](https://github.com/NVIDIA-AI-Blueprints/pdf-to-podcast.git) - 将PDF转换为AI播客，以获取有趣的随时随地音频内容
+
+## AI语音克隆
+
+- [AI Voice Cloning](https://aivoicecloning.io/) - 3秒极速复刻真人声线
