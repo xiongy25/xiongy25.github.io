@@ -18,3 +18,4 @@
 - [MarkItDown](https://github.com/microsoft/markitdown.git) - 将任何 Office 文件（Powerpoint、Word、Excel）转换为 Markdown 的 MCP 服务器
 - [mcp-server-weread](https://github.com/freestylefly/mcp-server-weread.git) - 微信读书MCP服务器是一个桥接微信读书数据和Claude Desktop的轻量级服务器，使您可以在Claude中无缝访问微信读书的笔记和阅读数据。
 - [rowboat](https://github.com/rowboatlabs/rowboat.git) - 集成了MCP能力的多智能体构建工具：rowboat，具备智能构建能力，用自然语言描述即可快速构建和部署智能体
+- [mcp-prompt-server](https://github.com/joeseesun/mcp-prompt-server.git) - 一个基于Model Context Protocol (MCP)的服务器，用于根据用户任务需求提供预设的prompt模板，帮助Cline/Cursor/Windsurf...更高效地执行各种任务。服务器将预设的prompt作为工具(tools)返回，以便在Cursor和Windsurf等编辑器中更好地使用。
