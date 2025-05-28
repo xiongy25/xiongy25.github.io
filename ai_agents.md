@@ -23,3 +23,4 @@
 - [AgentMesh](https://github.com/MinimalFuture/AgentMesh.git) - AgentMesh 是一个用于构建 AI 代理的多智能体平台，提供智能体间通信、任务规划和自主决策的框架。快速组建您的智能体团队，并通过智能体协作解决复杂的任务。
 - [OASIS](https://oasis.camel-ai.org/) - 开放代理社交互动模拟，支持百万代理
 - [AgenticSeek](https://github.com/Fosowl/agenticSeek.git) - 完全本地化的 Manus AI。无需 API，无需每月 200 美元账单。只需支付电费，即可拥有一个自主思考、浏览网页和编写代码的智能体。
+- [deer-flow](https://github.com/bytedance/deer-flow.git) - DeerFlow 是一个社区驱动的深度研究框架，它将语言模型与网络搜索、爬虫和 Python 执行等工具相结合，同时回馈开源社区。
