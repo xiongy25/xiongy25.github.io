@@ -9,6 +9,7 @@
 
 - [PDF2Audio](https://github.com/lamm-mit/PDF2Audio) - PDF生成播客
 - [pdf-to-podcast](https://github.com/NVIDIA-AI-Blueprints/pdf-to-podcast.git) - 将PDF转换为AI播客，以获取有趣的随时随地音频内容
+- [chatterbox](https://github.com/resemble-ai/chatterbox.git) - 支持情绪夸张控制的开源 TTS 模型，这项强大的功能可以让您的声音脱颖而出
 
 ## AI语音克隆
 
