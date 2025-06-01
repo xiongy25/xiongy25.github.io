@@ -8,6 +8,7 @@
 - [双UR臂仿真](https://github.com/MetaToolEU/MT_Isaac_sim) - 使用NVIDIA Isaac Sim同时模拟和控制两个UR臂
 - [Unitree Go2 仿真平台](https://github.com/Zhefan-Xu/isaac-go2-ros2) - 用于测试导航、决策和自主任务的模拟平台
 - [HumanUP](https://humanoid-getup.github.io/) - 仿真到现实的人形机器人起身策略学习
+- [IsaacGymEnvs](https://github.com/isaac-sim/IsaacGymEnvs.git) - Isaac Gym 基准测试环境
 
 ## 高级仿真工具与框架
 
