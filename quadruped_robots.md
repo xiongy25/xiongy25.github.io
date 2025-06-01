@@ -32,3 +32,6 @@
 - [A1-QP-MPC-Controller](https://github.com/ShuoYangRobotics/A1-QP-MPC-Controller.git) - MIT Cheetah 3 控制器的开源实现
 - [Neural Circuit Architectural Priors for Quadruped Locomotion](https://ncap-quadruped.github.io/) - 基于神经电路的四足类动物走动控制的人工神经网络架构（Quadruped NCAP），它通过模拟动物的神经电路来提高学习效率和数据效率，同时减少所需参数量。
 - [Unitree Go2 MCP Server](https://github.com/lpigeon/unitree-go2-mcp-server.git) - Unitree Go2 MCP 服务器是一个建立在 MCP 上的服务器，它使用户能够使用由 LLM 解释的自然语言命令来控制 Unitree Go2 机器人
+- [Hierarchical Reinforcement Learning and Value Optimization for Challenging Quadruped Locomotion](https://github.com/jmcoholich/isaacgym.git) - 针对具有挑战性的四足动物运动的分层强化学习和价值优化
+  ![image](https://github.com/user-attachments/assets/da97bb05-7794-431b-8bc6-14d3bc43285c)
+
