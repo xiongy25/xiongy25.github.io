@@ -60,6 +60,7 @@
 - [VideoMimic](https://www.videomimic.net/) - 一个实现视觉模仿并使人形机器人具有上下文感知控制能力的实验框架
 - [HuB](https://hub-robot.github.io/) - 学习人形的极限平衡
 - [VideoMimic](https://www.videomimic.net/) - 通过视觉模仿实现人形场景控制
+- [PyRoki](https://github.com/chungmin99/pyroki.git) - Python 机器人运动学库
 
 ## 多智能体系统
 
