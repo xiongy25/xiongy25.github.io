@@ -61,6 +61,9 @@
 - [HuB](https://hub-robot.github.io/) - 学习人形的极限平衡
 - [VideoMimic](https://www.videomimic.net/) - 通过视觉模仿实现人形场景控制
 - [PyRoki](https://github.com/chungmin99/pyroki.git) - Python 机器人运动学库
+- [InterAct](https://github.com/wzyabcas/InterAct.git) - 推进大规模多功能 3D 人机交互生成
+  ![image](https://github.com/user-attachments/assets/22970cf8-a031-4c27-bc52-4c2c2808a1c5)
+
 
 ## 多智能体系统
 
