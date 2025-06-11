@@ -64,6 +64,8 @@
 - [InterAct](https://github.com/wzyabcas/InterAct.git) - 推进大规模多功能 3D 人机交互生成
   ![image](https://github.com/user-attachments/assets/22970cf8-a031-4c27-bc52-4c2c2808a1c5)
 - [OpenWBT](https://github.com/GalaxyGeneralRobotics/OpenWBT.git) - 该代码库基于 Apple Vision Pro 实现了 Unitree G1 和 H1 人形机器人的全身遥操作。系统支持真实机器人和仿真环境
+- [phys-reach-grasp](https://liyitang22.github.io/phys-reach-grasp/) - 通过简短的步行参考来学习基于物理的全身人体伸手和抓握
+  ![image](https://github.com/user-attachments/assets/bce0c337-3203-453e-87f7-5ede6385f315)
 
 
 ## 多智能体系统
