@@ -63,6 +63,7 @@
 - [PyRoki](https://github.com/chungmin99/pyroki.git) - Python 机器人运动学库
 - [InterAct](https://github.com/wzyabcas/InterAct.git) - 推进大规模多功能 3D 人机交互生成
   ![image](https://github.com/user-attachments/assets/22970cf8-a031-4c27-bc52-4c2c2808a1c5)
+- [OpenWBT](https://github.com/GalaxyGeneralRobotics/OpenWBT.git) - 该代码库基于 Apple Vision Pro 实现了 Unitree G1 和 H1 人形机器人的全身遥操作。系统支持真实机器人和仿真环境
 
 
 ## 多智能体系统
