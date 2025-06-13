@@ -34,4 +34,5 @@
 - [Unitree Go2 MCP Server](https://github.com/lpigeon/unitree-go2-mcp-server.git) - Unitree Go2 MCP 服务器是一个建立在 MCP 上的服务器，它使用户能够使用由 LLM 解释的自然语言命令来控制 Unitree Go2 机器人
 - [Hierarchical Reinforcement Learning and Value Optimization for Challenging Quadruped Locomotion](https://github.com/jmcoholich/isaacgym.git) - 针对具有挑战性的四足动物运动的分层强化学习和价值优化
   ![image](https://github.com/user-attachments/assets/da97bb05-7794-431b-8bc6-14d3bc43285c)
+- [Visual Whole-Body for Loco-Manipulation](https://github.com/Ericonaldo/visual_wholebody.git) - 使用 RL 训练一只能够进行操控的狗
 
