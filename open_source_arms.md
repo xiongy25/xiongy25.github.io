@@ -24,6 +24,7 @@
 - [phosphobot](https://github.com/phospho-app/phosphobot.git) - phosphoticbot是一个社区驱动的平台，使您能够训练和使用 VLA（视觉语言动作模型）来控制真实的机器人。
 - [SmolVLA](https://huggingface.co/blog/smolvla) - 基于 Lerobot 社区数据训练的高效视觉-语言-动作模型
 - [MCP server to let any LLM control your robot](https://www.youtube.com/watch?v=EmpQQd7jRqs) - 
+- [SmolVLA](https://x.com/danaaubakir/status/1933546314731507982) - SmolVLA 是 Hugging Face 为机器人技术开发的轻量级基础模型。它专为在 LeRobot 数据集上轻松微调而设计，有助于加速您的开发！
   
   
 ## 教育资源
