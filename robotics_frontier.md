@@ -66,7 +66,7 @@
 - [OpenWBT](https://github.com/GalaxyGeneralRobotics/OpenWBT.git) - 该代码库基于 Apple Vision Pro 实现了 Unitree G1 和 H1 人形机器人的全身遥操作。系统支持真实机器人和仿真环境
 - [phys-reach-grasp](https://liyitang22.github.io/phys-reach-grasp/) - 通过简短的步行参考来学习基于物理的全身人体伸手和抓握
   ![image](https://github.com/user-attachments/assets/bce0c337-3203-453e-87f7-5ede6385f315)
-
+- [GMT](https://github.com/zixuan417/humanoid-general-motion-tracking.git) - GMT 是一个统一策略（unified policy），使用大规模人类动作数据训练，使机器人能执行包括走路、跳舞、踢腿、下蹲、武术等全身运动，而不需要为每种动作分别训练控制器。
 
 ## 多智能体系统
 
