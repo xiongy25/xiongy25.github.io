@@ -99,3 +99,7 @@
 
 - [Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T.git) - NVIDIA Isaac GR00T N1 是世界上第一个用于通用人形机器人推理和技能的开放基础模型
 - [unitree开源全身运动数据集](https://huggingface.co/datasets/unitreerobotics/LAFAN1_Retargeting_Dataset) -  Unitree H1、H1-2 和 G1 人形机器人的动作捕捉数据，使用数值优化方法使它们的运动轨迹更加自然
+
+## 世界模型
+
+- [GR00T Dreams](https://github.com/NVIDIA/GR00T-Dreams.git) - Nvidia GEAR Lab 利用世界模型解决机器人数据问题的举措
