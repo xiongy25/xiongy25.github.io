@@ -69,6 +69,9 @@
 - [GMT](https://github.com/zixuan417/humanoid-general-motion-tracking.git) - GMT 是一个统一策略（unified policy），使用大规模人类动作数据训练，使机器人能执行包括走路、跳舞、踢腿、下蹲、武术等全身运动，而不需要为每种动作分别训练控制器。
 - [KungfuBot](https://github.com/TeleHuman/PBHC.git) - 基于物理的人形全身控制，用于学习高动态技能
 - [Stage-Wise-CMORL](https://github.com/rllab-snu/Stage-Wise-CMORL.git) - 这是论文“杂技机器人的分阶段奖励塑造：一种受约束的多目标强化学习方法”的官方 GitHub 存储库。可以实现Unitree go1和Unitree H1机器人的后空翻动作
+- [AMO](https://github.com/OpenTeleVision/AMO.git) - 超灵巧人形机器人全身控制的自适应运动优化
+  ![image](https://github.com/user-attachments/assets/a55bc7d2-34c1-4ad5-b362-2c1b2a9822a6)
+
 
 ## 多智能体系统
 
