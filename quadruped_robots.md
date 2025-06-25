@@ -36,4 +36,4 @@
   ![image](https://github.com/user-attachments/assets/da97bb05-7794-431b-8bc6-14d3bc43285c)
 - [Visual Whole-Body for Loco-Manipulation](https://github.com/Ericonaldo/visual_wholebody.git) - 使用 RL 训练一只能够进行操控的狗
 - [Deep Whole Body Control](https://manipulation-locomotion.github.io/) - 学习统一的操控和运动策略
-
+- [ReLIC](https://relic-locoman.rai-inst.com/) - 通过灵活的肢体协调实现多功能位置操控
