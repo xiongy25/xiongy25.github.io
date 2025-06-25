@@ -71,6 +71,8 @@
 - [Stage-Wise-CMORL](https://github.com/rllab-snu/Stage-Wise-CMORL.git) - 这是论文“杂技机器人的分阶段奖励塑造：一种受约束的多目标强化学习方法”的官方 GitHub 存储库。可以实现Unitree go1和Unitree H1机器人的后空翻动作
 - [AMO](https://github.com/OpenTeleVision/AMO.git) - 超灵巧人形机器人全身控制的自适应运动优化
   ![image](https://github.com/user-attachments/assets/a55bc7d2-34c1-4ad5-b362-2c1b2a9822a6)
+- [LeVERB](https://ember-lab-berkeley.github.io/LeVERB-Website/) - 利用潜在视觉语言指令进行人形全身控制
+  ![image](https://github.com/user-attachments/assets/5327ebff-c99a-4da0-93eb-c50d71b47ec1)
 
 
 ## 多智能体系统
