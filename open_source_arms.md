@@ -26,6 +26,7 @@
 - [MCP server to let any LLM control your robot](https://www.youtube.com/watch?v=EmpQQd7jRqs) - 
 - [SmolVLA](https://x.com/danaaubakir/status/1933546314731507982) - SmolVLA 是 Hugging Face 为机器人技术开发的轻量级基础模型。它专为在 LeRobot 数据集上轻松微调而设计，有助于加速您的开发！
 - [LeRobot Sim2Real](https://github.com/StoneT2000/lerobot-sim2real.git) - LeRobot Sim2real 提供代码，用于通过ManiSkill在快速 GPU 并行模拟和渲染中使用强化学习进行训练，并部署到现实世界。
+- [so101_sim](https://github.com/tuul-ai/so101_sim.git) - Mujoco 模拟环境，用于使用 so101 和 so100 机器人进行模仿学习和强化学习(从gemini-robotics 🦾移植)
   
   
 ## 教育资源
