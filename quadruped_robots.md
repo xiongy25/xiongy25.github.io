@@ -40,4 +40,6 @@
   ![image](https://github.com/user-attachments/assets/6e690de6-eeb3-4642-89a5-2c77fee95d6f)
 - [quadruped-skateboard-mounting](https://github.com/dancher00/quadruped-skateboard-mounting.git) - 机器狗在滑板上攀爬的逆向课程强化学习方法
   ![image](https://github.com/user-attachments/assets/70e2fb34-f398-4208-9271-616178df07f2)
+- [legged-robots-manipulation](https://github.com/aCodeDog/legged-robots-manipulation.git) - 一个用于（轮式）腿式机器人的移动操作库,支持airbot、go2_arx、b2w_z1、aliengo_z1、b2w、go2w等多种机器人
+  ![image](https://github.com/user-attachments/assets/e376fc6c-704e-428c-a8e4-aff560a64f18)
 
