@@ -22,3 +22,4 @@
 
 - [Galaxea_Lab](https://github.com/userguide-galaxea/Galaxea_Lab.git) - 星海图开源的一个在isaac sim中实现物体抓取的场景
   ![image](https://github.com/user-attachments/assets/5cb39157-650d-436c-9ad1-85922d2c5065)
+- [Lightwheel-simready-asset](https://github.com/LightwheelAI/Lightwheel-simready-asset.git) - 259 个高质量 USD 资产专为 NVIDIA Isaac Sim 机器人模拟和训练而设计
