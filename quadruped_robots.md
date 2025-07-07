@@ -38,4 +38,6 @@
 - [Deep Whole Body Control](https://manipulation-locomotion.github.io/) - 学习统一的操控和运动策略
 - [ReLIC](https://relic-locoman.rai-inst.com/) - 通过灵活的肢体协调实现多功能位置操控
   ![image](https://github.com/user-attachments/assets/6e690de6-eeb3-4642-89a5-2c77fee95d6f)
+- [quadruped-skateboard-mounting](https://github.com/dancher00/quadruped-skateboard-mounting.git) - 机器狗在滑板上攀爬的逆向课程强化学习方法
+  ![image](https://github.com/user-attachments/assets/70e2fb34-f398-4208-9271-616178df07f2)
 
