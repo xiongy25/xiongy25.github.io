@@ -44,5 +44,5 @@
   ![image](https://github.com/user-attachments/assets/e376fc6c-704e-428c-a8e4-aff560a64f18)
 - [VR-Robo](https://vr-robo.github.io/) - 用于视觉机器人导航和运动的真实到模拟到真实的框架
   ![image](https://github.com/user-attachments/assets/76518a5e-bf5b-4f77-b618-77459c2b633a)
-
+- [unitree go2 ros2 ](https://github.com/anujjain-dev/unitree-go2-ros2.git) - 包含 Unitree Go2 机器人的配置文件，该机器人在 ROS 2 (humble) 系统中配置了 CHAMP 控制器
 
