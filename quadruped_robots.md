@@ -47,4 +47,4 @@
 - [unitree go2 ros2 ](https://github.com/anujjain-dev/unitree-go2-ros2.git) - 包含 Unitree Go2 机器人的配置文件，该机器人在 ROS 2 (humble) 系统中配置了 CHAMP 控制器
 - [UMI on Legs](https://github.com/real-stanford/umi-on-legs.git) - 利用以操作为中心的全身控制器实现操作策略的移动化
   ![image](https://github.com/user-attachments/assets/0e9cf653-5c2a-49cf-996e-d9ab119e2700)
-
+- [RL MPC Locomotion](https://github.com/silvery107/rl-mpc-locomotion.git) - 深度强化学习用于四足机器人运动的 MPC 控制
