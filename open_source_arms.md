@@ -27,7 +27,9 @@
 - [SmolVLA](https://x.com/danaaubakir/status/1933546314731507982) - SmolVLA 是 Hugging Face 为机器人技术开发的轻量级基础模型。它专为在 LeRobot 数据集上轻松微调而设计，有助于加速您的开发！
 - [LeRobot Sim2Real](https://github.com/StoneT2000/lerobot-sim2real.git) - LeRobot Sim2real 提供代码，用于通过ManiSkill在快速 GPU 并行模拟和渲染中使用强化学习进行训练，并部署到现实世界。
 - [so101_sim](https://github.com/tuul-ai/so101_sim.git) - Mujoco 模拟环境，用于使用 so101 和 so100 机器人进行模仿学习和强化学习(从gemini-robotics 🦾移植)
-  
+- [AB-SO-BOT](https://github.com/Mr-C4T/AB-SO-BOT.git) - AB-SO-BOT 采用3D 打印部件和标准4040 T 型槽铝挤压件组合而成，为 LeRobotStudio 和 HuggingFace 设计的SO-ARM100机械臂打造可定制的模块化机身。❤️这种模块化设计使其能够轻松扩展并适应不同的机器人应用。从安装在摄像机三脚架上的紧凑型车间助手，到使用VR控制器进行远程操作的完全人形式双手设置。
+  ![image](https://github.com/user-attachments/assets/6cde69a9-d4b4-469d-a618-d5c0fd2a421f)
+
   
 ## 教育资源
 
