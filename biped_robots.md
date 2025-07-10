@@ -10,6 +10,7 @@
 - [stable-humanoid](https://github.com/ouazzmoh/stable-humanoid) - 基于模型预测控制的人形机器人稳定行走基准测试工具
 - [human2humanoid](https://github.com/LeCAR-Lab/human2humanoid) - 实现人类到人形机器人的实时全身远程操控
 - [Berkeley-Humanoid-Lite](https://github.com/HybridRobotics/Berkeley-Humanoid-Lite.git) - 伯克利人形机器人精简版
+- [booster_gym](https://github.com/BoosterRobotics/booster_gym.git) - Booster Gym 是由 Booster Robotics 开发的专为人形机器人运动而设计的强化学习 (RL) 框架
 
 ## 2. 迪士尼 BDX 相关项目
 
