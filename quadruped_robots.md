@@ -48,3 +48,6 @@
 - [UMI on Legs](https://github.com/real-stanford/umi-on-legs.git) - 利用以操作为中心的全身控制器实现操作策略的移动化
   ![image](https://github.com/user-attachments/assets/0e9cf653-5c2a-49cf-996e-d9ab119e2700)
 - [RL MPC Locomotion](https://github.com/silvery107/rl-mpc-locomotion.git) - 深度强化学习用于四足机器人运动的 MPC 控制
+- [Quadruped-PyMPC](https://github.com/iit-DLSLab/Quadruped-PyMPC.git) - 基于单刚体模型的四足机器人模型预测控制器，用 Python 编写。基于梯度 (acados) 或基于采样 (jax)
+  ![image](https://github.com/user-attachments/assets/b4874d4c-3c10-42e1-b26d-8d73e5ce045d)
+
