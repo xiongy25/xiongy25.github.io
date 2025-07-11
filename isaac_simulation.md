@@ -18,8 +18,9 @@
 - [walk-these-ways](https://github.com/Improbable-AI/walk-these-ways.git) - Unitree Go1 机器人的模拟到现实 RL 训练和部署工具
 - [Simulately](https://github.com/geng-haoran/Simulately) - 一个收集物理模拟器有用信息的网站
 
-## 仿真示例
+## 仿真资产
 
 - [Galaxea_Lab](https://github.com/userguide-galaxea/Galaxea_Lab.git) - 星海图开源的一个在isaac sim中实现物体抓取的场景
   ![image](https://github.com/user-attachments/assets/5cb39157-650d-436c-9ad1-85922d2c5065)
 - [Lightwheel-simready-asset](https://github.com/LightwheelAI/Lightwheel-simready-asset.git) - 259 个高质量 USD 资产专为 NVIDIA Isaac Sim 机器人模拟和训练而设计
+- [ArtVIP](https://x-humanoid-artvip.github.io/) - 面向机器人学习的视觉真实感、模块化交互和物理逼真度的清晰数字资产
