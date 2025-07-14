@@ -3,6 +3,7 @@
 ## 文本到机器人设计
 
 - [Text2Robot](http://www.generalroboticslab.com/blogs/blog/2024-06-28-text2robot/index.html) - 根据文本描述进行进化机器人设计
+- [GenCAD](https://gencad.github.io/) - 将图像生成CAD模型
 
 ## URDF文件处理
 
