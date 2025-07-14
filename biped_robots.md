@@ -72,6 +72,9 @@
 - [LeVERB](https://ember-lab-berkeley.github.io/LeVERB-Website/) - 利用潜在视觉语言指令进行人形全身控制
   ![image](https://github.com/user-attachments/assets/5327ebff-c99a-4da0-93eb-c50d71b47ec1)
 - [RoboMimic Deploy](https://github.com/ccrpRepo/RoboMimic_Deploy.git) - 一个基于状态切换机制的多策略机器人部署框架。目前，其包含的策略专为 Unitree G1 机器人（29 自由度）设计
+- [FALCON](https://github.com/LeCAR-Lab/FALCON.git) - 学习力自适应人形机器人操控
+  <img width="2992" height="1874" alt="image" src="https://github.com/user-attachments/assets/3f3296fa-3f39-4d19-b627-e84b5485d03e" />
+
 
 ## 5. 开源数据集
 
