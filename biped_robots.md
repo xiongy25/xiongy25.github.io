@@ -12,6 +12,7 @@
 - [Berkeley-Humanoid-Lite](https://github.com/HybridRobotics/Berkeley-Humanoid-Lite.git) - 伯克利人形机器人精简版
 - [booster_gym](https://booster-gym.github.io/) - Booster Gym 是由 Booster Robotics 开发的专为人形机器人运动而设计的强化学习 (RL) 框架
 - [Robocup Demo](https://github.com/BoosterRobotics/robocup_demo.git) - 《BoosterRobotics/robocup_demo：Booster T1 Robocup 官方演示允许机器人自主决策踢球并完成整个 Robocup 比赛。它包括三个程序：视觉、大脑和游戏控制器
+- [HumanoidVerse](https://github.com/LeCAR-Lab/HumanoidVerse.git) - 支持多种模拟器和任务，用于人形机器人从模拟到现实的学习。其关键设计逻辑是将模拟器、任务和算法分离并模块化，从而方便地在模拟器和任务之间切换，并以最小的投入开发新的模拟器和任务。
 
 ## 2. 迪士尼 BDX 相关项目
 
