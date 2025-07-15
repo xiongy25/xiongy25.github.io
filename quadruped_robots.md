@@ -50,4 +50,6 @@
 - [RL MPC Locomotion](https://github.com/silvery107/rl-mpc-locomotion.git) - 深度强化学习用于四足机器人运动的 MPC 控制
 - [Quadruped-PyMPC](https://github.com/iit-DLSLab/Quadruped-PyMPC.git) - 基于单刚体模型的四足机器人模型预测控制器，用 Python 编写。基于梯度 (acados) 或基于采样 (jax)
   ![image](https://github.com/user-attachments/assets/b4874d4c-3c10-42e1-b26d-8d73e5ce045d)
+- [quadruped_ros2_control](https://github.com/legubiao/quadruped_ros2_control.git) - unitree go2四足机器人的 ROS2-Control 实现，包括 sim2real
+  <img width="1759" height="770" alt="image" src="https://github.com/user-attachments/assets/944dbebb-d9c3-4d4e-8f8e-181d6c3eaefa" />
 
