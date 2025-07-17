@@ -54,5 +54,6 @@
   <img width="1759" height="770" alt="image" src="https://github.com/user-attachments/assets/944dbebb-d9c3-4d4e-8f8e-181d6c3eaefa" />
 - [IsaacRobotics Applications](https://github.com/mschweig/IsaacRobotics.git) - 基于 NVIDIA Isaac Sim 和 Isaac Lab 的 Spot 和 Spot Arm 强化学习控制机器人仿真
   <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/809db467-c19d-4448-992e-bce4b881b795" />
+- [Deep-Tracking-Control](https://github.com/priest-yang/Deep-Tracking-Control.git) - 将传统的基于MPC且具有地形感知能力的立足点规划器与深度强化学习（DRL）相结合，以实现在踏脚石等极度危险地形中的鲁棒控制。
 
 
