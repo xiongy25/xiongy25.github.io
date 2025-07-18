@@ -75,6 +75,8 @@
 - [RoboMimic Deploy](https://github.com/ccrpRepo/RoboMimic_Deploy.git) - 一个基于状态切换机制的多策略机器人部署框架。目前，其包含的策略专为 Unitree G1 机器人（29 自由度）设计
 - [FALCON](https://github.com/LeCAR-Lab/FALCON.git) - 学习力自适应人形机器人操控
   <img width="2992" height="1874" alt="image" src="https://github.com/user-attachments/assets/3f3296fa-3f39-4d19-b627-e84b5485d03e" />
+- [Robot Drummer](https://robotdrummer.github.io/) - 学习人形鼓的节奏技巧
+  <img width="2652" height="1024" alt="image" src="https://github.com/user-attachments/assets/077bb2d3-a337-498c-9e54-99e16ce7f38e" />
 
 
 ## 5. 开源数据集
