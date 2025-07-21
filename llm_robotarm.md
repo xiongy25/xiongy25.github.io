@@ -33,3 +33,7 @@
 - [CLoSD](https://github.com/GuyTevet/CLoSD) - 通过结合文本驱动的扩散生成和强化学习实现人物动作的生成和执行
 - [Unified World Models](https://weirdlabuw.github.io/uwm/) - 结合视频和动作扩散在大型机器人数据集上的预训练
 - [Policy Decorator](https://github.com/tongzhoumu/policy_decorator.git) - “策略装饰器：大型策略模型的模型无关在线细化”代码
+
+## 开源机械臂
+
+- [open_manipulator](https://github.com/ROBOTIS-GIT/open_manipulator.git) -  提供了控制机器人、集成其传感器以及开发物理 AI 应用所需的接口和工具，包括使用 LeRobot 等框架的应用
