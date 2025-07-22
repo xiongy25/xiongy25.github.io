@@ -57,4 +57,6 @@
 - [Deep-Tracking-Control](https://github.com/priest-yang/Deep-Tracking-Control.git) - 将传统的基于MPC且具有地形感知能力的立足点规划器与深度强化学习（DRL）相结合，以实现在踏脚石等极度危险地形中的鲁棒控制。
 - [walk-these-ways-go2](https://github.com/Teddy-Liao/walk-these-ways-go2.git) - 在Unitree Go2上部署walk-these-ways项目
 - [unitree-go2-slam-nav2](https://github.com/h-naderi/unitree-go2-slam-nav2.git) - Unitree-Go2机器人上SLAM与自主导航的集成
+- [autonomy_stack_go2](https://github.com/jizhang-cmu/autonomy_stack_go2.git) - 该仓库包含了 Unitree Go2 平台的完整自主系统。该系统提供了一种导航能力，能够接收目标点并自主导航至目标点，同时沿途构建地图。
+  <img width="1664" height="911" alt="image" src="https://github.com/user-attachments/assets/aab573f8-841a-451e-a70a-e89df495ddcd" />
 
