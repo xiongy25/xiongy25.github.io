@@ -61,3 +61,4 @@
   <img width="1664" height="911" alt="image" src="https://github.com/user-attachments/assets/aab573f8-841a-451e-a70a-e89df495ddcd" />
 - [go2_ros2_control_sim](https://github.com/illusoryTwin/go2_ros2_control_sim.git) - 基于经典控制和基于 RL 的控制的 Unitree Go2 四足机器人 ros2 控制实现
 - [unitree_ros2_sim](https://github.com/Atharva-05/unitree_ros2_sim.git) - 一个用于在 Gazebo 中模拟 Unitree Go1 腿足机器人 ROS 2 包的仓库
+- [DWMPC](https://github.com/iit-DLSLab/DWMPC.git) - 四足机器人分布式全身模型预测控制
