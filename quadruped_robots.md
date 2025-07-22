@@ -60,3 +60,4 @@
 - [autonomy_stack_go2](https://github.com/jizhang-cmu/autonomy_stack_go2.git) - 该仓库包含了 Unitree Go2 平台的完整自主系统。该系统提供了一种导航能力，能够接收目标点并自主导航至目标点，同时沿途构建地图。
   <img width="1664" height="911" alt="image" src="https://github.com/user-attachments/assets/aab573f8-841a-451e-a70a-e89df495ddcd" />
 - [go2_ros2_control_sim](https://github.com/illusoryTwin/go2_ros2_control_sim.git) - 基于经典控制和基于 RL 的控制的 Unitree Go2 四足机器人 ros2 控制实现
+- [unitree_ros2_sim](https://github.com/Atharva-05/unitree_ros2_sim.git) - 一个用于在 Gazebo 中模拟 Unitree Go1 腿足机器人 ROS 2 包的仓库
