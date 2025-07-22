@@ -23,6 +23,8 @@
 - [Disney BD-X USD Description](https://github.com/louislelay/Disney-BDX-USD-Description.git)
 - [bdx_walk_rl](https://github.com/benoit-robotics/bdx_walk_rl.git)
 - [Adverserial Waddle Dynamics](https://github.com/rimim/AWD.git) - 使用Isaac Gym训练迪士尼BDX机器人
+- [OmniBot系列-Tinker](https://github.com/golaced/OmniBotSeries-Tinker.git) - 打造融合皮克斯与迪士尼BDX的高性能双足机器人！
+  <img width="936" height="1329" alt="image" src="https://github.com/user-attachments/assets/a8f4e1ae-3523-40a6-896e-271aabb5dc95" />
 
 ## 3. 其他双足机器人项目
 
