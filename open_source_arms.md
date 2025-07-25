@@ -8,6 +8,8 @@
 - [RoboManipBaselines](https://github.com/isri-aist/RoboManipBaselines) - 集成各种模仿学习方法和基准任务环境的软件，为机器人操作提供基线
 - [UR5 拾取和放置模拟](https://github.com/pietrolechthaler/UR5-Pick-and-Place-Simulation) - Ros/Gazebo 中的 UR5 拾取和放置模拟
 - [双手操作模仿学习算法的比较](https://bimanual-imitation.github.io/) - 论文《双臂操作模仿学习算法的比较》（Drolet 等人，2024 年）的代码
+- [OpenArm](https://github.com/enactic/openarm.git) - 一款开源的 7DOF 人形手臂，专为物理 AI 研究和在接触密集环境中的部署而设计。它拥有出色的反向驱动能力和柔顺性，在安全的人机交互方面表现出色，同时为实际应用提供实用的有效载荷能力。
+  <img width="5216" height="2810" alt="image" src="https://github.com/user-attachments/assets/5f70c9ae-9cdc-4323-997b-d9f761b44835" />
 
 ## lerobot相关工具
 
