@@ -64,3 +64,5 @@
 - [DWMPC](https://github.com/iit-DLSLab/DWMPC.git) - 四足机器人分布式全身模型预测控制
 - [dimos-unitree](https://github.com/dimensionalOS/dimos-unitree.git) - Dimensional 是一个用于构建代理式通用机器人的开源框架。DimOS 允许现成的代理直接调用工具/函数，并从 ROS 读取传感器/状态数据。
   <img width="2045" height="1329" alt="image" src="https://github.com/user-attachments/assets/74f9502c-d43f-4e6f-8bf3-3ccfa31e5992" />
+- [Go2Arm_sim2sim](https://github.com/zzzJie-Robot/Go2Arm_sim2sim.git) - 用于验证腿式机械手 RL 算法的模拟环境（IsaacLab 到 Gazebo）
+  <img width="400" height="225" alt="image" src="https://github.com/user-attachments/assets/a301327a-c266-4c4d-a344-58ef21012032" />
