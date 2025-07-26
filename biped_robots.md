@@ -37,6 +37,7 @@
 - [rl-deploy-ros-cpp](https://github.com/limxdynamics/rl-deploy-ros-cpp.git) - 在gazebo中使用训练出的RL模型控制机器人
 - [Robotic_Studio_Bipedal_Robot](https://github.com/Anthony-ZC/Robotic_Studio_Bipedal_Robot.git) - 哥伦比亚机器人工作室项目实施：代码、CAD、3mf等
 - [TienKung-Lab](https://github.com/Open-X-Humanoid/TienKung-Lab.git) - 天工机器人参加人形机器人马拉松的运动控制
+- [engineai_legged_gym](https://github.com/engineai-robotics/engineai_legged_gym.git) - 众擎机器人为engineai-robots提供isaac gym环境的RL训练环境
 
 ## 4. 人形机器人控制与动作生成
 
