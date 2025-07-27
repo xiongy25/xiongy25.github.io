@@ -17,6 +17,7 @@
 - [Eurekaverse](https://github.com/eureka-research/eurekaverse) - 通过大型语言模型生成环境课程
 - [walk-these-ways](https://github.com/Improbable-AI/walk-these-ways.git) - Unitree Go1 机器人的模拟到现实 RL 训练和部署工具
 - [Simulately](https://github.com/geng-haoran/Simulately) - 一个收集物理模拟器有用信息的网站
+- [Isaac Sim MCP Extension and MCP Server](https://github.com/omni-mcp/isaac-sim-mcp.git) - MCP 服务器及其扩展利用模型上下文协议 (MCP) 框架，实现对 NVIDIA Isaac Sim 的自然语言控制，将对话式 AI 输入转化为精确的模拟操作。此扩展将 MCP 生态系统与具身智能应用连接起来。
 
 ## 仿真资产
 
