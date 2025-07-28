@@ -66,3 +66,6 @@
   <img width="2045" height="1329" alt="image" src="https://github.com/user-attachments/assets/74f9502c-d43f-4e6f-8bf3-3ccfa31e5992" />
 - [Go2Arm_sim2sim](https://github.com/zzzJie-Robot/Go2Arm_sim2sim.git) - 用于验证腿式机械手 RL 算法的模拟环境（IsaacLab 到 Gazebo）
   <img width="400" height="225" alt="image" src="https://github.com/user-attachments/assets/a301327a-c266-4c4d-a344-58ef21012032" />
+- [Sirius_RL_Gym](https://github.com/CUHKSiriusLeggedRobotTeam/Sirius_RL_Gym.git) - 适用于 Sirius 腿式机器人的训练、sim2sim、sim2real 演示代码
+  <img width="480" height="305" alt="image" src="https://github.com/user-attachments/assets/e2896402-a2cc-4eb3-b7c7-ad31547496ae" />
+
