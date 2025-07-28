@@ -68,4 +68,4 @@
   <img width="400" height="225" alt="image" src="https://github.com/user-attachments/assets/a301327a-c266-4c4d-a344-58ef21012032" />
 - [Sirius_RL_Gym](https://github.com/CUHKSiriusLeggedRobotTeam/Sirius_RL_Gym.git) - 适用于 Sirius 腿式机器人的训练、sim2sim、sim2real 演示代码
   <img width="480" height="305" alt="image" src="https://github.com/user-attachments/assets/e2896402-a2cc-4eb3-b7c7-ad31547496ae" />
-
+- [My_unitree_go2_gym](https://github.com/yusongmin1/My_unitree_go2_gym.git) - unitree go2强化学习训练、sim2sim、sim2real
