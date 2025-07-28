@@ -10,6 +10,7 @@
 - [双手操作模仿学习算法的比较](https://bimanual-imitation.github.io/) - 论文《双臂操作模仿学习算法的比较》（Drolet 等人，2024 年）的代码
 - [OpenArm](https://github.com/enactic/openarm.git) - 一款开源的 7DOF 人形手臂，专为物理 AI 研究和在接触密集环境中的部署而设计。它拥有出色的反向驱动能力和柔顺性，在安全的人机交互方面表现出色，同时为实际应用提供实用的有效载荷能力。
   <img width="5216" height="2810" alt="image" src="https://github.com/user-attachments/assets/5f70c9ae-9cdc-4323-997b-d9f761b44835" />
+- [kinova_isaaclab_sim2real](https://github.com/louislelay/kinova_isaaclab_sim2real.git) - 该存储库提供了一个模块化框架，用于使用Isaac Lab在Kinova Gen3机器人上训练强化学习 (RL) 代理，并在Isaac Sim中或通过 ROS2在真实机器人上部署训练有素的模型。
 
 ## lerobot相关工具
 
