@@ -69,3 +69,5 @@
 - [Sirius_RL_Gym](https://github.com/CUHKSiriusLeggedRobotTeam/Sirius_RL_Gym.git) - 适用于 Sirius 腿式机器人的训练、sim2sim、sim2real 演示代码
   <img width="480" height="305" alt="image" src="https://github.com/user-attachments/assets/e2896402-a2cc-4eb3-b7c7-ad31547496ae" />
 - [My_unitree_go2_gym](https://github.com/yusongmin1/My_unitree_go2_gym.git) - unitree go2强化学习训练、sim2sim、sim2real
+- [quadruped-pend-gym](https://github.com/pulak-gautam/quadruped-pend-gym.git) - 训练控制器来平衡四足动物的倒立摆
+  <img width="480" height="480" alt="image" src="https://github.com/user-attachments/assets/555e177f-f42f-496f-8a11-b7a68e1bfa3f" />
