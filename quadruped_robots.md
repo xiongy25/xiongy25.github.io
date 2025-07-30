@@ -71,3 +71,5 @@
 - [My_unitree_go2_gym](https://github.com/yusongmin1/My_unitree_go2_gym.git) - unitree go2强化学习训练、sim2sim、sim2real
 - [quadruped-pend-gym](https://github.com/pulak-gautam/quadruped-pend-gym.git) - 训练控制器来平衡四足动物的倒立摆
   <img width="480" height="480" alt="image" src="https://github.com/user-attachments/assets/555e177f-f42f-496f-8a11-b7a68e1bfa3f" />
+- [isaac-wild-go2](https://github.com/Charlescai123/isaac-wild-go2.git) - 该项目包含一个框架，允许四足机器人以安全的方式探索和学习适应开放的野外环境。
+  <img width="480" height="270" alt="image" src="https://github.com/user-attachments/assets/bb40a6bf-2276-4f42-9f94-ca9986c2d361" />
