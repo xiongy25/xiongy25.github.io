@@ -74,3 +74,4 @@
 - [isaac-wild-go2](https://github.com/Charlescai123/isaac-wild-go2.git) - 该项目包含一个框架，允许四足机器人以安全的方式探索和学习适应开放的野外环境。
   <img width="480" height="270" alt="image" src="https://github.com/user-attachments/assets/bb40a6bf-2276-4f42-9f94-ca9986c2d361" />
 - [Quadrupeds_Climbing](https://github.com/leo01110111/Quadrupeds_Climbing.git) - 这是Isaac Lab的一项任务，训练机器人四足动物（Unitree Go2）攀爬陡峭的地形。
+- [unitree-go2-genesis](https://github.com/Jizai-inc/unitree-go2-genesis.git) - 使用Genesis对unitree go2这个机器人进行运动仿真
