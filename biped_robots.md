@@ -82,8 +82,7 @@
   <img width="2992" height="1874" alt="image" src="https://github.com/user-attachments/assets/3f3296fa-3f39-4d19-b627-e84b5485d03e" />
 - [Robot Drummer](https://robotdrummer.github.io/) - 学习人形鼓的节奏技巧
   <img width="2652" height="1024" alt="image" src="https://github.com/user-attachments/assets/077bb2d3-a337-498c-9e54-99e16ce7f38e" />
-
-
+- [GMR](https://github.com/YanjieZe/GMR.git) - 通用运动重定向,利用CPU实时将人体运动重定向到各种人形机器人上。
 ## 5. 开源数据集
 
 - [Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T.git) - NVIDIA Isaac GR00T N1 是世界上第一个用于通用人形机器人推理和技能的开放基础模型
