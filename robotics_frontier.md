@@ -69,4 +69,10 @@
 
 ## 世界模型
 
-- [GR00T Dreams](https://github.com/NVIDIA/GR00T-Dreams.git) - Nvidia GEAR Lab 利用世界模型解决机器人数据问题的举措 
+- [GR00T Dreams](https://github.com/NVIDIA/GR00T-Dreams.git) - Nvidia GEAR Lab 利用世界模型解决机器人数据问题的举措
+
+## VLA
+
+- [Galaxea](https://opengalaxea.github.io/G0/) - 星海图发布的端到端双系统全身智能VLA模型—星海图G0我们构建了全球首个开放场景高质量真机数据集 Galaxea Open-World Dataset，并提出了快慢双系统架构，结合System-2（规划，G0-VLM）+ System-1（执行，G0-VLA），实现从视觉和语言指令到23自由度全身控制的长程任务执行。
+  <img width="1300" height="1244" alt="image" src="https://github.com/user-attachments/assets/bc266936-ba3e-4d63-a854-93b07d4f76c2" />
+
