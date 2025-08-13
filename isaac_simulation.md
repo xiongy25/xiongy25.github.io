@@ -9,6 +9,9 @@
 - [Unitree Go2 仿真平台](https://github.com/Zhefan-Xu/isaac-go2-ros2) - 用于测试导航、决策和自主任务的模拟平台
 - [HumanUP](https://humanoid-getup.github.io/) - 仿真到现实的人形机器人起身策略学习
 - [IsaacGymEnvs](https://github.com/isaac-sim/IsaacGymEnvs.git) - Isaac Gym 基准测试环境
+- [WheeledLab](https://github.com/UWRobotLearning/WheeledLab.git) - 与 IsaacLab 集成的开源移动机器人的环境、资产和工作流程
+  <img width="2807" height="2532" alt="image" src="https://github.com/user-attachments/assets/71ac33b4-12b3-4895-a295-82bf3b0d4235" />
+
 
 ## 高级仿真工具与框架
 
