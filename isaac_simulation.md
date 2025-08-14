@@ -11,6 +11,8 @@
 - [IsaacGymEnvs](https://github.com/isaac-sim/IsaacGymEnvs.git) - Isaac Gym 基准测试环境
 - [WheeledLab](https://github.com/UWRobotLearning/WheeledLab.git) - 与 IsaacLab 集成的开源移动机器人的环境、资产和工作流程
   <img width="2807" height="2532" alt="image" src="https://github.com/user-attachments/assets/71ac33b4-12b3-4895-a295-82bf3b0d4235" />
+- [TrackerLab](https://github.com/interval-package/trackerLab.git) - 在一个模块化框架中统一 IsaacLab 和全身控制
+  <img width="1280" height="384" alt="image" src="https://github.com/user-attachments/assets/d3bb0cf7-f12d-4373-a53a-d696dc4aed3c" />
 
 
 ## 高级仿真工具与框架
