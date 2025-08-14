@@ -83,7 +83,16 @@
 - [Robot Drummer](https://robotdrummer.github.io/) - 学习人形鼓的节奏技巧
   <img width="2652" height="1024" alt="image" src="https://github.com/user-attachments/assets/077bb2d3-a337-498c-9e54-99e16ce7f38e" />
 - [GMR](https://github.com/YanjieZe/GMR.git) - 通用运动重定向,利用CPU实时将人体运动重定向到各种人形机器人上。
-## 5. 开源数据集
+
+## 5.运动重定向
+- [HoloMotion](https://github.com/HorizonRobotics/HoloMotion.git) - HoloMotion 是一个统一的基础模型，旨在实现人形机器人的稳健、实时且通用的全身追踪。HoloMotion 基于高保真运动捕捉数据和先进的重定向技术，跨越各种地形和形态，弥合了人体运动与机器人控制之间的差距。该框架支持从数据准备到实际部署的完整流程，包括运动重定向、基于强化学习和运动先验的分布式训练、性能评估以及基于 ROS2 的部署。HoloMotion 采用模块化设计，使人形代理能够在模拟和物理世界中模拟并泛化全身运动。
+- [BeyondMimic](https://github.com/HybridRobotics/whole_body_tracking.git) - BeyondMimic 是一个多功能的人形控制框架，可在实际部署中提供具有最先进运动质量的高度动态运动跟踪，并通过基于引导扩散的控制器提供可操纵的测试时间控制
+- [General Motion Tracking for Humanoid Whole-Body Control](https://github.com/zixuan417/humanoid-general-motion-tracking.git) - 此代码库支持在 Unitree G1 机器人上进行 Mujoco 运动跟踪模拟。提供了一个预训练的检查点和多个示例动作,此代码库轻量级且易于使用.
+  
+
+
+## 6. 开源数据集
 
 - [Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T.git) - NVIDIA Isaac GR00T N1 是世界上第一个用于通用人形机器人推理和技能的开放基础模型
 - [unitree开源全身运动数据集](https://huggingface.co/datasets/unitreerobotics/LAFAN1_Retargeting_Dataset) -  Unitree H1、H1-2 和 G1 人形机器人的动作捕捉数据，使用数值优化方法使它们的运动轨迹更加自然
+
