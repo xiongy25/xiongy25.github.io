@@ -13,6 +13,7 @@
 
 ## 2. 其他四足机器人项目
 
+- [GoRobot](https://observablehq.com/@christophe-yamahata/inverse-kinematics-go2-robot) - unitree go2的结构及正逆运动学可视化
 - [Unitree Go2 模拟平台](https://github.com/Zhefan-Xu/isaac-go2-ros2) - 用于测试导航、决策和自主任务的模拟平台
 - [分布式优化 MPC](https://sites.google.com/view/dwmpc/home) - 通过分布式优化加速腿式机器人的模型预测控制
 - [四足机器人资料汇总](https://github.com/curieuxjy/Awesome_Quadrupedal_Robots) - 综合四足机器人研究资料
