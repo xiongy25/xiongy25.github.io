@@ -88,7 +88,7 @@
 - [HoloMotion](https://github.com/HorizonRobotics/HoloMotion.git) - HoloMotion 是一个统一的基础模型，旨在实现人形机器人的稳健、实时且通用的全身追踪。HoloMotion 基于高保真运动捕捉数据和先进的重定向技术，跨越各种地形和形态，弥合了人体运动与机器人控制之间的差距。该框架支持从数据准备到实际部署的完整流程，包括运动重定向、基于强化学习和运动先验的分布式训练、性能评估以及基于 ROS2 的部署。HoloMotion 采用模块化设计，使人形代理能够在模拟和物理世界中模拟并泛化全身运动。
 - [BeyondMimic](https://github.com/HybridRobotics/whole_body_tracking.git) - BeyondMimic 是一个多功能的人形控制框架，可在实际部署中提供具有最先进运动质量的高度动态运动跟踪，并通过基于引导扩散的控制器提供可操纵的测试时间控制
 - [General Motion Tracking for Humanoid Whole-Body Control](https://github.com/zixuan417/humanoid-general-motion-tracking.git) - 此代码库支持在 Unitree G1 机器人上进行 Mujoco 运动跟踪模拟。提供了一个预训练的检查点和多个示例动作,此代码库轻量级且易于使用.
-  
+- [UH-1](https://github.com/sihengz02/UH-1.git) - 从大量人体视频中学习通用人形姿势控制
 
 
 ## 6. 开源数据集
