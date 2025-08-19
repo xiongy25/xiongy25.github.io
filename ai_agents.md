@@ -24,3 +24,4 @@
 - [OASIS](https://oasis.camel-ai.org/) - 开放代理社交互动模拟，支持百万代理
 - [AgenticSeek](https://github.com/Fosowl/agenticSeek.git) - 完全本地化的 Manus AI。无需 API，无需每月 200 美元账单。只需支付电费，即可拥有一个自主思考、浏览网页和编写代码的智能体。
 - [deer-flow](https://github.com/bytedance/deer-flow.git) - DeerFlow 是一个社区驱动的深度研究框架，它将语言模型与网络搜索、爬虫和 Python 执行等工具相结合，同时回馈开源社区。
+- [magic](https://github.com/dtyq/magic.git) - 首个开源一体化AI生产力平台（通用AI代理+工作流引擎+IM+在线协同办公系统）
