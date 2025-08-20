@@ -1,5 +1,9 @@
 # 开源机械臂
 
+## 机械臂开发工具
+
+- [URDFly](https://github.com/Democratizing-Dexterous/URDFly.git) - URDFly 是一个基于 Python 的 URDF 机器人工具包.可视化功能：支持 STL/OBJ 显示、透明渲染、多坐标系（原始轴/MDH 轴）可视化、高亮连杆、关节转动以及URDF文件实时编辑显示；MDH 参数转换：自动从 URDF 提取修正 DH 参数，支持多Chain机器人，用于运动学计算与动力学回归；动力学代码生成：通过符号计算生成动力学回归器，助力参数辨识。
+
 ## 机械臂项目
 
 - [PAROL6桌面机械臂](https://github.com/xiongy25/PAROL6-Desktop-robot-arm) - 桌面型开源机械臂
