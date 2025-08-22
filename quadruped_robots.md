@@ -76,3 +76,4 @@
   <img width="480" height="270" alt="image" src="https://github.com/user-attachments/assets/bb40a6bf-2276-4f42-9f94-ca9986c2d361" />
 - [Quadrupeds_Climbing](https://github.com/leo01110111/Quadrupeds_Climbing.git) - 这是Isaac Lab的一项任务，训练机器人四足动物（Unitree Go2）攀爬陡峭的地形。
 - [unitree-go2-genesis](https://github.com/Jizai-inc/unitree-go2-genesis.git) - 使用Genesis对unitree go2这个机器人进行运动仿真
+- [ODYSSEY](https://kaijwang.github.io/odyssey.github.io/) - 一个配备机械手的敏捷四足机器人的统一移动操作框架，它将高级任务规划与低级全身控制无缝集成
