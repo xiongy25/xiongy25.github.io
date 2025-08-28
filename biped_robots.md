@@ -15,8 +15,8 @@
 - [HumanoidVerse](https://github.com/LeCAR-Lab/HumanoidVerse.git) - 支持多种模拟器和任务，用于人形机器人从模拟到现实的学习。其关键设计逻辑是将模拟器、任务和算法分离并模块化，从而方便地在模拟器和任务之间切换，并以最小的投入开发新的模拟器和任务。
 - [ToddlerBot](https://github.com/hshi74/toddlerbot.git) - 一个低成本、开源的人形机器人平台，旨在实现可扩展的策略学习以及机器人和人工智能研究
 <img width="3024" height="2722" alt="image" src="https://github.com/user-attachments/assets/bccd1296-7dc1-4eb3-aace-ff1cf18444ea" />
-
-
+- [MEVITA](https://haraduka.github.io/mevita-hardware/) - 开源双足机器人，通过金属板焊接由电子商务组件组装而成
+  
 ## 2. 迪士尼 BDX 相关项目
 
 - [Open Duck Mini](https://github.com/apirrone/Open_Duck_Mini) - 迪士尼 BDX 机器人的迷你版本
