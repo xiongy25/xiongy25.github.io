@@ -12,3 +12,4 @@
 8. 🐬 [DeepChat](https://github.com/ThinkInAIXYZ/deepchat.git) - 连接强大AI与个人世界的智能助手
 9. [OpenAOE](https://github.com/InternLM/OpenAOE.git) -大模型群聊框架：同时与多个大语言模型聊天
 10. [SuperClaude](https://github.com/NomenAK/SuperClaude.git) - 一个使用专门的命令、角色和 MCP 服务器集成来扩展 Claude Code 的框架。
+11. [claude-init](https://github.com/cfrs2005/claude-init.git) - Claude Code 中文开发套件 - 为中国开发者定制的零门槛 AI 编程环境。一键安装完整中文化体验，集成 MCP 服务器、智能上下文管理、安全扫描，支持免翻墙访问。
