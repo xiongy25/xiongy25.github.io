@@ -12,6 +12,7 @@
 - [RoCo](https://github.com/MandiZhao/robot-collab.git) - 具有大型语言模型的辩证多机器人协作
 - [RoboFactory](https://iranqin.github.io/robofactory/) - 探索具有组合约束的具身代理协作
 - [Human2Sim2Robot](https://github.com/tylerlum/human2sim2robot.git) - 通过单次人类演示，利用模拟到真实的强化学习跨越人机体现差距
+- [wall-x](https://github.com/X-Square-Robot/wall-x.git) - 基于具身基础模型构建通用机器人
 
 ## 人机交互与操作
 
