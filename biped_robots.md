@@ -16,6 +16,9 @@
 - [ToddlerBot](https://github.com/hshi74/toddlerbot.git) - 一个低成本、开源的人形机器人平台，旨在实现可扩展的策略学习以及机器人和人工智能研究
 <img width="3024" height="2722" alt="image" src="https://github.com/user-attachments/assets/bccd1296-7dc1-4eb3-aace-ff1cf18444ea" />
 - [MEVITA](https://haraduka.github.io/mevita-hardware/) - 开源双足机器人，通过金属板焊接由电子商务组件组装而成
+- [unitree_sim_isaaclab](https://github.com/unitreerobotics/unitree_sim_isaaclab.git) - 基于Isaac Lab搭建的Unitree仿真环境
+  <img width="2524" height="1377" alt="image" src="https://github.com/user-attachments/assets/ccbdba4e-0c49-4a09-bdbf-28db6f2f8f5f" />
+
   
 ## 2. 迪士尼 BDX 相关项目
 
