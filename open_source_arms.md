@@ -40,6 +40,7 @@
 - [AB-SO-BOT](https://github.com/Mr-C4T/AB-SO-BOT.git) - AB-SO-BOT 采用3D 打印部件和标准4040 T 型槽铝挤压件组合而成，为 LeRobotStudio 和 HuggingFace 设计的SO-ARM100机械臂打造可定制的模块化机身。❤️这种模块化设计使其能够轻松扩展并适应不同的机器人应用。从安装在摄像机三脚架上的紧凑型车间助手，到使用VR控制器进行远程操作的完全人形式双手设置。
   ![image](https://github.com/user-attachments/assets/6cde69a9-d4b4-469d-a618-d5c0fd2a421f)
 - [isaac_so_arm101](https://github.com/MuammerBay/isaac_so_arm101.git) - Isaac Lab 针对 SO-ARM100/101 手臂机器人的外部项目
+- [lerobot_ws](https://github.com/Pavankv92/lerobot_ws.git) - SO-ARM101在ROS2下的可视化
   
 ## 教育资源
 
