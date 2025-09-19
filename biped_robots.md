@@ -89,6 +89,9 @@
 - [Robot Drummer](https://robotdrummer.github.io/) - 学习人形鼓的节奏技巧
   <img width="2652" height="1024" alt="image" src="https://github.com/user-attachments/assets/077bb2d3-a337-498c-9e54-99e16ce7f38e" />
 - [GMR](https://github.com/YanjieZe/GMR.git) - 通用运动重定向,利用CPU实时将人体运动重定向到各种人形机器人上。
+- [Behavior Foundation Model for Humanoid Robots](https://bfm4humanoid.github.io/) - 人形机器人行为基础模型
+  <img width="1899" height="1132" alt="image" src="https://github.com/user-attachments/assets/d549ceb0-0008-4c5d-a5ee-de257ce18f81" />
+
 
 ## 5.运动重定向
 - [HoloMotion](https://github.com/HorizonRobotics/HoloMotion.git) - HoloMotion 是一个统一的基础模型，旨在实现人形机器人的稳健、实时且通用的全身追踪。HoloMotion 基于高保真运动捕捉数据和先进的重定向技术，跨越各种地形和形态，弥合了人体运动与机器人控制之间的差距。该框架支持从数据准备到实际部署的完整流程，包括运动重定向、基于强化学习和运动先验的分布式训练、性能评估以及基于 ROS2 的部署。HoloMotion 采用模块化设计，使人形代理能够在模拟和物理世界中模拟并泛化全身运动。
