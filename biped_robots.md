@@ -92,6 +92,9 @@
 - [Behavior Foundation Model for Humanoid Robots](https://bfm4humanoid.github.io/) - 人形机器人行为基础模型
   <img width="1899" height="1132" alt="image" src="https://github.com/user-attachments/assets/d549ceb0-0008-4c5d-a5ee-de257ce18f81" />
 - [HDMI](https://hdmi-humanoid.github.io/#/) - 捕获人体的动作，并通过 HDMI 接口将动作数据实时传输给人形机器人，使其能够模拟和复现这些动作
+- [DreamControl](https://genrobo.github.io/DreamControl/) - 通过引导扩散实现场景交互的受人类启发的全身类人控制
+<img width="604" height="340" alt="image" src="https://github.com/user-attachments/assets/5dd179b4-0045-41a4-9a4d-6861d67b10da" />
+
 
 ## 5.运动重定向
 - [HoloMotion](https://github.com/HorizonRobotics/HoloMotion.git) - HoloMotion 是一个统一的基础模型，旨在实现人形机器人的稳健、实时且通用的全身追踪。HoloMotion 基于高保真运动捕捉数据和先进的重定向技术，跨越各种地形和形态，弥合了人体运动与机器人控制之间的差距。该框架支持从数据准备到实际部署的完整流程，包括运动重定向、基于强化学习和运动先验的分布式训练、性能评估以及基于 ROS2 的部署。HoloMotion 采用模块化设计，使人形代理能够在模拟和物理世界中模拟并泛化全身运动。
