@@ -94,6 +94,8 @@
 - [HDMI](https://hdmi-humanoid.github.io/#/) - 捕获人体的动作，并通过 HDMI 接口将动作数据实时传输给人形机器人，使其能够模拟和复现这些动作
 - [DreamControl](https://genrobo.github.io/DreamControl/) - 通过引导扩散实现场景交互的受人类启发的全身类人控制
 <img width="604" height="340" alt="image" src="https://github.com/user-attachments/assets/5dd179b4-0045-41a4-9a4d-6861d67b10da" />
+- [VisualMimic](https://visualmimic.github.io/) - 通过运动跟踪和生成实现视觉人形定位操纵
+  <img width="1258" height="823" alt="image" src="https://github.com/user-attachments/assets/0043da62-2c7f-4630-928a-650235658119" />
 
 
 ## 5.运动重定向
