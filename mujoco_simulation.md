@@ -14,6 +14,7 @@
 - [skrl](https://github.com/Toni-SM/skrl) - 模块化强化学习库
 - [ManiSkill](https://github.com/haosulab/ManiSkill) - 高性能 GPU 并行化机器人模拟器
 - [robosuite](https://github.com/ARISE-Initiative/robosuite) - 机器人学习的模块化模拟框架和基准
+- [mjlab](https://github.com/mujocolab/mjlab.git) - mjlab是为那些热爱MuJoCo简洁性，同时希望获得Isaac Lab RL抽象和GPU加速能力的研究者而构建的，去除了不必要的开销
 
 ## 模型库
 
