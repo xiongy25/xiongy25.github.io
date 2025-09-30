@@ -103,6 +103,8 @@
 - [BeyondMimic](https://github.com/HybridRobotics/whole_body_tracking.git) - BeyondMimic 是一个多功能的人形控制框架，可在实际部署中提供具有最先进运动质量的高度动态运动跟踪，并通过基于引导扩散的控制器提供可操纵的测试时间控制
 - [General Motion Tracking for Humanoid Whole-Body Control](https://github.com/zixuan417/humanoid-general-motion-tracking.git) - 此代码库支持在 Unitree G1 机器人上进行 Mujoco 运动跟踪模拟。提供了一个预训练的检查点和多个示例动作,此代码库轻量级且易于使用.
 - [UH-1](https://github.com/sihengz02/UH-1.git) - 从大量人体视频中学习通用人形姿势控制
+- [Lafan1_retarget](https://github.com/wenconggan/Lafan1_retarget.git) - 使用Lafan1数据集实现unitree g1的重定向运动
+  <img width="915" height="625" alt="image" src="https://github.com/user-attachments/assets/5b3c860d-0922-4008-9795-57ccaaa52621" />
 
 
 ## 6. 开源数据集
