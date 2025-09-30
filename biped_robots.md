@@ -107,7 +107,7 @@
   <img width="915" height="625" alt="image" src="https://github.com/user-attachments/assets/5b3c860d-0922-4008-9795-57ccaaa52621" />
 - [recap](https://github.com/RumblingTurtle/recap.git) - 一个专门为人形机器人设计的运动捕捉重定向库,弥合了人类运动和机器人运动之间的差距，让机器人能够学习和模仿人类的自然动作
   <img width="320" height="240" alt="image" src="https://github.com/user-attachments/assets/f7dda74e-ae65-4c57-b50f-cdf27b3fd325" />
-
+- [TWIST](https://github.com/YanjieZe/TWIST.git) - 一个利用全身人类运动数据实时遥控人形机器人的系统，能够执行多样化和协调的全身动作
 
 
 ## 6. 开源数据集
