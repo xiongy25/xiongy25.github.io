@@ -105,6 +105,9 @@
 - [UH-1](https://github.com/sihengz02/UH-1.git) - 从大量人体视频中学习通用人形姿势控制
 - [Lafan1_retarget](https://github.com/wenconggan/Lafan1_retarget.git) - 使用Lafan1数据集实现unitree g1的重定向运动
   <img width="915" height="625" alt="image" src="https://github.com/user-attachments/assets/5b3c860d-0922-4008-9795-57ccaaa52621" />
+- [recap](https://github.com/RumblingTurtle/recap.git) - 一个专门为人形机器人设计的运动捕捉重定向库,弥合了人类运动和机器人运动之间的差距，让机器人能够学习和模仿人类的自然动作
+  <img width="320" height="240" alt="image" src="https://github.com/user-attachments/assets/f7dda74e-ae65-4c57-b50f-cdf27b3fd325" />
+
 
 
 ## 6. 开源数据集
