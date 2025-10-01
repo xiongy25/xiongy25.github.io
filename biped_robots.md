@@ -98,6 +98,7 @@
   <img width="1258" height="823" alt="image" src="https://github.com/user-attachments/assets/0043da62-2c7f-4630-928a-650235658119" />
 - [MindLoongGPT](https://github.com/loongOpen/MindLoongGPT.git) - MindLoongGPT 是全球首款生成式人形机器人运动大模型，支持从自然语言输入到机器人动作生成的完整流程
 - [Any2Track](https://zzk273.github.io/Any2Track/) - 旨在实现人型机器人在各种现实世界环境扰动下的多样化、高动态和接触丰富的运动跟踪。
+- [LocoFormer](https://generalist-locomotion.github.io/) - 通过长上下文适应实现通用运动
 
 ## 5.运动重定向
 - [HoloMotion](https://github.com/HorizonRobotics/HoloMotion.git) - HoloMotion 是一个统一的基础模型，旨在实现人形机器人的稳健、实时且通用的全身追踪。HoloMotion 基于高保真运动捕捉数据和先进的重定向技术，跨越各种地形和形态，弥合了人体运动与机器人控制之间的差距。该框架支持从数据准备到实际部署的完整流程，包括运动重定向、基于强化学习和运动先验的分布式训练、性能评估以及基于 ROS2 的部署。HoloMotion 采用模块化设计，使人形代理能够在模拟和物理世界中模拟并泛化全身运动。
