@@ -110,6 +110,7 @@
 - [recap](https://github.com/RumblingTurtle/recap.git) - 一个专门为人形机器人设计的运动捕捉重定向库,弥合了人类运动和机器人运动之间的差距，让机器人能够学习和模仿人类的自然动作
   <img width="320" height="240" alt="image" src="https://github.com/user-attachments/assets/f7dda74e-ae65-4c57-b50f-cdf27b3fd325" />
 - [TWIST](https://github.com/YanjieZe/TWIST.git) - 一个利用全身人类运动数据实时遥控人形机器人的系统，能够执行多样化和协调的全身动作
+- [MimicKit](https://github.com/xbpeng/MimicKit.git) - MimicKit 是一个基于物理模拟的角色运动控制训练的软件框架，提供了一系列运动模仿算法，包括 DeepMimic、AMP、ASE 和 ADD，以及强化学习算法 PPO 和 AWR
 
 
 ## 6. 开源数据集
