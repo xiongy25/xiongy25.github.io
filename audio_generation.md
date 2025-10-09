@@ -14,3 +14,7 @@
 ## AI语音克隆
 
 - [AI Voice Cloning](https://aivoicecloning.io/) - 3秒极速复刻真人声线
+
+## AI语音生成
+
+- [neutts-air](https://github.com/neuphonic/neutts-air.git) - 完全本地运行,生成的语音媲美真人，支持仅用 3 秒音频就能完成声音克隆，在手机、笔记本甚至树莓派上都能流畅运行。
