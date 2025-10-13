@@ -77,3 +77,6 @@
 - [Quadrupeds_Climbing](https://github.com/leo01110111/Quadrupeds_Climbing.git) - 这是Isaac Lab的一项任务，训练机器人四足动物（Unitree Go2）攀爬陡峭的地形。
 - [unitree-go2-genesis](https://github.com/Jizai-inc/unitree-go2-genesis.git) - 使用Genesis对unitree go2这个机器人进行运动仿真
 - [ODYSSEY](https://kaijwang.github.io/odyssey.github.io/) - 一个配备机械手的敏捷四足机器人的统一移动操作框架，它将高级任务规划与低级全身控制无缝集成
+- [Isaaclab_Parkour](https://github.com/CAI23sbP/Isaaclab_Parkour.git) - 提供了基于 Isaaclab 的机器狗在复杂地形运动的模型，支持训练、部署和测试教师和学生策略
+- [Extreme Parkour with Legged Robots](https://extreme-parkour.github.io/) - 一种基于深度学习的方法，使得低成本的四足机器人能够执行精确的极限公园朗运动，如跨越两倍身体长度的间隙、跳过两倍身体高度的障碍物、斜坡奔跑以及手站行走，通过直接从单目前置摄像头的深度图像中学习到的单一神经网络策略实现。
+  
