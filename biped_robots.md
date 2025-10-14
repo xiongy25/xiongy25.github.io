@@ -101,6 +101,9 @@
 - [LocoFormer](https://generalist-locomotion.github.io/) - 通过长上下文适应实现通用运动
 - [g1_spinkick_example](https://github.com/mujocolab/g1_spinkick_example.git) - 教授 Unitree G1 人型机器人执行双旋转踢的动作，基于 mjlab 框架，并提供了数据转换脚本、训练结果、预训练的 ONNX 模型以及部署到实际硬件的指南
   <img width="500" height="281" alt="image" src="https://github.com/user-attachments/assets/47f63969-fd53-4c13-ab89-85feaf19b8ff" />
+- [PhysHSI](https://why618188.github.io/physhsi/) - 该系统包括一个基于对抗性运动先验（AMP）的策略学习流程，通过对抗性训练，策略网络能够模仿自然的人形机器人 - 场景交互数据，并在多样化的场景中实现通用化和生动化的动作
+  <img width="5522" height="3130" alt="image" src="https://github.com/user-attachments/assets/45b8a2c7-da6c-46e7-99f3-862243a5305e" />
+
 
 
 ## 5.运动重定向
