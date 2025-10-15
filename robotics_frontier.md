@@ -39,6 +39,10 @@
   ![image](https://github.com/user-attachments/assets/bce0c337-3203-453e-87f7-5ede6385f315)
 - [Diffuse-CLoC](https://diffusecloc.github.io/website/) - 基于物理的角色前瞻控制的引导扩散
   <img width="1377" height="792" alt="image" src="https://github.com/user-attachments/assets/f3d2bfe0-f907-438c-92d2-f0d094d9fc37" />
+- [CooHOI](https://gao-jiawei.com/Research/CooHOI/) - 介绍了一种名为 CooHOI 的框架，旨在通过两阶段学习范式，使得物理模拟的角色能够自然、精确地执行多智能体人类 - 物体互动（HOI）任务，通过物体动力学作为反馈信息和隐式通信渠道。
+  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9da4a40b-6eb6-43bf-bacb-21d9d3b9df08" />
+
+
 
 
 ## 多智能体系统
