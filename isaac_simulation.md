@@ -13,7 +13,7 @@
   <img width="2807" height="2532" alt="image" src="https://github.com/user-attachments/assets/71ac33b4-12b3-4895-a295-82bf3b0d4235" />
 - [TrackerLab](https://github.com/interval-package/trackerLab.git) - 在一个模块化框架中统一 IsaacLab 和全身控制
   <img width="1280" height="384" alt="image" src="https://github.com/user-attachments/assets/d3bb0cf7-f12d-4373-a53a-d696dc4aed3c" />
-
+- [newton](https://github.com/newton-physics/newton.git) - 基于 NVIDIA Warp 构建的开源、GPU 加速物理模拟​​引擎，专门针对机器人专家和模拟研究人员。
 
 ## 高级仿真工具与框架
 
