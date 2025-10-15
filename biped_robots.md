@@ -117,6 +117,7 @@
   <img width="320" height="240" alt="image" src="https://github.com/user-attachments/assets/f7dda74e-ae65-4c57-b50f-cdf27b3fd325" />
 - [TWIST](https://github.com/YanjieZe/TWIST.git) - 一个利用全身人类运动数据实时遥控人形机器人的系统，能够执行多样化和协调的全身动作
 - [MimicKit](https://github.com/xbpeng/MimicKit.git) - MimicKit 是一个基于物理模拟的角色运动控制训练的软件框架，提供了一系列运动模仿算法，包括 DeepMimic、AMP、ASE 和 ADD，以及强化学习算法 PPO 和 AWR
+- [Humanoid Everyday](https://humanoideveryday.github.io/) - Humanoid Everyday 数据集是一个针对开放世界人型机器人操作的大规模数据集，旨在克服现有数据集在多样性、交互性和全身运动整合方面的不足。该数据集由 260 个任务组成，这些任务覆盖了基本操作、柔软物体操作、关节操作、工具使用、高精度操作、人机交互以及位姿与操作结合的环境。
 
 
 ## 6. 开源数据集
