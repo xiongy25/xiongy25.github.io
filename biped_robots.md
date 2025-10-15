@@ -103,6 +103,8 @@
   <img width="500" height="281" alt="image" src="https://github.com/user-attachments/assets/47f63969-fd53-4c13-ab89-85feaf19b8ff" />
 - [PhysHSI](https://why618188.github.io/physhsi/) - 该系统包括一个基于对抗性运动先验（AMP）的策略学习流程，通过对抗性训练，策略网络能够模仿自然的人形机器人 - 场景交互数据，并在多样化的场景中实现通用化和生动化的动作
   <img width="5522" height="3130" alt="image" src="https://github.com/user-attachments/assets/45b8a2c7-da6c-46e7-99f3-862243a5305e" />
+- [RoboJuDo](https://github.com/GDDG08/RoboJuDo.git) - 提供一个简单易用的部署框架，使得机器人的部署变得更加高效和便捷。该框架支持多种机器人平台，并且能够适应不同的硬件和软件环境。用户可以通过简单的配置，快速实现机器人的部署和应用，从而提高生产力和开发效率。RoboJuDo 的设计理念是 “Just deploy, just do”，强调的是简单、直接的部署方案。
+  <img width="600" height="338" alt="image" src="https://github.com/user-attachments/assets/46d340dd-bb40-4be2-915b-3f81943a9d83" />
 
 
 
