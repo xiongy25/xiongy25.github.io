@@ -14,6 +14,7 @@
 - [TrackerLab](https://github.com/interval-package/trackerLab.git) - 在一个模块化框架中统一 IsaacLab 和全身控制
   <img width="1280" height="384" alt="image" src="https://github.com/user-attachments/assets/d3bb0cf7-f12d-4373-a53a-d696dc4aed3c" />
 - [newton](https://github.com/newton-physics/newton.git) - 基于 NVIDIA Warp 构建的开源、GPU 加速物理模拟​​引擎，专门针对机器人专家和模拟研究人员。
+- [rl-augmented-mpc](https://rl-augmented-mpc.github.io/rlaugmentedmpc/) - 一种基于强化学习增强的模型预测控制（MPC）框架，旨在提高双足机器人在崎岖湿滑地形上的运动性能。该框架通过参数化和优化 MPC 的关键组件，包括系统动力学、摆动腿控制器和步态频率，以及利用无模型强化学习策略提高控制器的鲁棒性和适应性。
 
 ## 高级仿真工具与框架
 
