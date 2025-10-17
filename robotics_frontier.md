@@ -74,6 +74,7 @@
 ## 世界模型
 
 - [GR00T Dreams](https://github.com/NVIDIA/GR00T-Dreams.git) - Nvidia GEAR Lab 利用世界模型解决机器人数据问题的举措
+- [WoW](https://wow-world-model.github.io/) - 一个旨在通过胶囊式交互学习世界模型的研究项目，该项目通过大规模的机器人交互轨迹数据集训练了一个具有 140 亿参数的生成世界模型 ——WoW，以此来生成高质量、物理一致性高的机器人视频，并在实际应用中验证了其在物理一致性和因果推理方面的表现。
 
 ## VLA
 
