@@ -38,3 +38,7 @@
 ## 开源机械臂
 
 - [open_manipulator](https://github.com/ROBOTIS-GIT/open_manipulator.git) -  提供了控制机器人、集成其传感器以及开发物理 AI 应用所需的接口和工具，包括使用 LeRobot 等框架的应用
+
+## 开源VLA
+
+- [X-VLA](https://thu-air-dream.github.io/X-VLA/) - 用于跨具体化操作的轻量级 VLA 模型，仅使用 1.5K 个演示进行训练，即可自主折叠衣物超过 2 小时
