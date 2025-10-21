@@ -42,3 +42,4 @@
 ## 开源VLA
 
 - [X-VLA](https://thu-air-dream.github.io/X-VLA/) - 用于跨具体化操作的轻量级 VLA 模型，仅使用 1.5K 个演示进行训练，即可自主折叠衣物超过 2 小时
+- [OpenVLA](https://github.com/junnannie/OpenVLA.git) - 多模态具身智能大模型 OpenVLA 的复现以及在 LIBERO 数据集上的微调改进
