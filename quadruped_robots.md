@@ -79,4 +79,7 @@
 - [ODYSSEY](https://kaijwang.github.io/odyssey.github.io/) - 一个配备机械手的敏捷四足机器人的统一移动操作框架，它将高级任务规划与低级全身控制无缝集成
 - [Isaaclab_Parkour](https://github.com/CAI23sbP/Isaaclab_Parkour.git) - 提供了基于 Isaaclab 的机器狗在复杂地形运动的模型，支持训练、部署和测试教师和学生策略
 - [Extreme Parkour with Legged Robots](https://extreme-parkour.github.io/) - 一种基于深度学习的方法，使得低成本的四足机器人能够执行精确的极限公园朗运动，如跨越两倍身体长度的间隙、跳过两倍身体高度的障碍物、斜坡奔跑以及手站行走，通过直接从单目前置摄像头的深度图像中学习到的单一神经网络策略实现。
+- [Matrix](https://github.com/zsibot/matrix.git) - 一个先进的模拟平台，它集成了 MuJoCo、虚幻引擎 5 和 CARLA，为机器人研究提供高保真、交互式环境。
+  <img width="1956" height="1217" alt="image" src="https://github.com/user-attachments/assets/3845cef1-16f5-480a-b35d-f578e8791580" />
+
   
