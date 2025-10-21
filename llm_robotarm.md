@@ -45,3 +45,6 @@
 - [OpenVLA](https://github.com/junnannie/OpenVLA.git) - 多模态具身智能大模型 OpenVLA 的复现以及在 LIBERO 数据集上的微调改进
 - [isaacsim_openvla](https://github.com/RiccardoBianco/isaacsim_openvla.git) - 该项目演示了如何使用 NVIDIA Isaac Sim 生成的模拟数据对 OpenVLA（一种 VLA 机器人操作模型）进行微调
 - [panda_robot_learning](https://github.com/Prithvijai/panda_robot_learning.git) - 在 Mujoco 仿真中将 OpenVLA 与 Panda Arm 连接起来 [模仿学习] [强化学习] [VLA]
+- [PickAgent](https://github.com/miladfa7/PickAgent.git) - OpenVLA 驱动的拾取和放置代理（模拟）
+  <img width="1528" height="831" alt="image" src="https://github.com/user-attachments/assets/341511ff-e55d-462e-bd37-45429db15bac" />
+
