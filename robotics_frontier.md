@@ -12,6 +12,7 @@
 - [DEMO](https://adrialopezescoriza.github.io/demo3/) - 具有演示增强奖励、策略和世界模型学习的多阶段操控
 - [RoboVerse](https://github.com/RoboVerseOrg/RoboVerse.git) - 迈向统一的平台、数据集和基准，用于可扩展和通用的机器人学习
 - [RoboManipBaselines](https://github.com/isri-aist/RoboManipBaselines.git) - 集成各种模仿学习方法和基准任务环境的软件，为机器人操作提供基准
+- [GaussGym](https://escontrela.me/gauss_gym/) - 一个高效的模拟器，能够在消费级 GPU 上以每秒 100K + 步的速度，在基于 3D 高斯溅射（Gaussian Splatting）的逼真 3D 环境中训练机器人策略。
 
 ## 动作生成与控制
 
