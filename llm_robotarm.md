@@ -48,5 +48,6 @@
 - [panda_robot_learning](https://github.com/Prithvijai/panda_robot_learning.git) - 在 Mujoco 仿真中将 OpenVLA 与 Panda Arm 连接起来 [模仿学习] [强化学习] [VLA]
 - [PickAgent](https://github.com/miladfa7/PickAgent.git) - OpenVLA 驱动的拾取和放置代理（模拟）
   <img width="1528" height="831" alt="image" src="https://github.com/user-attachments/assets/341511ff-e55d-462e-bd37-45429db15bac" />
+- [dexbotic](https://github.com/Dexmal/dexbotic.git) - 一个开源项目，旨在提供一个统一的框架，支持多种主流的视觉 - 语言 - 行动（VLA）策略，并提供强大的预训练基础模型。该框架支持云端和本地的训练需求，适用于多种主流机器人，包括 UR5、Franka 和 ALOHA。Dexbotic 采用了实验中心的开发框架，支持修改配置、更换模型或添加任务。
 
 
