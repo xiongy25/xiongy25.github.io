@@ -106,7 +106,7 @@
 - [RoboJuDo](https://github.com/GDDG08/RoboJuDo.git) - 提供一个简单易用的部署框架，使得机器人的部署变得更加高效和便捷。该框架支持多种机器人平台，并且能够适应不同的硬件和软件环境。用户可以通过简单的配置，快速实现机器人的部署和应用，从而提高生产力和开发效率。RoboJuDo 的设计理念是 “Just deploy, just do”，强调的是简单、直接的部署方案。
   <img width="600" height="338" alt="image" src="https://github.com/user-attachments/assets/46d340dd-bb40-4be2-915b-3f81943a9d83" />
 - [AdaMimic](https://taohuang13.github.io/adamimic.github.io/) - 论文《通过自适应运动跟踪实现自适应人形控制》的官方 PyTorch 实现
-  ![Uploading image.png…]()
+  <img width="2400" height="1378" alt="image" src="https://github.com/user-attachments/assets/fbe3433a-8d63-4f57-9c7c-ddda7b53c3d8" />
 - [COLA](https://yushi-du.github.io/COLA/) - 一个专为人类与人形机器人协作搬运物体而设计的学习架构。该架构采用了一种仅依赖于机器人的本体感知的强化学习方法，该方法在一个模拟人类与机器人动态互动的闭环环境中训练，能够隐式预测物体运动，从而实现遵循人类推、拉命令的顺应协作，并在搬运过程中保持负载平衡
 
 
@@ -122,7 +122,7 @@
 - [recap](https://github.com/RumblingTurtle/recap.git) - 一个专门为人形机器人设计的运动捕捉重定向库,弥合了人类运动和机器人运动之间的差距，让机器人能够学习和模仿人类的自然动作
   <img width="320" height="240" alt="image" src="https://github.com/user-attachments/assets/f7dda74e-ae65-4c57-b50f-cdf27b3fd325" />
 - [TWIST](https://github.com/YanjieZe/TWIST.git) - 一个利用全身人类运动数据实时遥控人形机器人的系统，能够执行多样化和协调的全身动作
-- [MimicKit](https://github.com/xbpeng/MimicKit.git) - MimicKit 是一个基于物理模拟的角色运动控制训练的软件框架，提供了一系列运动模仿算法，包括 DeepMimic、AMP、ASE 和 ADD，以及强化学习算法 PPO 和 AWR
+- [MimicKit](https://add-moo.github.io/) - MimicKit 是一个基于物理模拟的角色运动控制训练的软件框架，提供了一系列运动模仿算法，包括 DeepMimic、AMP、ASE 和 ADD，以及强化学习算法 PPO 和 AWR
 - [Humanoid Everyday](https://humanoideveryday.github.io/) - Humanoid Everyday 数据集是一个针对开放世界人型机器人操作的大规模数据集，旨在克服现有数据集在多样性、交互性和全身运动整合方面的不足。该数据集由 260 个任务组成，这些任务覆盖了基本操作、柔软物体操作、关节操作、工具使用、高精度操作、人机交互以及位姿与操作结合的环境。
 
 
