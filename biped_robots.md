@@ -108,6 +108,7 @@
 - [AdaMimic](https://taohuang13.github.io/adamimic.github.io/) - 论文《通过自适应运动跟踪实现自适应人形控制》的官方 PyTorch 实现
   <img width="2400" height="1378" alt="image" src="https://github.com/user-attachments/assets/fbe3433a-8d63-4f57-9c7c-ddda7b53c3d8" />
 - [COLA](https://yushi-du.github.io/COLA/) - 一个专为人类与人形机器人协作搬运物体而设计的学习架构。该架构采用了一种仅依赖于机器人的本体感知的强化学习方法，该方法在一个模拟人类与机器人动态互动的闭环环境中训练，能够隐式预测物体运动，从而实现遵循人类推、拉命令的顺应协作，并在搬运过程中保持负载平衡
+- [g1_crawl](https://github.com/jloganolson/g1_crawl.git) - 让unitree g1能够变成四足机器人在地面爬行
 
 
 
