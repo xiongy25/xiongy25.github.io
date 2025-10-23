@@ -81,5 +81,6 @@
 - [Extreme Parkour with Legged Robots](https://extreme-parkour.github.io/) - 一种基于深度学习的方法，使得低成本的四足机器人能够执行精确的极限公园朗运动，如跨越两倍身体长度的间隙、跳过两倍身体高度的障碍物、斜坡奔跑以及手站行走，通过直接从单目前置摄像头的深度图像中学习到的单一神经网络策略实现。
 - [Matrix](https://github.com/zsibot/matrix.git) - 一个先进的模拟平台，它集成了 MuJoCo、虚幻引擎 5 和 CARLA，为机器人研究提供高保真、交互式环境。
   <img width="1956" height="1217" alt="image" src="https://github.com/user-attachments/assets/3845cef1-16f5-480a-b35d-f578e8791580" />
+- [CAMP-loco](https://hanzhi0410.github.io/CAMP-loco/) - 一种基于条件对抗性运动先验（CAMP）的多技能学习框架，旨在使四足机器人能够有效地从专家演示中获取多样化的位移技能，并实现技能的精确重建和平滑过渡。
 
   
