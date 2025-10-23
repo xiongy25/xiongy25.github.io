@@ -49,6 +49,7 @@
 
 - [PyRoki](https://pyroki-toolkit.github.io/) - A Modular Toolkit for Robot Kinematic Optimization
   <img width="796" height="839" alt="image" src="https://github.com/user-attachments/assets/2ee9f6a4-c483-4de4-b960-c93ad5c6ffe7" />
+- [lipm-walking-controller](https://github.com/rdesarz/lipm-walking-controller.git) - 人形机器人ZMP算法的实现
 - [PHC](https://github.com/ZhengyiLuo/PHC) - 基于物理的人形控制器
 - [HOVER](https://hover-versatile-humanoid.github.io/) - 人形机器人的多功能神经全身控制器
 - [感知内部模型](https://junfeng-long.github.io/PIM/) - 利用感知内部模型学习人形运动
