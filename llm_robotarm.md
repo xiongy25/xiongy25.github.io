@@ -13,6 +13,9 @@
 - [RoboFactory](https://iranqin.github.io/robofactory/) - 探索具有组合约束的具身代理协作
 - [Human2Sim2Robot](https://github.com/tylerlum/human2sim2robot.git) - 通过单次人类演示，利用模拟到真实的强化学习跨越人机体现差距
 - [wall-x](https://github.com/X-Square-Robot/wall-x.git) - 基于具身基础模型构建通用机器人
+- [MoMaGen](https://momagen.github.io/) - 一种用于多步骤双臂移动机械手操作数据生成的方法，它通过将数据生成问题视为带有硬性和软性约束的优化问题来解决实际的数据收集挑战，并且能够在仿真环境中生成多样化的数据集，进而用于成功的模仿学习策略训练。
+  <img width="1080" height="540" alt="image" src="https://github.com/user-attachments/assets/73149314-7036-4478-a285-b76ecc0d575d" />
+
 
 ## 人机交互与操作
 
